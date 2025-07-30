@@ -1,0 +1,152 @@
+"""
+Main AI Competitive Intelligence Agent
+"""
+
+import json
+import os
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional
+
+from .sources import SourceManager
+from .processor import ContentProcessor, DigestGenerator
+from .langchain_processor import LangChainProcessor
+from .multi_agent_coordinator import MultiAgentCoordinator
+from .simple_formatter import SimpleDigestFormatter, SimpleEmailNotifier
+
+class CompetitiveIntelligenceAgent:
+    def __init__(self, config, logger, verbose=False):
+        self.config = config
+        self.logger = logger
+        self.verbose = verbose
+        self.state_file = config.state_file
+        
+        # Initialize components
+        self.processor = LangChainProcessor(config, logger)
+        self.multi_agent_coordinator = MultiAgentCoordinator(config, logger)
+        self.digest_generator = DigestGenerator(config, logger)
+        self.formatter = SimpleDigestFormatter(config, logger)
+        self.notifier = SimpleEmailNotifier(config, logger)
+    
+    def should_run(self) -> bool:
+        """Check if agent should run based on last execution time"""
+        state = self._load_state()
+        
+        if not state.get("last_run"):
+            return True
+        
+        last_run = datetime.fromisoformat(state["last_run"])
+        time_since_last_run = datetime.now() - last_run
+        
+        return time_since_last_run.total_seconds() >= (self.config.run_interval_hours * 3600)
+    
+    async def run(self) -> Dict:
+        """Main agent execution flow"""
+        self.logger.info("Starting competitive intelligence agent run...")
+        
+        # Load state to determine since when to fetch content
+        state = self._load_state()
+        since_datetime = self._get_since_datetime(state)
+        
+        self.logger.info(f"Fetching content since: {since_datetime}")
+        
+        # Fetch content from all sources
+        async with SourceManager(self.config, self.logger) as source_manager:
+            raw_items = await source_manager.fetch_all_content(since_datetime)
+        
+        if not raw_items:
+            self.logger.warning("No content items fetched")
+            return {"generated_at": datetime.now().isoformat(), "total_items": 0, "categories": {}}
+        
+        # Process content
+        processed_items = await self.processor.process_content(raw_items)
+        
+        # Run multi-agent analysis
+        # DISABLED: multi_agent_results = await self.multi_agent_coordinator.coordinate_analysis(processed_items)
+        
+        # Generate digest
+        digest = self.digest_generator.generate_digest(processed_items)
+        
+        # Add multi-agent insights to digest
+        # DISABLED: if multi_agent_results:
+            digest["multi_agent_analysis"] = multi_agent_results["multi_agent_analysis"]
+        
+        # Update state
+        self._save_state({
+            "last_run": datetime.now().isoformat(),
+            "last_items_count": len(processed_items),
+            "last_categories": list(digest["categories"].keys())
+        })
+        
+        self.logger.info(f"Agent run completed. Generated digest with {digest['total_items']} items")
+        return digest
+    
+    def save_digest(self, digest: Dict, output_path: str):
+        """Save digest to file"""
+        formatted_digest = self.formatter.format_digest(digest)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(formatted_digest)
+        
+        self.logger.info(f"Digest saved to {output_path}")
+    
+    def send_notifications(self, digest: Dict):
+        """Send notifications via configured channels"""
+        formatted_digest = self.formatter.format_digest(digest)
+        
+        # Send email notification
+        self.notifier.send_digest(formatted_digest, digest)
+        
+        # Send Slack notification
+        self.notifier.send_slack_notification(digest)
+    
+    def _load_state(self) -> Dict:
+        """Load agent state from file"""
+        if not os.path.exists(self.state_file):
+            return {}
+        
+        try:
+            with open(self.state_file, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            self.logger.error(f"Error loading state file: {str(e)}")
+            return {}
+    
+    def _save_state(self, state: Dict):
+        """Save agent state to file"""
+        try:
+            with open(self.state_file, 'w') as f:
+                json.dump(state, f, indent=2)
+        except Exception as e:
+            self.logger.error(f"Error saving state file: {str(e)}")
+    
+    def _get_since_datetime(self, state: Dict) -> datetime:
+        """Get the datetime from which to fetch content"""
+        # If verbose/debug mode, always look back one month
+        if self.verbose:
+            return datetime.now() - timedelta(days=30)
+        
+        if state.get("last_run"):
+            return datetime.fromisoformat(state["last_run"])
+        else:
+            # If no previous run, fetch content from the last 24 hours
+            return datetime.now() - timedelta(hours=24)
+    
+    def get_status(self) -> Dict:
+        """Get current agent status"""
+        state = self._load_state()
+        
+        return {
+            "last_run": state.get("last_run"),
+            "last_items_count": state.get("last_items_count", 0),
+            "last_categories": state.get("last_categories", []),
+            "next_run_due": self._get_next_run_time(state).isoformat() if state.get("last_run") else "Now",
+            "should_run": self.should_run()
+        }
+    
+    def _get_next_run_time(self, state: Dict) -> datetime:
+        """Calculate when the next run should occur"""
+        if not state.get("last_run"):
+            return datetime.now()
+        
+        last_run = datetime.fromisoformat(state["last_run"])
+        return last_run + timedelta(hours=self.config.run_interval_hours)

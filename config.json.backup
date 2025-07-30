@@ -1,0 +1,281 @@
+{
+  "web_sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["AI", "voice", "conversational", "sales", "support", "CRM", "automation", "UCaaS", "CCaaS", "cloud communications", "RingCentral", "8x8", "Dialpad", "Twilio", "Zoom Phone", "Microsoft Teams", "Slack", "CloudTalk", "Ringover", "Talkdesk", "Kixie", "OpenPhone", "Five9", "Zendesk", "Intercom", "Hubspot", "Salesloft", "Nooks", "Orum", "Attention.tech", "Gong"]
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["artificial intelligence", "voice technology", "sales automation", "customer service", "conversation intelligence", "RingCentral", "8x8", "Dialpad", "Twilio", "Zoom", "Teams", "Slack", "CloudTalk", "Ringover", "Talkdesk", "OpenPhone", "Five9", "contact center AI"]
+    },
+    {
+      "name": "No Jitter",
+      "url": "https://www.nojitter.com/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["unified communications", "UCaaS", "contact center", "telephony", "VoIP", "WebRTC", "conversation intelligence", "AI voice"]
+    },
+    {
+      "name": "UC Today",
+      "url": "https://www.uctoday.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["unified communications", "collaboration", "contact center", "cloud communications", "UCaaS", "conversation intelligence", "voice AI"]
+    },
+    {
+      "name": "ZDNet",
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["cloud communications", "enterprise software", "AI", "SaaS", "business technology", "RingCentral", "8x8", "Dialpad", "Twilio", "Zoom Phone", "Microsoft Teams", "Slack", "UCaaS", "CCaaS", "conversation intelligence"]
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["AI", "voice", "sales", "automation", "SaaS", "telephony", "WebRTC", "conversation intelligence", "voice agents"]
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["funding", "acquisition", "SaaS", "enterprise software", "communication", "UCaaS", "CCaaS", "AI telephony", "voice technology"]
+    },
+    {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["AI", "voice", "sales", "CRM", "communication", "productivity", "SaaS", "conversation intelligence", "telephony", "call center", "customer service", "voice AI", "conversational AI", "sales automation", "contact center", "voice technology", "phone system", "business phone", "cloud communications", "voice analytics", "AI assistant", "voice bot", "speech recognition", "natural language", "chatbot", "virtual assistant"]
+    },
+    {
+      "name": "CX Today",
+      "url": "https://www.cxtoday.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["contact center", "customer experience", "conversational AI", "conversation intelligence", "voice AI", "customer service automation", "CX technology"]
+    },
+    {
+      "name": "Observe.AI Blog",
+      "url": "https://www.observe.ai/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["conversation intelligence", "contact center AI", "real-time guidance", "call analytics", "customer service AI", "voice analytics"]
+    },
+    {
+      "name": "Retell AI Blog",
+      "url": "https://www.retellai.com/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["AI voice agents", "voice automation", "conversational AI", "voice technology", "AI telephony", "voice assistants"]
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["artificial intelligence", "conversational AI", "voice technology", "AI assistants", "speech recognition", "natural language processing"]
+    },
+    {
+      "name": "Towards AI",
+      "url": "https://towardsai.net/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["artificial intelligence", "machine learning", "conversational AI", "voice technology", "NLP", "speech processing"]
+    },
+    {
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": ["artificial intelligence", "machine learning", "conversational AI", "voice AI", "speech technology", "natural language processing"]
+    }
+  ],
+  "twitter_usernames": [
+    "aircall",
+    "dialpad",
+    "CloudTalk_io",
+    "RingoverApp",
+    "RingCentral",
+    "talkdesk",
+    "KixieCom",
+    "OpenPhone",
+    "Zoom",
+    "8x8",
+    "MicrosoftTeams",
+    "Five9",
+    "Gong_io",
+    "triplesession",
+    "chorus_ai",
+    "CrestaAI",
+    "ObserveAI",
+    "TheLevelAI",
+    "klausapp",
+    "nooxio",
+    "AttentionTech",
+    "OrumHQ",
+    "Zendesk",
+    "intercom",
+    "HubSpot",
+    "Salesloft",
+    "Nooks_ai",
+    "twilio",
+    "SlackHQ",
+    "openai",
+    "TechCrunch",
+    "VentureBeat",
+    "ForbesTech",
+    "ProductHunt",
+    "ycombinator"
+  ],
+  "categories": [
+    {
+      "name": "Competitor Intelligence",
+      "keywords": [
+        "aircall", "dialpad", "cloudtalk", "ringover", "ringcentral", "talkdesk", 
+        "kixie", "openphone", "8x8", "vonage", "twilio", "five9", "genesys", 
+        "zoom phone", "microsoft teams", "zendesk", "intercom", "hubspot", 
+        "salesloft", "nooks", "orum", "attention.tech", "gong", "triple session",
+        "triplesession", "chorus.ai", "cresta", "observe.ai", "level ai", "klausapp",
+        "noox", "cloud phone", "voip", "business phone", "phone system", 
+        "call center software", "contact center", "competitor", "funding", 
+        "acquisition", "partnership", "product launch", "feature update", 
+        "integration", "api", "series a", "series b", "seed funding", "ipo"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "Conversation Intelligence & Real-Time Assistance",
+      "keywords": [
+        "conversation intelligence", "real-time assistance", "sales enablement",
+        "gong", "attention.tech", "modjo", "chorus.ai", "wingman", "execvision",
+        "refract", "avoma", "balto", "observe.ai", "cogito", "cresta",
+        "liveperson", "uniphore", "call coaching", "sales coaching",
+        "call analytics", "conversation analytics", "real-time guidance",
+        "voice analytics", "sentiment analysis", "call scoring", "performance insights",
+        "automated call scoring", "ai-powered conversation analytics", "custom vocabulary",
+        "entity recognition", "virtual agents", "handoff capabilities", "crm integration",
+        "trend reporting", "triple session", "level ai", "klausapp", "noox"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "AI Voice Technology",
+      "keywords": [
+        "voice AI", "conversational AI", "voice assistant", "speech recognition",
+        "voice automation", "AI calling", "voice bot", "speech synthesis",
+        "real-time voice", "voice analytics", "call intelligence", "NLP",
+        "natural language processing", "voice biometrics", "AI voice agents",
+        "voice technology", "speech-to-text", "text-to-speech", "voice cloning",
+        "AI telephony", "intelligent voice routing", "voice authentication"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "UCaaS & Cloud Communications",
+      "keywords": [
+        "UCaaS", "unified communications", "cloud communications", "VoIP", "SIP",
+        "WebRTC", "communication platform", "telephony", "video conferencing",
+        "messaging", "collaboration tools", "CPaaS", "communication APIs"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Contact Center & Customer Support",
+      "keywords": [
+        "contact center", "call center", "CCaaS", "customer support", "customer service",
+        "support automation", "customer experience", "CX", "omnichannel",
+        "workforce management", "quality management", "agent assistance"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Sales & CRM Technology",
+      "keywords": [
+        "sales automation", "CRM", "customer intelligence", "sales AI",
+        "sales tools", "customer success", "sales enablement", "revenue operations",
+        "sales engagement", "lead generation", "pipeline management",
+        "sales productivity", "revenue intelligence", "sales forecasting",
+        "deal intelligence", "sales performance", "customer relationship management"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Regulatory & Compliance",
+      "keywords": [
+        "FCC", "ETSI", "IETF", "regulation", "compliance", "data privacy",
+        "GDPR", "CCPA", "telecommunications law", "VoIP regulation",
+        "call recording compliance", "data protection"
+      ],
+      "priority": 3,
+    {
+      "name": "Feature & Product Updates",
+      "keywords": [
+        "real-time agent assistance", "automated call scoring", "call coaching",
+        "ai-powered conversation analytics", "custom vocabulary", "entity recognition",
+        "virtual agents", "handoff capabilities", "crm integration", "sentiment analysis",
+        "trend reporting", "sales enablement", "coaching features", "product update",
+        "new feature", "beta launch", "feature release", "integration update",
+        "api enhancement", "dashboard update", "analytics improvement"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "Emerging Products & Startups",
+      "keywords": [
+        "y combinator", "demo day", "startup launch", "seed funding", "pre-seed",
+        "product hunt launch", "stealth startup", "new entrant", "disruptive technology",
+        "innovative solution", "ai startup", "voice tech startup", "conversation ai startup",
+        "contact center startup", "sales tech startup", "emerging competitor",
+        "new player", "market entrant", "technology breakthrough"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Industry Analysis & Reports",
+      "keywords": [
+        "gartner", "forrester", "market research", "industry report", "analyst",
+        "magic quadrant", "wave report", "market trends", "industry analysis",
+        "competitive landscape", "market share"
+      ],
+      "priority": 3,
+    {
+      "name": "Feature & Product Updates",
+      "keywords": [
+        "real-time agent assistance", "automated call scoring", "call coaching",
+        "ai-powered conversation analytics", "custom vocabulary", "entity recognition",
+        "virtual agents", "handoff capabilities", "crm integration", "sentiment analysis",
+        "trend reporting", "sales enablement", "coaching features", "product update",
+        "new feature", "beta launch", "feature release", "integration update",
+        "api enhancement", "dashboard update", "analytics improvement"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "Emerging Products & Startups",
+      "keywords": [
+        "y combinator", "demo day", "startup launch", "seed funding", "pre-seed",
+        "product hunt launch", "stealth startup", "new entrant", "disruptive technology",
+        "innovative solution", "ai startup", "voice tech startup", "conversation ai startup",
+        "contact center startup", "sales tech startup", "emerging competitor",
+        "new player", "market entrant", "technology breakthrough"
+      ],
+      "priority": 2
+    }
+  ],
+  "max_items_per_source": 50,
+  "relevance_threshold": 0.05,
+  "summary_max_length": 300,
+  "run_interval_hours": 168,
+  "output_format": "html",
+  "email_recipients": [],
+  "state_file": "agent_state.json"
+}

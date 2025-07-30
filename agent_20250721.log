@@ -1,0 +1,534 @@
+2025-07-21 11:40:21,968 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 11:40:21,968 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 11:40:21,968 - ai_agent - INFO - Fetching content since: 2025-07-19 10:53:40.633835
+2025-07-21 11:40:22,077 - ai_agent - INFO - Fetched 19 items from TechCrunch
+2025-07-21 11:40:22,183 - ai_agent - INFO - Fetched 2 items from VentureBeat
+2025-07-21 11:40:22,927 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-21 11:40:23,231 - ai_agent - INFO - Fetched 5 items from UC Today
+2025-07-21 11:40:23,425 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 11:40:23,580 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 11:40:23,947 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 11:40:24,078 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 11:40:24,402 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-21 11:40:24,402 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 11:40:54,559 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-21 11:40:54,560 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 11:41:24,728 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 11:41:24,729 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-21 11:41:24,729 - ai_agent - INFO - Total items fetched: 28
+2025-07-21 11:41:24,730 - ai_agent - INFO - Processing 28 content items...
+2025-07-21 11:41:25,086 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:41:25,129 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:41:26,131 - ai_agent - INFO - Processed 2 relevant items
+2025-07-21 11:41:26,132 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-21 11:41:26,148 - ai_agent - INFO - Digest saved to digest.html
+2025-07-21 11:41:26,157 - ai_agent - INFO - No email recipients configured
+2025-07-21 11:41:26,157 - ai_agent - INFO - Slack notification prepared:
+2025-07-21 11:41:26,157 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 2 total items
+• 1 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+
+2025-07-21 11:41:26,157 - ai_agent - INFO - Slack notification sent successfully
+2025-07-21 11:41:26,157 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-21 11:42:25,087 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 11:42:25,087 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 11:42:25,087 - ai_agent - INFO - Fetching content since: 2025-06-21 11:42:25.087589
+2025-07-21 11:42:25,152 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 11:42:25,218 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-21 11:42:25,824 - ai_agent - INFO - Fetched 28 items from No Jitter
+2025-07-21 11:42:26,994 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 11:42:27,157 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 11:42:27,238 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 11:42:27,543 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 11:42:27,613 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 11:42:27,712 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 11:42:27,712 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 11:42:57,771 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-21 11:42:57,772 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 11:43:27,832 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 11:43:27,832 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-21 11:43:27,832 - ai_agent - INFO - Total items fetched: 36
+2025-07-21 11:43:27,833 - ai_agent - INFO - Processing 36 content items...
+2025-07-21 11:43:28,134 - ai_agent - ERROR - Error generating summary for item New Five9 CX Report Highlights Multifaceted AI Uses: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:43:28,150 - ai_agent - ERROR - Error generating summary for item Contact Centers Confront Competing Priorities – and the AI Wolf at the Door: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:43:28,163 - ai_agent - ERROR - Error generating summary for item No Jitter Roll: AVOXI, Talkdesk and 8x8 Launch Products for the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:43:28,593 - ai_agent - ERROR - Error generating summary for item How To Integrate Microsoft Teams Phone and the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-21 11:43:29,594 - ai_agent - INFO - Processed 4 relevant items
+2025-07-21 11:43:29,596 - ai_agent - INFO - Agent run completed. Generated digest with 4 items
+2025-07-21 11:43:29,621 - ai_agent - INFO - Digest saved to digest.html
+2025-07-21 11:43:29,631 - ai_agent - INFO - No email recipients configured
+2025-07-21 11:43:29,631 - ai_agent - INFO - Slack notification prepared:
+2025-07-21 11:43:29,631 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 4 total items
+• 1 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 4 items
+
+2025-07-21 11:43:29,631 - ai_agent - INFO - Slack notification sent successfully
+2025-07-21 11:43:29,631 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-21 15:59:16,450 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 15:59:16,450 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 15:59:16,451 - ai_agent - INFO - Fetching content since: 2025-06-21 15:59:16.451072
+2025-07-21 15:59:16,541 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 15:59:16,639 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-21 15:59:17,233 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 15:59:17,512 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 15:59:17,675 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 15:59:17,810 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 15:59:18,146 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 15:59:18,246 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 15:59:18,813 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 15:59:19,063 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 15:59:19,271 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 15:59:19,548 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 15:59:22,612 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 15:59:22,890 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 15:59:23,223 - ai_agent - INFO - Fetched 4 tweets from @aircall
+2025-07-21 15:59:23,224 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 15:59:38,390 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 15:59:38,392 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 16:00:08,487 - ai_agent - WARNING - User @CloudTalk_io not found
+2025-07-21 16:00:08,488 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 16:01:08,584 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:01:08,585 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 16:01:49,521 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 16:01:49,521 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 16:01:49,522 - ai_agent - INFO - Fetching content since: 2025-07-21 11:43:29.595429
+2025-07-21 16:01:49,581 - ai_agent - INFO - Fetched 16 items from TechCrunch
+2025-07-21 16:01:49,650 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-21 16:01:50,481 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-21 16:01:50,746 - ai_agent - INFO - Fetched 1 items from UC Today
+2025-07-21 16:01:50,907 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 16:01:50,986 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 16:01:51,282 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 16:01:51,346 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 16:01:51,989 - ai_agent - INFO - Fetched 3 items from CX Today
+2025-07-21 16:01:52,151 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 16:01:52,303 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 16:01:52,563 - ai_agent - INFO - Fetched 0 items from OpenAI Blog
+2025-07-21 16:01:55,556 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-21 16:01:55,760 - ai_agent - INFO - Fetched 1 items from MarkTechPost
+2025-07-21 16:01:55,860 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:01:55,860 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 16:02:10,945 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:02:10,946 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 16:02:41,014 - ai_agent - ERROR - Error fetching tweets from @CloudTalk_io: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:02:41,016 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 16:03:40,196 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 16:03:40,196 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 16:03:40,196 - ai_agent - INFO - Fetching content since: 2025-07-21 11:43:29.595429
+2025-07-21 16:03:40,266 - ai_agent - INFO - Fetched 16 items from TechCrunch
+2025-07-21 16:03:40,343 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-21 16:03:40,965 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-21 16:03:41,218 - ai_agent - INFO - Fetched 1 items from UC Today
+2025-07-21 16:03:41,430 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 16:03:41,611 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 16:03:42,019 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 16:03:42,195 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 16:03:42,738 - ai_agent - INFO - Fetched 3 items from CX Today
+2025-07-21 16:03:42,956 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 16:03:43,164 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 16:03:43,549 - ai_agent - INFO - Fetched 0 items from OpenAI Blog
+2025-07-21 16:03:46,852 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-21 16:03:47,098 - ai_agent - INFO - Fetched 1 items from MarkTechPost
+2025-07-21 16:03:47,098 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-21 16:03:47,098 - ai_agent - INFO - Total items fetched: 0
+2025-07-21 16:03:47,099 - ai_agent - WARNING - No content items fetched
+2025-07-21 16:03:47,112 - ai_agent - ERROR - Agent failed with error: 'dict object' has no attribute 'summary_stats'
+2025-07-21 16:55:13,004 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 16:55:13,004 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-21 16:55:17,534 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 16:55:17,534 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 16:55:17,534 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 16:55:17,534 - ai_agent - INFO - Fetching content since: 2025-06-21 16:55:17.534820
+2025-07-21 16:55:17,627 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 16:55:17,736 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-21 16:55:18,482 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 16:55:18,833 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 16:55:19,036 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 16:55:19,169 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 16:55:19,514 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 16:55:19,614 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 16:55:20,142 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 16:55:20,306 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 16:55:20,441 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 16:55:20,705 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 16:55:23,611 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 16:55:23,852 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 16:55:24,137 - ai_agent - INFO - Fetched 4 tweets from @aircall
+2025-07-21 16:55:24,138 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 16:55:39,303 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:55:39,304 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 16:56:09,389 - ai_agent - WARNING - User @CloudTalk_io not found
+2025-07-21 16:56:09,391 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 16:57:09,466 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 16:57:09,468 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 20:27:36,913 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:27:36,919 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:27:36,925 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:27:36,936 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:27:36,936 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 20:27:36,936 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 20:27:36,936 - ai_agent - INFO - Fetching content since: 2025-06-21 20:27:36.936763
+2025-07-21 20:27:37,180 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 20:27:37,300 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 20:27:38,116 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 20:27:38,513 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 20:27:38,778 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 20:27:38,892 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 20:27:39,230 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 20:27:39,339 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 20:27:39,831 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 20:27:40,021 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 20:27:40,176 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 20:27:40,543 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 20:27:43,397 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 20:27:43,611 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 20:27:43,935 - ai_agent - INFO - Fetched 4 tweets from @aircall
+2025-07-21 20:27:43,935 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 20:27:59,091 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:27:59,091 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 20:28:29,178 - ai_agent - WARNING - User @CloudTalk_io not found
+2025-07-21 20:28:29,179 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 20:29:29,257 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:29:29,258 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 20:31:10,227 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:31:10,234 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:31:10,241 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:31:10,247 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:31:10,247 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 20:31:10,248 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 20:31:10,248 - ai_agent - INFO - Fetching content since: 2025-06-21 20:31:10.248264
+2025-07-21 20:31:10,307 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 20:31:10,370 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 20:31:10,968 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 20:31:11,214 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 20:31:11,377 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 20:31:11,461 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 20:31:11,771 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 20:31:11,830 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 20:31:12,342 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 20:31:12,486 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 20:31:12,656 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 20:31:13,065 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 20:31:16,125 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 20:31:17,499 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 20:31:17,667 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:31:17,667 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 20:31:32,733 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:31:32,733 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 20:32:02,812 - ai_agent - ERROR - Error fetching tweets from @CloudTalk_io: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:32:02,812 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 20:33:02,902 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:33:02,902 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 20:35:33,921 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:35:33,927 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:35:33,933 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:35:33,938 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:35:33,938 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 20:35:33,939 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 20:35:33,939 - ai_agent - INFO - Fetching content since: 2025-06-21 20:35:33.939378
+2025-07-21 20:35:34,073 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 20:35:34,185 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 20:35:34,841 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 20:35:35,092 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 20:35:35,266 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 20:35:35,385 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 20:35:35,688 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 20:35:35,780 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 20:35:36,340 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 20:35:36,492 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 20:35:36,625 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 20:35:36,919 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 20:35:39,957 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 20:35:40,172 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 20:35:41,410 - ai_agent - WARNING - Failed to fetch RSS feed https://www.gong.io/blog/rss.xml: 404
+2025-07-21 20:35:43,555 - ai_agent - WARNING - Failed to fetch RSS feed https://blog.chorusai.co/rss.xml: 404
+2025-07-21 20:35:43,819 - ai_agent - WARNING - Failed to fetch RSS feed https://www.mindtickle.com/company/blog/rss.xml: 403
+2025-07-21 20:35:44,299 - ai_agent - WARNING - Failed to fetch RSS feed https://www.phoneburner.com/blog/rss.xml: 404
+2025-07-21 20:35:44,565 - ai_agent - WARNING - Failed to fetch RSS feed https://www.cloudtalk.io/blog/rss.xml: 403
+2025-07-21 20:35:44,936 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringover.com/blog/rss.xml: 404
+2025-07-21 20:35:45,967 - ai_agent - ERROR - Error fetching RSS feed https://fireflies.ai/blog/rss.xml: 0, message='', url=URL('https://fireflies.ai/blog/rss.xml')
+2025-07-21 20:35:46,199 - ai_agent - WARNING - Failed to fetch RSS feed https://www.people.ai/blog/rss.xml: 404
+2025-07-21 20:35:46,406 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-21 20:35:46,586 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:35:46,586 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 20:36:01,655 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:36:01,655 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 20:36:31,717 - ai_agent - ERROR - Error fetching tweets from @CloudTalk_io: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:36:31,718 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 20:37:31,782 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:37:31,783 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 20:39:31,851 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:39:31,852 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-21 20:39:31,852 - ai_agent - INFO - Total items fetched: 0
+2025-07-21 20:39:31,852 - ai_agent - WARNING - No content items fetched
+2025-07-21 20:39:31,872 - ai_agent - INFO - Digest saved to digest.html
+2025-07-21 20:39:31,880 - ai_agent - INFO - No email recipients configured
+2025-07-21 20:39:31,880 - ai_agent - INFO - Slack notification prepared:
+2025-07-21 20:39:31,880 - ai_agent - INFO - ==================================================
+2025-07-21 20:39:31,880 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-21_
+
+2025-07-21 20:39:31,880 - ai_agent - INFO - ==================================================
+2025-07-21 20:39:31,880 - ai_agent - INFO - Slack notification sent successfully
+2025-07-21 20:39:31,880 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-21 20:58:22,875 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:58:22,882 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:58:22,888 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:58:22,893 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 20:58:22,893 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 20:58:22,894 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 20:58:22,894 - ai_agent - INFO - Fetching content since: 2025-06-21 20:58:22.894436
+2025-07-21 20:58:23,084 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 20:58:23,192 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 20:58:23,776 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 20:58:23,979 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 20:58:24,140 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 20:58:24,277 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 20:58:24,601 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 20:58:24,702 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 20:58:25,214 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 20:58:25,372 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 20:58:25,495 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 20:58:25,868 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 20:58:28,783 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 20:58:29,125 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 20:58:29,435 - ai_agent - WARNING - Failed to fetch RSS feed https://www.gong.io/blog/rss.xml: 404
+2025-07-21 20:58:29,908 - ai_agent - WARNING - Failed to fetch RSS feed https://blog.chorusai.co/rss.xml: 404
+2025-07-21 20:58:30,449 - ai_agent - WARNING - Failed to fetch RSS feed https://www.mindtickle.com/company/blog/rss.xml: 403
+2025-07-21 20:58:30,942 - ai_agent - WARNING - Failed to fetch RSS feed https://www.phoneburner.com/blog/rss.xml: 404
+2025-07-21 20:58:31,436 - ai_agent - WARNING - Failed to fetch RSS feed https://www.cloudtalk.io/blog/rss.xml: 403
+2025-07-21 20:58:31,959 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringover.com/blog/rss.xml: 404
+2025-07-21 20:58:33,527 - ai_agent - ERROR - Error fetching RSS feed https://fireflies.ai/blog/rss.xml: 0, message='', url=URL('https://fireflies.ai/blog/rss.xml')
+2025-07-21 20:58:33,969 - ai_agent - WARNING - Failed to fetch RSS feed https://www.people.ai/blog/rss.xml: 404
+2025-07-21 20:58:34,490 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-21 20:58:34,988 - ai_agent - INFO - Fetched 4 tweets from @aircall
+2025-07-21 20:58:34,988 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 20:58:50,124 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 20:58:50,125 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 20:59:20,196 - ai_agent - WARNING - User @CloudTalk_io not found
+2025-07-21 20:59:20,197 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 21:00:20,264 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:00:20,265 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 21:02:20,321 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:02:20,323 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-21 21:02:20,323 - ai_agent - INFO - Total items fetched: 4
+2025-07-21 21:02:20,323 - ai_agent - INFO - Processing 4 items with LangChain enhancement...
+2025-07-21 21:02:20,323 - ai_agent - INFO - Processing 4 content items...
+2025-07-21 21:02:22,735 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:22,766 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:22,929 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:23,102 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:24,104 - ai_agent - INFO - Processed 4 relevant items
+2025-07-21 21:02:27,921 - ai_agent - ERROR - Semantic categorization failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:29,435 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:33,174 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:35,866 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:36,868 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-21 21:02:38,545 - ai_agent - ERROR - Trend analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:38,545 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-21 21:02:38,545 - ai_agent - INFO - Starting multi-agent analysis with 4 items...
+2025-07-21 21:02:40,116 - ai_agent - ERROR - Product intelligence analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:40,116 - ai_agent - INFO - product_intelligence analyzed 4 items
+2025-07-21 21:02:40,116 - ai_agent - INFO - market_analysis analyzed 1 items
+2025-07-21 21:02:40,422 - ai_agent - ERROR - Technology trends analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:02:40,422 - ai_agent - INFO - technology_trends analyzed 4 items
+2025-07-21 21:02:40,422 - ai_agent - ERROR - Cross-agent synthesis failed: 'list' object has no attribute 'items'
+2025-07-21 21:02:40,425 - ai_agent - INFO - Agent run completed. Generated digest with 4 items
+2025-07-21 21:02:40,444 - ai_agent - INFO - Digest saved to digest.html
+2025-07-21 21:02:40,451 - ai_agent - INFO - No email recipients configured
+2025-07-21 21:02:40,451 - ai_agent - INFO - Slack notification prepared:
+2025-07-21 21:02:40,451 - ai_agent - INFO - ==================================================
+2025-07-21 21:02:40,451 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-21_
+
+📰 *Key Updates:*
+• *@aircall tweet*
+  _Aircall Ascend 2025 in Paris brought together channel partners from across EMEA to connect, innovate..._
+  <https://twitter.com/aircall/status/1945145515542299025|Read more>
+
+• *@aircall tweet*
+  _Most businesses overlook a major performance gap: disconnected communication systems.
+
+In our new bl..._
+  <https://twitter.com/aircall/status/1944769738640609395|Read more>
+
+• *@aircall tweet*
+  _Disconnected tools lead to inefficient teams.
+
+Join Aircall’s Elizabeth Niemczyk, Jordan Crawford (B..._
+  <https://twitter.com/aircall/status/1942274918743433291|Read more>
+
+2025-07-21 21:02:40,451 - ai_agent - INFO - ==================================================
+2025-07-21 21:02:40,451 - ai_agent - INFO - Slack notification sent successfully
+2025-07-21 21:02:40,451 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-21 21:05:48,237 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:05:48,243 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:05:48,249 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:05:48,254 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:05:48,254 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 21:05:48,254 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 21:05:48,255 - ai_agent - INFO - Fetching content since: 2025-06-21 21:05:48.255264
+2025-07-21 21:05:48,344 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 21:05:48,453 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 21:05:49,017 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 21:05:49,435 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 21:05:49,596 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 21:05:49,714 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 21:05:50,062 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 21:05:50,150 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 21:05:50,625 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 21:05:50,770 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 21:05:50,907 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 21:05:51,194 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 21:05:54,176 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 21:05:54,398 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 21:05:54,491 - ai_agent - WARNING - Failed to fetch RSS feed https://www.gong.io/blog/rss.xml: 404
+2025-07-21 21:05:54,699 - ai_agent - WARNING - Failed to fetch RSS feed https://blog.chorusai.co/rss.xml: 404
+2025-07-21 21:05:54,941 - ai_agent - WARNING - Failed to fetch RSS feed https://www.mindtickle.com/company/blog/rss.xml: 403
+2025-07-21 21:05:55,203 - ai_agent - WARNING - Failed to fetch RSS feed https://www.phoneburner.com/blog/rss.xml: 404
+2025-07-21 21:05:55,449 - ai_agent - WARNING - Failed to fetch RSS feed https://www.cloudtalk.io/blog/rss.xml: 403
+2025-07-21 21:05:55,808 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringover.com/blog/rss.xml: 404
+2025-07-21 21:05:56,763 - ai_agent - ERROR - Error fetching RSS feed https://fireflies.ai/blog/rss.xml: 0, message='', url=URL('https://fireflies.ai/blog/rss.xml')
+2025-07-21 21:05:56,895 - ai_agent - WARNING - Failed to fetch RSS feed https://www.people.ai/blog/rss.xml: 404
+2025-07-21 21:05:57,081 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-21 21:05:57,235 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:05:57,235 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 21:06:12,305 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:06:12,305 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 21:06:42,381 - ai_agent - ERROR - Error fetching tweets from @CloudTalk_io: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:06:42,382 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 21:07:42,451 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:07:42,452 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 21:47:29,213 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:47:29,219 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:47:29,225 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:47:29,231 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:47:29,231 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 21:47:29,231 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 21:47:29,231 - ai_agent - INFO - Fetching content since: 2025-06-21 21:47:29.231859
+2025-07-21 21:47:29,941 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 21:47:30,060 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 21:47:30,629 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 21:47:30,856 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 21:47:31,033 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 21:47:31,170 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 21:47:31,505 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 21:47:31,594 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 21:47:32,073 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 21:47:32,229 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 21:47:32,401 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 21:47:32,681 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 21:47:35,626 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 21:47:35,842 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 21:47:35,927 - ai_agent - WARNING - Failed to fetch RSS feed https://www.gong.io/blog/rss.xml: 404
+2025-07-21 21:47:36,166 - ai_agent - WARNING - Failed to fetch RSS feed https://blog.chorusai.co/rss.xml: 404
+2025-07-21 21:47:36,391 - ai_agent - WARNING - Failed to fetch RSS feed https://www.mindtickle.com/company/blog/rss.xml: 403
+2025-07-21 21:47:36,655 - ai_agent - WARNING - Failed to fetch RSS feed https://www.phoneburner.com/blog/rss.xml: 404
+2025-07-21 21:47:36,903 - ai_agent - WARNING - Failed to fetch RSS feed https://www.cloudtalk.io/blog/rss.xml: 403
+2025-07-21 21:47:37,347 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringover.com/blog/rss.xml: 404
+2025-07-21 21:47:38,250 - ai_agent - ERROR - Error fetching RSS feed https://fireflies.ai/blog/rss.xml: 0, message='', url=URL('https://fireflies.ai/blog/rss.xml')
+2025-07-21 21:47:38,406 - ai_agent - WARNING - Failed to fetch RSS feed https://www.people.ai/blog/rss.xml: 404
+2025-07-21 21:47:38,598 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-21 21:47:38,929 - ai_agent - INFO - Fetched 4 tweets from @aircall
+2025-07-21 21:47:38,930 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 21:47:54,076 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:47:54,077 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 21:48:24,161 - ai_agent - WARNING - User @CloudTalk_io not found
+2025-07-21 21:48:24,162 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 21:49:24,231 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:49:24,232 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-21 21:51:24,304 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:51:24,306 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-21 21:51:24,306 - ai_agent - INFO - Total items fetched: 4
+2025-07-21 21:51:24,306 - ai_agent - INFO - Processing 4 items with LangChain enhancement...
+2025-07-21 21:51:24,306 - ai_agent - INFO - Processing 4 content items...
+2025-07-21 21:51:26,019 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:51:26,068 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:51:26,131 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:51:26,161 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-21 21:51:27,163 - ai_agent - INFO - Processed 4 relevant items
+2025-07-21 21:52:49,644 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:52:49,650 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:52:49,656 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:52:49,663 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-21 21:52:49,663 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-21 21:52:49,663 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-21 21:52:49,663 - ai_agent - INFO - Fetching content since: 2025-06-21 21:52:49.663903
+2025-07-21 21:52:49,730 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-21 21:52:49,796 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-21 21:52:50,343 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-21 21:52:50,560 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-21 21:52:50,716 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-21 21:52:50,790 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-21 21:52:51,103 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-21 21:52:51,163 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-21 21:52:51,657 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-21 21:52:51,967 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-21 21:52:52,113 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-21 21:52:52,438 - ai_agent - INFO - Fetched 17 items from OpenAI Blog
+2025-07-21 21:52:55,288 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-21 21:52:55,465 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-21 21:52:55,650 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-21 21:52:56,467 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-21 21:52:56,621 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-21 21:52:56,725 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-21 21:52:57,054 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-21 21:52:57,183 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:52:57,183 - ai_agent - INFO - Waiting 15 seconds before fetching @dialpad to avoid rate limits...
+2025-07-21 21:53:12,240 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:53:12,240 - ai_agent - INFO - Waiting 30 seconds before fetching @CloudTalk_io to avoid rate limits...
+2025-07-21 21:53:42,317 - ai_agent - ERROR - Error fetching tweets from @CloudTalk_io: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:53:42,318 - ai_agent - INFO - Waiting 60 seconds before fetching @RingoverApp to avoid rate limits...
+2025-07-21 21:54:42,379 - ai_agent - ERROR - Error fetching tweets from @RingoverApp: 429 Too Many Requests
+Too Many Requests
+2025-07-21 21:54:42,380 - ai_agent - INFO - Waiting 120 seconds before fetching @RingCentral to avoid rate limits...

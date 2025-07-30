@@ -1,0 +1,398 @@
+"""
+Content processing and AI-powered summarization engine
+"""
+
+import asyncio
+import openai
+from typing import List, Dict, Optional
+import json
+import re
+from datetime import datetime
+
+from .sources import ContentItem
+
+class ContentProcessor:
+    def __init__(self, config, logger):
+        self.config = config
+        self.logger = logger
+        self.openai_client = None
+        
+        if config.openai_api_key and config.openai_api_key != "your_openai_api_key_here":
+            try:
+                self.openai_client = openai.OpenAI(api_key=config.openai_api_key)
+            except Exception as e:
+                self.logger.warning(f"Failed to initialize OpenAI client: {str(e)}")
+                self.openai_client = None
+    
+    async def process_content(self, items: List[ContentItem]) -> List[ContentItem]:
+        """Process all content items: categorize, score relevance, and summarize"""
+        self.logger.info(f"Processing {len(items)} content items...")
+        
+        # Categorize items
+        items = self._categorize_items(items)
+        
+        # Score relevance
+        items = self._score_relevance(items)
+        
+        # Filter by relevance threshold
+        items = [item for item in items if item.relevance_score >= self.config.relevance_threshold]
+        
+        # Generate summaries
+        items = await self._generate_summaries(items)
+        
+        # Sort by relevance score
+        items.sort(key=lambda x: x.relevance_score, reverse=True)
+        
+        self.logger.info(f"Processed {len(items)} relevant items")
+        return items
+    
+    def _categorize_items(self, items: List[ContentItem]) -> List[ContentItem]:
+        """Categorize items based on keywords"""
+        for item in items:
+            item.category = self._determine_category(item)
+        return items
+    
+    def _determine_category(self, item: ContentItem) -> str:
+        """Determine the category of a content item with enhanced keyword matching"""
+        text = f"{item.title} {item.content}".lower()
+        
+        best_category = "General"
+        best_score = 0
+        
+        for category in self.config.categories:
+            score = 0
+            for keyword in category.keywords:
+                keyword_lower = keyword.lower()
+                
+                # Enhanced matching: exact match, word boundaries, and fuzzy variants
+                if self._enhanced_keyword_match(keyword_lower, text):
+                    # Title matches get higher weight
+                    if keyword_lower in item.title.lower():
+                        score += 2.0
+                    else:
+                        score += 1.0
+            
+            # Weight by priority (lower priority number = higher importance)
+            weighted_score = score / category.priority
+            
+            if weighted_score > best_score:
+                best_score = weighted_score
+                best_category = category.name
+        
+        return best_category
+    
+    def _enhanced_keyword_match(self, keyword: str, text: str) -> bool:
+        """Enhanced keyword matching with word boundaries and variations"""
+        import re
+        
+        # Direct substring match (existing behavior)
+        if keyword in text:
+            return True
+        
+        # Word boundary matching for better accuracy
+        if len(keyword) <= 3:  # Short keywords need word boundaries
+            pattern = r'\b' + re.escape(keyword) + r'\b'
+            if re.search(pattern, text):
+                return True
+        
+        # Handle company name variations
+        company_variations = {
+            'ringcentral': ['ring central', 'ring-central'],
+            'microsoft teams': ['ms teams', 'teams'],
+            'five9': ['five 9', 'five-9'],
+            '8x8': ['8 x 8', 'eight by eight'],
+            'gong.io': ['gong io', 'gong'],
+            'openai': ['open ai', 'open-ai'],
+            'y combinator': ['ycombinator', 'yc']
+        }
+        
+        if keyword in company_variations:
+            for variant in company_variations[keyword]:
+                if variant in text:
+                    return True
+        
+        return False
+
+    def _score_relevance(self, items: List[ContentItem]) -> List[ContentItem]:
+        """Score items based on relevance to Aircall's interests"""
+        for item in items:
+            item.relevance_score = self._calculate_relevance_score(item)
+        return items
+    
+    def _calculate_relevance_score(self, item: ContentItem) -> float:
+        """Calculate relevance score focused specifically on Aircall's business domain"""
+        text = f"{item.title} {item.content}".lower()
+        score = 0.0
+        
+        # EXCLUSION FILTERS - Return 0.0 for irrelevant content
+        exclusion_keywords = [
+            # Hardware/physical products
+            "kindle", "ipad", "iphone", "watch", "airpods", "headphones", "smartphone", "tablet", "laptop", 
+            "ev truck", "electric vehicle", "car", "tesla", "drone", "robot", "pool cleaner", "luggage", "camera",
+            # Generic AI/political news
+            "trump administration", "national security", "defense", "military", "government", "regulation", "policy",
+            "openai", "google ai", "anthropic", "chatgpt", "claude", "gemini", "llm", "large language model",
+            # Unrelated industries
+            "protein design", "biology", "biotech", "pharmaceutical", "drug", "medical device", "healthcare device",
+            "furiosaai", "ai chip", "chip startup", "hardware", "go-to-market", "gtm", "marketing ai", "webinar recap", "email ai", "ai agents", "general ai", "ai market", "ai startup", "mit dropouts", "betaworks", "techcrunch disrupt", "notebooklm", "vibe coding", "duckduckgo", "ai images", "workplace collaboration", "unified comms", "collaboration ai", "font", "typography", "design system", "css", "daisyui", "tailwind", "note-taking", "productivity app"
+        ]
+        
+        # Skip items with exclusion keywords unless they also have strong business relevance
+        has_exclusion = any(keyword in text for keyword in exclusion_keywords)
+        
+        # CRITICAL - Direct Aircall business relevance (must have one of these)
+        critical_keywords = [
+            # Direct competitors
+            "aircall", "ringcentral", "8x8", "dialpad", "vonage", "twilio", "five9", "genesys",
+            # Voice/phone systems
+            "cloud phone", "voip", "business phone", "phone system", "call center software",
+            "contact center", "cloud calling", "voice api", "telephony",
+            # Conversation intelligence (direct competition)
+            "conversation intelligence", "call analytics", "call recording", "call coaching",
+            "sales calls", "call transcription", "voice analytics"
+        ]
+        
+        # HIGH - Adjacent technologies that could impact Aircall
+        high_value_keywords = [
+            # UCaaS/Communications
+            "ucaas", "unified communications", "business communication", "team communication",
+            "webrtc", "sip", "communication platform",
+            # Sales/Support specific to voice
+            "inside sales", "outbound sales", "sales calls", "phone sales", "telemarketing",
+            "customer support calls", "support automation", "agent assistance",
+            # Voice AI (specific to calls/phone)
+            "voice ai", "speech recognition", "call automation", "voice bot",
+            "conversational ai" # only if in phone/call context
+        ]
+        
+        # MEDIUM - Related but broader technologies
+        medium_value_keywords = [
+            # CRM/Sales (only if phone/call related)
+            "crm integration", "sales automation", "revenue operations",
+            # General communication tech
+            "messaging platform", "collaboration tools", "remote work communication"
+        ]
+        
+        # More inclusive relevance check - allow multiple pathways to relevance
+        has_critical = any(self._enhanced_keyword_match(keyword, text) for keyword in critical_keywords)
+        has_phone_context = any(phone_word in text for phone_word in ["phone", "call", "voice", "dial", "communication", "sales", "ai"])
+        has_high_value = any(self._enhanced_keyword_match(keyword, text) for keyword in high_value_keywords)
+        
+        # Multiple ways an item can be relevant:
+        # 1. Has critical business keywords
+        # 2. Has high-value keywords (broader tech/business terms)
+        # 3. Has phone context + any business relevance
+        # 4. Contains competitor names or relevant business terms
+        
+        competitor_names = ["gong", "chorus", "dialpad", "ringcentral", "8x8", "twilio", "zoom", "microsoft teams", "slack"]
+        has_competitor = any(comp in text for comp in competitor_names)
+        
+        business_terms = ["saas", "software", "startup", "funding", "ai", "automation", "crm", "sales", "customer"]
+        has_business = any(term in text for term in business_terms)
+        
+        # Apply exclusion filter - if item has exclusions and no critical business relevance, exclude it
+        if has_exclusion and not has_critical:
+            return 0.0  # Excluded: hardware/generic AI/political content without business relevance
+        
+        if not (has_critical or has_high_value or (has_phone_context and has_business) or has_competitor):
+            return 0.0  # Not relevant to Aircall's business
+        
+        # Score based on keyword presence
+        for keyword in critical_keywords:
+            if self._enhanced_keyword_match(keyword, text):
+                # Higher score for title mentions
+                if self._enhanced_keyword_match(keyword, item.title.lower()):
+                    score += 0.7
+                else:
+                    score += 0.5
+        
+        for keyword in high_value_keywords:
+            if self._enhanced_keyword_match(keyword, text):
+                if self._enhanced_keyword_match(keyword, item.title.lower()):
+                    score += 0.4
+                else:
+                    score += 0.3
+        
+        for keyword in medium_value_keywords:
+            if self._enhanced_keyword_match(keyword, text):
+                score += 0.1
+        
+        # Boost for direct competitor mentions
+        direct_competitors = ["ringcentral", "8x8", "dialpad", "vonage", "twilio", "five9", "genesys"]
+        for competitor in direct_competitors:
+            if self._enhanced_keyword_match(competitor, text):
+                # Extra boost for competitor names in title
+                if self._enhanced_keyword_match(competitor, item.title.lower()):
+                    score += 0.6
+                else:
+                    score += 0.4
+        
+        # Boost score for recent items
+        try:
+            if item.published.tzinfo is None:
+                published_naive = item.published
+            else:
+                published_naive = item.published.replace(tzinfo=None)
+            hours_old = (datetime.now() - published_naive).total_seconds() / 3600
+        except (AttributeError, TypeError):
+            hours_old = 24  # Default to 24 hours if we can't calculate
+        if hours_old < 24:
+            score += 0.1
+        elif hours_old < 48:
+            score += 0.05
+        
+        # Boost for competitor Twitter accounts
+        if "twitter" in item.source.lower():
+            competitor_accounts = ["aircall", "ringcentral", "8x8", "dialpad", "twilio", "zoom", "five9", "genesys"]
+            source_lower = item.source.lower()
+            if any(comp in source_lower for comp in competitor_accounts):
+                score += 0.5  # Major boost for competitor social media
+        
+        # Category-based scoring (refined for Aircall focus)
+        category_scores = {
+            "Competitor Intelligence": 0.5,
+            "Conversation Intelligence & Real-Time Assistance": 0.4,
+            "AI Voice Technology": 0.3,
+            "UCaaS & Cloud Communications": 0.3,
+            "Contact Center & Customer Support": 0.2,
+            "Sales & CRM Technology": 0.1,  # Reduced unless call-specific
+            "Regulatory & Compliance": 0.2,
+            "Industry Analysis & Reports": 0.1
+        }
+        
+        score += category_scores.get(item.category, 0.0)
+        
+        return min(score, 1.0)  # Cap at 1.0
+    
+    async def _generate_summaries(self, items: List[ContentItem]) -> List[ContentItem]:
+        """Generate AI-powered summaries for items"""
+        if not self.openai_client:
+            self.logger.warning("OpenAI client not available, skipping summary generation")
+            return items
+        
+        # Process items in batches to avoid rate limits
+        batch_size = 10
+        for i in range(0, len(items), batch_size):
+            batch = items[i:i + batch_size]
+            await self._process_batch_summaries(batch)
+            await asyncio.sleep(1)  # Rate limiting
+        
+        return items
+    
+    async def _process_batch_summaries(self, items: List[ContentItem]):
+        """Process a batch of items for summary generation"""
+        tasks = []
+        for item in items:
+            if len(item.content) > 100:  # Only summarize substantial content
+                task = asyncio.create_task(self._generate_summary(item))
+                tasks.append(task)
+        
+        if tasks:
+            await asyncio.gather(*tasks, return_exceptions=True)
+    
+    async def _generate_summary(self, item: ContentItem):
+        """Generate AI summary for a single item"""
+        try:
+            prompt = f"""
+            Create an objective summary of the following content for a competitive intelligence digest.
+            
+            Requirements:
+            1. Keep the summary factual and objective - do not include implications, recommendations, or how it relates to other companies
+            2. Identify the PRIMARY COMPANY mentioned in the title/content and include a one-line company description
+            3. Focus on: product launches, acquisitions, funding, partnerships, feature updates, market developments, regulatory changes
+            4. Format as: "[Objective summary of what happened]"
+            5. Then add: "Company: [Company Name] - [one-line description of what they do]"
+            6. Keep total length under {self.config.summary_max_length} characters
+            7. Use neutral, factual tone without speculation
+            
+            Example format:
+            "Five9 released a new CX report highlighting AI adoption challenges in contact centers, showing that 60% of organizations struggle with implementation costs.
+            Company: Five9 - Cloud-based contact center software provider."
+            
+            Title: {item.title}
+            Content: {item.content[:1000]}
+            """
+            
+            response = await asyncio.to_thread(
+                self.openai_client.chat.completions.create,
+                model="gpt-3.5-turbo",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=150,
+                temperature=0.3
+            )
+            
+            summary = response.choices[0].message.content.strip()
+            item.summary = summary
+            
+        except Exception as e:
+            self.logger.error(f"Error generating summary for item {item.title}: {str(e)}")
+            item.summary = item.content[:self.config.summary_max_length] + "..."
+
+class DigestGenerator:
+    def __init__(self, config, logger):
+        self.config = config
+        self.logger = logger
+    
+    def generate_digest(self, items: List[ContentItem]) -> Dict:
+        """Generate structured digest from processed items"""
+        # Group items by category
+        categorized_items = {}
+        for item in items:
+            category = item.category
+            if category not in categorized_items:
+                categorized_items[category] = []
+            categorized_items[category].append(item)
+        
+        # Sort categories by priority
+        category_order = {cat.name: cat.priority for cat in self.config.categories}
+        sorted_categories = sorted(categorized_items.keys(), 
+                                 key=lambda x: category_order.get(x, 999))
+        
+        # Create digest structure
+        # Check for trend insights from first item
+        trend_insights = None
+        if items and hasattr(items[0], "trend_insights"):
+            trend_insights = items[0].trend_insights
+        
+        # Create digest structure
+        digest = {
+            "generated_at": datetime.now().isoformat(),
+            "total_items": len(items),
+            "categories": {},
+            "summary_stats": self._generate_summary_stats(items),
+            "trend_insights": trend_insights
+        }        
+        for category in sorted_categories:
+            category_items = categorized_items[category]
+            
+            # Sort items within category by relevance
+            category_items.sort(key=lambda x: x.relevance_score, reverse=True)
+            
+            digest["categories"][category] = {
+                "count": len(category_items),
+                "items": [item.to_dict() for item in category_items]
+            }
+        
+        return digest
+    
+    def _generate_summary_stats(self, items: List[ContentItem]) -> Dict:
+        """Generate summary statistics for the digest"""
+        if not items:
+            return {"total": 0, "sources": {}, "date_range": None, "avg_relevance": 0.0}
+        
+        sources = {}
+        for item in items:
+            sources[item.source] = sources.get(item.source, 0) + 1
+        
+        dates = [item.published for item in items]
+        date_range = {
+            "from": min(dates).isoformat(),
+            "to": max(dates).isoformat()
+        }
+        
+        return {
+            "total": len(items),
+            "sources": sources,
+            "date_range": date_range,
+            "avg_relevance": sum(item.relevance_score for item in items) / len(items)
+        }

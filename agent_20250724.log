@@ -1,0 +1,768 @@
+2025-07-24 17:20:49,853 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:49,861 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:49,868 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:49,876 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:49,877 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-24 17:20:55,982 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:55,993 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:56,001 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:56,010 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-24 17:20:56,010 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-24 17:20:56,011 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-24 17:20:56,011 - ai_agent - INFO - Fetching content since: 2025-07-23 17:15:47.008552
+2025-07-24 17:20:56,130 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-24 17:20:56,209 - ai_agent - INFO - Fetched 3 items from VentureBeat
+2025-07-24 17:20:56,669 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-24 17:20:57,035 - ai_agent - INFO - Fetched 5 items from UC Today
+2025-07-24 17:20:57,163 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-24 17:20:57,261 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-24 17:20:57,563 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-24 17:20:57,642 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-24 17:20:58,114 - ai_agent - INFO - Fetched 5 items from CX Today
+2025-07-24 17:20:58,330 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-24 17:20:58,517 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-24 17:20:58,755 - ai_agent - INFO - Fetched 1 items from OpenAI Blog
+2025-07-24 17:21:01,996 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-24 17:21:02,185 - ai_agent - INFO - Fetched 8 items from MarkTechPost
+2025-07-24 17:21:02,981 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-24 17:21:03,994 - ai_agent - INFO - Fetched 1 items from Fireflies AI Blog
+2025-07-24 17:21:04,175 - ai_agent - INFO - Fetched 0 items from Crayon Blog
+2025-07-24 17:21:04,296 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-24 17:21:04,545 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-24 17:21:04,799 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-24 17:21:04,912 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-24 17:21:06,524 - ai_agent - INFO - Fetched 2 items from Google News - RingCentral
+2025-07-24 17:21:07,037 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-24 17:21:07,605 - ai_agent - INFO - Fetched 1 items from Google News - 8x8
+2025-07-24 17:21:08,200 - ai_agent - INFO - Fetched 5 items from Google News - Twilio
+2025-07-24 17:21:08,755 - ai_agent - INFO - Fetched 0 items from Google News - Talkdesk
+2025-07-24 17:21:09,268 - ai_agent - INFO - Fetched 1 items from Google News - Five9
+2025-07-24 17:21:09,782 - ai_agent - INFO - Fetched 2 items from Google News - Zoom Phone
+2025-07-24 17:21:10,207 - ai_agent - INFO - Fetched 1 items from Google News - Genesys
+2025-07-24 17:21:10,535 - ai_agent - INFO - Fetched 0 items from Google News - Gong
+2025-07-24 17:21:10,988 - ai_agent - INFO - Fetched 0 items from Google News - Aircall Competitors
+2025-07-24 17:21:11,457 - ai_agent - INFO - Fetched 0 items from Google News - Conversation Intelligence
+2025-07-24 17:21:11,994 - ai_agent - INFO - Fetched 4 items from Google News - Contact Center AI
+2025-07-24 17:21:12,558 - ai_agent - INFO - Fetched 0 items from Google News - UCaaS Market
+2025-07-24 17:21:13,077 - ai_agent - INFO - Fetched 1 items from Google News - OpenPhone & Smaller Competitors
+2025-07-24 17:21:13,428 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-24 17:21:13,773 - ai_agent - INFO - Fetched 2 items from SEC Filings - Major Competitors
+2025-07-24 17:21:14,080 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-24 17:21:14,457 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-24 17:21:14,844 - ai_agent - INFO - Fetched 0 items from Google News - MindTickle
+2025-07-24 17:21:15,139 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-24 17:21:15,429 - ai_agent - INFO - Fetched 0 items from Google News - PhoneBurner
+2025-07-24 17:21:15,662 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-24 17:21:16,093 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-24 17:21:16,306 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-24 17:21:16,725 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-24 17:21:17,131 - ai_agent - INFO - Fetched 0 items from Google News - Ringover
+2025-07-24 17:21:17,339 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-24 17:21:17,624 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-24 17:21:18,010 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-24 17:21:18,272 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-24 17:21:18,717 - ai_agent - INFO - Fetched 0 items from Google News - People.ai
+2025-07-24 17:21:18,916 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-24 17:21:19,146 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-24 17:21:19,459 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-24 17:21:19,846 - ai_agent - INFO - Fetched 0 items from Google News - LevelEleven
+2025-07-24 17:21:20,068 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-24 17:21:20,313 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-24 17:21:20,628 - ai_agent - INFO - Fetched 0 items from Google News - AI Sales Platforms
+2025-07-24 17:21:20,628 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-24 17:21:21,052 - ai_agent - INFO - Fetched 6 tweets from @aircall
+2025-07-24 17:21:21,052 - ai_agent - INFO - ✅ @aircall: 6 tweets
+2025-07-24 17:21:22,266 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-24 17:21:22,266 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-24 17:21:23,425 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-24 17:21:23,426 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-24 17:21:24,642 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-24 17:21:24,642 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-24 17:21:25,710 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-24 17:21:25,710 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-24 17:21:25,710 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-24 17:21:25,710 - ai_agent - INFO - Total items fetched: 53
+2025-07-24 17:21:25,713 - ai_agent - INFO - Processing 53 items with LangChain enhancement...
+2025-07-24 17:21:25,713 - ai_agent - INFO - Processing 53 content items...
+2025-07-24 17:21:25,736 - ai_agent - INFO - Deduplicated: 53 -> 47 items
+2025-07-24 17:21:42,057 - ai_agent - INFO - Processed 47 relevant items
+2025-07-24 17:21:58,927 - ai_agent - INFO - Semantic categorization completed
+2025-07-24 17:22:01,029 - ai_agent - INFO - Competitive analysis completed for 1 items
+2025-07-24 17:22:03,297 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-24 17:22:03,299 - ai_agent - INFO - Agent run completed. Generated digest with 47 items
+2025-07-24 17:22:03,326 - ai_agent - INFO - Digest saved to digest.html
+2025-07-24 17:22:03,337 - ai_agent - INFO - No email recipients configured
+2025-07-24 17:22:03,338 - ai_agent - INFO - Slack notification prepared:
+2025-07-24 17:22:03,338 - ai_agent - INFO - ==================================================
+2025-07-24 17:22:03,338 - ai_agent - INFO - {
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "\ud83c\udfaf Competitive Intelligence Update"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "_2025-07-24_"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udd25 Top Stories*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Olivier Jouve, Chief Product Officer of Genesys - Unite.AI*\n*Genesys - Customer experience and contact center solutions provider.*\n_Olivier Jouve, Chief Product Officer of Genesys, discusses the company's product strategy and vision for AI integration in customer service._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read More"
+        },
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BbHZ4TFlEVjJIYV9hOG5zckRrTTJHZzdzeXNaYXJmSXkxSlJLcUdkblBZLU8yMEp1MjdCQ0pmVk5COFJMVnpLQjNpUlowQ3RzNUdz?oc=5",
+        "action_id": "read_more_381"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*@aircall tweet*\n"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read More"
+        },
+        "url": "https://twitter.com/aircall/status/1948050879376142558",
+        "action_id": "read_more_7520"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Transcript : Vonage Holdings Corp. - Shareholder/Analyst Call - MarketScreener*\n*Vonage Holdings Corp. - Communications technology company.*\n_Vonage held a shareholder/analyst call, the details of which were transcribed and made available on MarketScreener._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read More"
+        },
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPc1Q2ekhHT25yOFFKallUR3NmLTRMYTZNV0dFcEZGVjRUcENGT3hvaDRZSmxrWjVONWd5dlBJVFY5WUpiM0ttV0ZmMWZmckhaYnNEd3gyWGI3WmFYazBlZS1ZazYxVmItcGpsRHpJZ05ETXU4RFBkRWN2Ql91QkRuM29iRlZSOU9la3RLSW1oTHRDYmtNVUNsS0xtcUx1R3RnUnNXLThxUm1yVk9MSWtWMi15dFFQMFRpNC1KQnNnNzZINUN0MWRZQXhPZzdldDF0M3VNem04UF9uSGFlZWxGMEt3UEVyaC1ESVBvSjF6Nl8xWXN0NF9xV1ZrQlJUZXlub0hzaE43TmkzR0h4R29EMFIxdTJzSV9EelVBYV9mdw?oc=5",
+        "action_id": "read_more_733"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Preventing Digital Meltdowns: The Critical Role of Contact Center Stress Testing*\n*Contact Center Stress Testing Solutions - Provider of stress testing services for contact centers.*\n_Organizations across various industries are focusing on optimizing customer experience in contact centers by reducing wait times, training staff, and ..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read More"
+        },
+        "url": "https://www.uctoday.com/ccaas/preventing-digital-meltdowns-the-critical-role-of-contact-center-stress-testing-voxology/",
+        "action_id": "read_more_4541"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Contact Center as a Service (CCaaS) Market to Reach USD 11.42 Billion by 2030 - openPR.com*\n*openPR.com - Online press release distribution platform.*\n_The Contact Center as a Service (CCaaS) market is projected to reach USD 11.42 billion by 2030._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read More"
+        },
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeXo5UEl4ZFgxOGg0TWY4M001ZVlOZFJFSHNDd2pyRG1UakdnUEJ6Q2FJU3paNW9jeGtEUnpRbWRDNThkYWZvcWlsYUxnYzFfNXRKd0stYmdtam1uRXltb1hLUExYcy1paXhiekNka2k0Sl9sbmVtNWFqTnQwZXY0anQxRzl6S2RFdFF2ZjZkVmtIS0RNUWdUdS1xNA?oc=5",
+        "action_id": "read_more_4403"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Conversation Intelligence & Real-Time Assistance* (7 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Olivier Jouve, Chief Product Officer of Genesys - Unite.AI*\n*Genesys - Customer experience and contact center solutions provider.*\n_Olivier Jouve, Chief Product Officer of Genesys, discusses the company's product strategy and vision for AI integration ..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BbHZ4TFlEVjJIYV9hOG5zckRrTTJHZzdzeXNaYXJmSXkxSlJLcUdkblBZLU8yMEp1MjdCQ0pmVk5COFJMVnpLQjNpUlowQ3RzNUdz?oc=5",
+        "action_id": "read_381"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *@aircall tweet*\n"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://twitter.com/aircall/status/1948050879376142558",
+        "action_id": "read_7520"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Chime backer Lauren Kolodny bets on AI to revolutionize estate processing*\n*Alix - Startup using AI to automate estate processing.*\n_Acrew Capital's Lauren Kolodny led a $20 million Series A funding round in Alix, betting on AI to revolutionize estate p..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/chime-backer-lauren-kolodny-bets-on-ai-to-revolutionize-estate-processing/",
+        "action_id": "read_7873"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "_...and 4 more items_"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Competitor Intelligence* (15 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Transcript : Vonage Holdings Corp. - Shareholder/Analyst Call - MarketScreener*\n*Vonage Holdings Corp. - Communications technology company.*\n_Vonage held a shareholder/analyst call, the details of which were transcribed and made available on MarketScreener._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPc1Q2ekhHT25yOFFKallUR3NmLTRMYTZNV0dFcEZGVjRUcENGT3hvaDRZSmxrWjVONWd5dlBJVFY5WUpiM0ttV0ZmMWZmckhaYnNEd3gyWGI3WmFYazBlZS1ZazYxVmItcGpsRHpJZ05ETXU4RFBkRWN2Ql91QkRuM29iRlZSOU9la3RLSW1oTHRDYmtNVUNsS0xtcUx1R3RnUnNXLThxUm1yVk9MSWtWMi15dFFQMFRpNC1KQnNnNzZINUN0MWRZQXhPZzdldDF0M3VNem04UF9uSGFlZWxGMEt3UEVyaC1ESVBvSjF6Nl8xWXN0NF9xV1ZrQlJUZXlub0hzaE43TmkzR0h4R29EMFIxdTJzSV9EelVBYV9mdw?oc=5",
+        "action_id": "read_733"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *This industrial AI startup is winning over customers by saying it won\u2019t get acquired*\n*CVector - Industrial AI startup.*\n_CVector founders reassure customers by stating they have no plans to get acquired, gaining trust in the competitive acqu..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/this-industrial-ai-startup-is-winning-over-customers-by-saying-it-wont-get-acquired/",
+        "action_id": "read_2533"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Cybercrime forum Leak Zone publicly exposed its users\u2019 IP addresses*\n*Leak Zone - Cybercrime forum for leaking and cracking activities.*\n_Leak Zone's database was left exposed without a password, revealing users' IP addresses to the public._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/cybercrime-forum-leak-zone-publicly-exposed-its-users-ip-addresses/",
+        "action_id": "read_7878"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "_...and 12 more items_"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb AI Voice Technology* (5 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *AI companions: A threat to love, or an evolution of it?*\n*Replika - AI companion app developer.*\n_The debate around AI companions like Replika, Character AI, and Nomi AI questions if dating an AI could be better than d..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/ai-companions-a-threat-to-love-or-an-evolution-of-it/",
+        "action_id": "read_7570"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Google\u2019s new Web Guide search experiment organizes results with AI*\n"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/googles-new-web-guide-search-experiment-organizes-results-with-ai/",
+        "action_id": "read_2772"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *A new AI coding challenge just published its first results \u2014 and they aren\u2019t pretty*\n*AI coding challenge*\n_The AI coding challenge announced its first winner, setting a new standard for AI-powered software engineers._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/23/a-new-ai-coding-challenge-just-published-its-first-results-and-they-arent-pretty/",
+        "action_id": "read_6997"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "_...and 2 more items_"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Feature & Product Updates* (3 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Google\u2019s new AI feature lets you virtually try on clothes*\n*Google - Technology company specializing in internet-related services and products.*\n_Google has launched a new AI feature that allows users to virtually try on clothes from Google's Shopping Graph on Searc..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/googles-new-ai-feature-lets-you-virtually-try-on-clothes/",
+        "action_id": "read_1047"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *WatchOS 26 public beta is out right now - 8 new Apple Watch features you can try*\n*Apple - Technology company known for its consumer electronics products.*\n_Apple has released the public beta for WatchOS 26, introducing 8 new features for Apple Watch users to try out._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.zdnet.com/article/watchos-26-public-beta-is-out-right-now-8-new-apple-watch-features-you-can-try/",
+        "action_id": "read_4101"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Fireflies x Google Sheets: Meet Your Auto-Updating Meeting Tracker*\n*Fireflies - AI-powered meeting transcription and analysis platform.*\n_Fireflies announced integration with Google Sheets to create an auto-updating meeting tracker, helping teams streamline ..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://fireflies.ai/blog/fireflies-google-sheets/",
+        "action_id": "read_2491"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Contact Center & Customer Support* (2 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Preventing Digital Meltdowns: The Critical Role of Contact Center Stress Testing*\n*Contact Center Stress Testing Solutions - Provider of stress testing services for contact centers.*\n_Organizations across various industries are focusing on optimizing customer experience in contact centers by reducing wa..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.uctoday.com/ccaas/preventing-digital-meltdowns-the-critical-role-of-contact-center-stress-testing-voxology/",
+        "action_id": "read_4541"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Contact Center as a Service (CCaaS) Market to Reach USD 11.42 Billion by 2030 - openPR.com*\n*openPR.com - Online press release distribution platform.*\n_The Contact Center as a Service (CCaaS) market is projected to reach USD 11.42 billion by 2030._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeXo5UEl4ZFgxOGg0TWY4M001ZVlOZFJFSHNDd2pyRG1UakdnUEJ6Q2FJU3paNW9jeGtEUnpRbWRDNThkYWZvcWlsYUxnYzFfNXRKd0stYmdtam1uRXltb1hLUExYcy1paXhiekNka2k0Sl9sbmVtNWFqTnQwZXY0anQxRzl6S2RFdFF2ZjZkVmtIS0RNUWdUdS1xNA?oc=5",
+        "action_id": "read_4403"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Sales & CRM Technology* (3 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *SoftBank-backed LegalOn lands $50M to streamline legal workflows with AI*\n*LegalOn - AI-powered contract review software provider.*\n_LegalOn, backed by SoftBank, secured $50M in Series C funding to enhance their AI technology for streamlining legal work..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/softbank-backed-legalon-fuels-ai-for-in-house-legal-team-with-50m-series-e/",
+        "action_id": "read_3604"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *The Customer Experience Management Advanced Buyers Guide 2025: 7 Top Takeaways*\n*ISG - Global technology research and advisory firm.*\n_ISG released a Customer Experience Management Advanced Buyers Guide for 2025, highlighting the convergence of traditiona..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.cxtoday.com/crm/the-customer-experience-management-advanced-buyers-guide-2025/",
+        "action_id": "read_4023"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Five9 AI-Elevated CX Platform Delivered $14.5M in Business Value and 212% ROI Through Automation and Growth - Business Wire*\n*Five9 - Cloud-based contact center software provider.*\n_Five9's AI-Elevated CX Platform generated $14.5M in business value and 212% ROI through automation and growth, as report..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVU1JcGpocnFabS1wM202NDRGR2hGR2g3d3NOVl82enpoT2Z1c2RSTmItc2lYMGFVZ0lNbWlsVDRSbE9wb0NPVUdzb0syU3haNkZTRXFwV2ZVemFIRkNVSmdqdnRJT2RLaVk2U0lqVTkzMzVQai0xM0RPdklVTkEtVUdjcWdIX19FQ2F0Ri16MVhmU095TzFQT1M1MENhaUM4bDZuWXQyTjJRT3RMT1ZMZUNBWEh6RUtMSFRCTmFnUUNvZlVIT1lEdEdfMkY4VmJlck5reUYtQU1SbEFWdzVlN1pQM3ZZVFhnZ2hwVWtscjNqZlpYRjRaUQ?oc=5",
+        "action_id": "read_6180"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb UCaaS & Cloud Communications* (2 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *The UC Awards 2025 Finalists Are Here!*\n*UC Awards - Global celebration of excellence and innovation in unified communications and collaboration.*\n_UC Awards 2025 finalists have been announced, with a record number of entries from top vendors, service providers, carri..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.uctoday.com/event-news/the-uc-awards-2025-finalists-are-here/",
+        "action_id": "read_3153"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *White Label Communications Acquires Grupo NGN to Bolster CCaaS Capabilities - MSN*\n*White Label Communications - Provider of communication solutions.*\n_White Label Communications acquired Grupo NGN to enhance their Contact Center as a Service (CCaaS) capabilities._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNV3puNXh0VTNLSHlMd2tTbjNmSkVnWnF2eDZWREpuR2ZIZm92R1c1QnU5WDNEXzF1OFdOTUxFVU1UQzJJaXBYVm1JMmtGcUkwRUM2NHF1WDNhY1JqZUNBSUl0VXpCX2x3X2QyNG16RG00OXFQOHJCeHhkd2cydExZRWNEaE5wVTVuOHB3NVBQUU1zWWpvaUNQNXdkdE42TElpbExZelROYkVIUkJPR05VSDZmaE1YZk9TU3ItVDhuQUtqMDRZWnY5WWVGb285S0U2T0NNemZ3S0lHZXYzZzlsRml1Q0MtUDNJMlBGSG02NUc?oc=5",
+        "action_id": "read_4256"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Emerging Products & Startups* (3 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Hacker slips malicious 'wiping' command into Amazon's Q AI coding assistant*\n*Amazon - E-commerce and cloud computing company.*\n_A hacker inserted a malicious 'wiping' command into Amazon's Q AI coding assistant, causing concern among developers._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.zdnet.com/article/hacker-slips-malicious-wiping-command-into-amazons-q-ai-coding-assistant-and-devs-are-worried/",
+        "action_id": "read_7540"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Train a 70b language model at home (2024)*\n*Answer.ai - AI technology company.*\n_Answer.ai announced the ability to train a 70b language model at home, allowing users to access advanced AI capabilities..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.answer.ai/posts/2024-03-06-fsdp-qlora.html",
+        "action_id": "read_9309"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *PSA: SQLite WAL checksums fail silently and may lose data*\n*SQLite - Self-contained, serverless, zero-configuration, transactional SQL database engine.*\n_SQLite's Write-Ahead Logging (WAL) mode may experience silent checksum failures, potentially leading to data loss._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://avi.im/blag/2025/sqlite-wal-checksum/",
+        "action_id": "read_7903"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb Industry Analysis & Reports* (1 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *AI slop and fake reports are exhausting some security bug bounties*\n*Security Testing Firm - Specializes in security vulnerability testing.*\n_AI-generated security vulnerability reports are impacting bug hunting, with some reports being inaccurate and affecting ..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/ai-slop-and-fake-reports-are-exhausting-some-security-bug-bounties/",
+        "action_id": "read_5710"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*\ud83d\udccb General* (6 items)"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *Preston Thorpe is a software engineer at a San Francisco startup \u2014 he\u2019s also serving his 11th year in prison*\n*Turso - San Francisco startup specializing in software development.*\n_Preston Thorpe, a senior software engineer at Turso, is participating in a program at a Maine state prison that enables ..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/24/preston-thorpe-is-a-software-engineer-at-a-san-francisco-startup-hes-also-serving-his-11th-year-in-prison/",
+        "action_id": "read_4199"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *A troubled SPAC plans to buy iRocket for $400M but it already returned most of its cash*\n"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://techcrunch.com/2025/07/23/a-troubled-spac-plans-to-buy-irocket-for-400m-but-it-already-returned-most-of-its-cash/",
+        "action_id": "read_9807"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "\u2022 *I finally found a wall charger than can replace my AirTag when I travel - and it works in 150 countries*\n*Twelve South - Tech accessories manufacturer.*\n_Twelve South released the PlugBug, a four-port wall charger compatible with AirTag and usable in 150 countries, trackabl..._"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Read"
+        },
+        "url": "https://www.zdnet.com/article/i-finally-found-a-wall-charger-than-can-replace-my-airtag-when-i-travel-and-it-works-in-150-countries/",
+        "action_id": "read_3846"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "_...and 3 more items_"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    }
+  ]
+}
+2025-07-24 17:22:03,338 - ai_agent - INFO - ==================================================
+2025-07-24 17:22:03,338 - ai_agent - INFO - Slack notification sent successfully
+2025-07-24 17:22:03,338 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html

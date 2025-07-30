@@ -1,0 +1,1181 @@
+{
+  "web_sources": [
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "AI",
+        "voice",
+        "conversational",
+        "sales",
+        "support",
+        "CRM",
+        "automation",
+        "UCaaS",
+        "CCaaS",
+        "cloud communications",
+        "RingCentral",
+        "8x8",
+        "Dialpad",
+        "Twilio",
+        "Zoom Phone",
+        "Microsoft Teams",
+        "Slack",
+        "CloudTalk",
+        "Ringover",
+        "Talkdesk",
+        "Kixie",
+        "OpenPhone",
+        "Five9",
+        "Zendesk",
+        "Intercom",
+        "Hubspot",
+        "Salesloft",
+        "Nooks",
+        "Orum",
+        "Attention.tech",
+        "Gong"
+      ]
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "artificial intelligence",
+        "voice technology",
+        "sales automation",
+        "customer service",
+        "conversation intelligence",
+        "RingCentral",
+        "8x8",
+        "Dialpad",
+        "Twilio",
+        "Zoom",
+        "Teams",
+        "Slack",
+        "CloudTalk",
+        "Ringover",
+        "Talkdesk",
+        "OpenPhone",
+        "Five9",
+        "contact center AI"
+      ]
+    },
+    {
+      "name": "No Jitter",
+      "url": "https://www.nojitter.com/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "unified communications",
+        "UCaaS",
+        "contact center",
+        "telephony",
+        "VoIP",
+        "WebRTC",
+        "conversation intelligence",
+        "AI voice"
+      ]
+    },
+    {
+      "name": "UC Today",
+      "url": "https://www.uctoday.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "unified communications",
+        "collaboration",
+        "contact center",
+        "cloud communications",
+        "UCaaS",
+        "conversation intelligence",
+        "voice AI"
+      ]
+    },
+    {
+      "name": "ZDNet",
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "cloud communications",
+        "enterprise software",
+        "AI",
+        "SaaS",
+        "business technology",
+        "RingCentral",
+        "8x8",
+        "Dialpad",
+        "Twilio",
+        "Zoom Phone",
+        "Microsoft Teams",
+        "Slack",
+        "UCaaS",
+        "CCaaS",
+        "conversation intelligence"
+      ]
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "AI",
+        "voice",
+        "sales",
+        "automation",
+        "SaaS",
+        "telephony",
+        "WebRTC",
+        "conversation intelligence",
+        "voice agents"
+      ]
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "funding",
+        "acquisition",
+        "SaaS",
+        "enterprise software",
+        "communication",
+        "UCaaS",
+        "CCaaS",
+        "AI telephony",
+        "voice technology"
+      ]
+    },
+    {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "AI",
+        "voice",
+        "sales",
+        "CRM",
+        "communication",
+        "productivity",
+        "SaaS",
+        "conversation intelligence",
+        "telephony",
+        "call center",
+        "customer service",
+        "voice AI",
+        "conversational AI",
+        "sales automation",
+        "contact center",
+        "voice technology",
+        "phone system",
+        "business phone",
+        "cloud communications",
+        "voice analytics",
+        "AI assistant",
+        "voice bot",
+        "speech recognition",
+        "natural language",
+        "chatbot",
+        "virtual assistant"
+      ]
+    },
+    {
+      "name": "CX Today",
+      "url": "https://www.cxtoday.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "contact center",
+        "customer experience",
+        "conversational AI",
+        "conversation intelligence",
+        "voice AI",
+        "customer service automation",
+        "CX technology"
+      ]
+    },
+    {
+      "name": "Observe.AI Blog",
+      "url": "https://www.observe.ai/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "conversation intelligence",
+        "contact center AI",
+        "real-time guidance",
+        "call analytics",
+        "customer service AI",
+        "voice analytics"
+      ]
+    },
+    {
+      "name": "Retell AI Blog",
+      "url": "https://www.retellai.com/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "AI voice agents",
+        "voice automation",
+        "conversational AI",
+        "voice technology",
+        "AI telephony",
+        "voice assistants"
+      ]
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "artificial intelligence",
+        "conversational AI",
+        "voice technology",
+        "AI assistants",
+        "speech recognition",
+        "natural language processing"
+      ]
+    },
+    {
+      "name": "Towards AI",
+      "url": "https://towardsai.net/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "artificial intelligence",
+        "machine learning",
+        "conversational AI",
+        "voice technology",
+        "NLP",
+        "speech processing"
+      ]
+    },
+    {
+      "name": "MarkTechPost",
+      "url": "https://www.marktechpost.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "artificial intelligence",
+        "machine learning",
+        "conversational AI",
+        "voice AI",
+        "speech technology",
+        "natural language processing"
+      ]
+    },
+    {
+      "name": "Gong Blog",
+      "url": "https://www.gong.io/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "conversation intelligence",
+        "sales AI",
+        "revenue intelligence",
+        "call analytics",
+        "gong"
+      ]
+    },
+    {
+      "name": "Fireflies AI Blog",
+      "url": "https://fireflies.ai/blog/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "conversation intelligence",
+        "meeting AI",
+        "voice AI",
+        "call recording",
+        "fireflies"
+      ]
+    },
+    {
+      "name": "Crayon Blog",
+      "url": "https://www.crayon.co/blog/rss.xml",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "competitive intelligence",
+        "market intelligence",
+        "competitor tracking",
+        "sales enablement",
+        "crayon"
+      ]
+    },
+    {
+      "name": "VoIP Review",
+      "url": "https://www.voipreview.org/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "voip",
+        "business phone",
+        "cloud calling",
+        "telephony",
+        "communication"
+      ]
+    },
+    {
+      "name": "CallCenterTimes",
+      "url": "https://www.callcentertimes.com/feed",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "call center",
+        "contact center",
+        "customer service",
+        "voice technology"
+      ]
+    },
+    {
+      "name": "Enterprise Communications",
+      "url": "https://www.enterprisenetworkingplanet.com/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "cloud communications",
+        "voip",
+        "contact center",
+        "business phone",
+        "conversation intelligence",
+        "sales enablement",
+        "AI voice"
+      ]
+    },
+    {
+      "name": "RingCentral Blog",
+      "url": "https://www.ringcentral.com/us/en/blog/feed/",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "unified communications",
+        "cloud communications",
+        "business phone",
+        "contact center",
+        "ringcentral",
+        "ucaas",
+        "communication platform"
+      ]
+    },
+    {
+      "name": "Google News - RingCentral",
+      "url": "https://news.google.com/rss/search?q=RingCentral&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "ringcentral",
+        "unified communications",
+        "cloud communications",
+        "business phone"
+      ]
+    },
+    {
+      "name": "Google News - Dialpad",
+      "url": "https://news.google.com/rss/search?q=Dialpad&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "dialpad",
+        "ai phone",
+        "business communications",
+        "voice intelligence"
+      ]
+    },
+    {
+      "name": "Google News - 8x8",
+      "url": "https://news.google.com/rss/search?q=8x8+communications&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "8x8",
+        "cloud communications",
+        "contact center",
+        "unified communications"
+      ]
+    },
+    {
+      "name": "Google News - Twilio",
+      "url": "https://news.google.com/rss/search?q=Twilio&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "twilio",
+        "communications api",
+        "cloud communications",
+        "customer engagement"
+      ]
+    },
+    {
+      "name": "Google News - Talkdesk",
+      "url": "https://news.google.com/rss/search?q=Talkdesk&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "talkdesk",
+        "contact center",
+        "customer service",
+        "cloud contact center"
+      ]
+    },
+    {
+      "name": "Google News - Five9",
+      "url": "https://news.google.com/rss/search?q=Five9&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "five9",
+        "contact center",
+        "cloud contact center",
+        "customer service"
+      ]
+    },
+    {
+      "name": "Google News - Zoom Phone",
+      "url": "https://news.google.com/rss/search?q=\"Zoom+Phone\"+OR+\"Zoom+Communications\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "zoom phone",
+        "zoom communications",
+        "unified communications",
+        "business phone"
+      ]
+    },
+    {
+      "name": "Google News - Genesys",
+      "url": "https://news.google.com/rss/search?q=Genesys+cloud&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "genesys",
+        "contact center",
+        "customer experience",
+        "cloud contact center"
+      ]
+    },
+    {
+      "name": "Google News - Gong",
+      "url": "https://news.google.com/rss/search?q=Gong.io+OR+\"Gong+revenue\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "gong",
+        "conversation intelligence",
+        "revenue intelligence",
+        "sales ai"
+      ]
+    },
+    {
+      "name": "Google News - Aircall Competitors",
+      "url": "https://news.google.com/rss/search?q=\"cloud+phone+system\"+OR+\"business+phone+system\"+OR+\"voice+API\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "cloud phone system",
+        "business phone system",
+        "voice api",
+        "phone system"
+      ]
+    },
+    {
+      "name": "Google News - Conversation Intelligence",
+      "url": "https://news.google.com/rss/search?q=\"conversation+intelligence\"+OR+\"call+analytics\"+OR+\"sales+call+analysis\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "conversation intelligence",
+        "call analytics",
+        "sales call analysis",
+        "voice analytics"
+      ]
+    },
+    {
+      "name": "Google News - Contact Center AI",
+      "url": "https://news.google.com/rss/search?q=\"contact+center+AI\"+OR+\"CCaaS\"+OR+\"cloud+contact+center\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "contact center ai",
+        "ccaas",
+        "cloud contact center",
+        "customer service ai"
+      ]
+    },
+    {
+      "name": "Google News - UCaaS Market",
+      "url": "https://news.google.com/rss/search?q=\"UCaaS\"+OR+\"unified+communications\"+market+OR+funding&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "ucaas",
+        "unified communications",
+        "communications market",
+        "voip market"
+      ]
+    },
+    {
+      "name": "Google News - OpenPhone & Smaller Competitors", 
+      "url": "https://news.google.com/rss/search?q=OpenPhone+OR+CloudTalk+OR+Kixie+OR+Vonage&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "openphone",
+        "cloudtalk", 
+        "kixie",
+        "vonage",
+        "small business phone"
+      ]
+    },
+    {
+      "name": "PR Newswire - Telecommunications",
+      "url": "https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "telecommunications",
+        "enterprise communications", 
+        "cloud communications",
+        "contact center",
+        "press release"
+      ]
+    },
+    {
+      "name": "SEC Filings - Major Competitors",
+      "url": "https://news.google.com/rss/search?q=\"SEC+filing\"+AND+(RingCentral+OR+Zoom+OR+Twilio+OR+Five9+OR+8x8)&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "sec filing",
+        "earnings report", 
+        "quarterly results",
+        "annual report",
+        "financial disclosure"
+      ]
+    },
+    {
+      "name": "Google News - Chorus AI",
+      "url": "https://news.google.com/rss/search?q=\"Chorus+AI\"+OR+\"ChorusAI\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "chorus ai",
+        "conversation intelligence",
+        "sales coaching",
+        "call analytics"
+      ]
+    },
+    {
+      "name": "Google News - Fathom",
+      "url": "https://news.google.com/rss/search?q=\"Fathom.video\"+OR+\"Fathom+AI\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "fathom",
+        "meeting ai",
+        "conversation intelligence",
+        "video analytics"
+      ]
+    },
+    {
+      "name": "Google News - MindTickle",
+      "url": "https://news.google.com/rss/search?q=MindTickle&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "mindtickle",
+        "sales enablement",
+        "sales coaching",
+        "conversation intelligence"
+      ]
+    },
+    {
+      "name": "Google News - Nooks AI",
+      "url": "https://news.google.com/rss/search?q=\"Nooks+AI\"+OR+\"Nooks.ai\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "nooks",
+        "sales automation",
+        "ai dialer",
+        "outbound sales"
+      ]
+    },
+    {
+      "name": "Google News - PhoneBurner",
+      "url": "https://news.google.com/rss/search?q=PhoneBurner&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "phoneburner",
+        "power dialer",
+        "sales dialer",
+        "outbound calling"
+      ]
+    },
+    {
+      "name": "Google News - Koncert",
+      "url": "https://news.google.com/rss/search?q=\"Koncert+Engage\"+OR+\"Koncert.com\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "koncert",
+        "sales engagement",
+        "multichannel outreach",
+        "sales automation"
+      ]
+    },
+    {
+      "name": "Google News - Trellus AI",
+      "url": "https://news.google.com/rss/search?q=\"Trellus+AI\"+OR+\"Trellus.ai\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "trellus",
+        "ai coaching",
+        "sales coaching",
+        "conversation ai"
+      ]
+    },
+    {
+      "name": "Google News - PowerDialer AI",
+      "url": "https://news.google.com/rss/search?q=\"PowerDialer+AI\"+OR+\"PowerDialer.ai\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "powerdialer",
+        "ai dialer",
+        "sales automation",
+        "outbound calling"
+      ]
+    },
+    {
+      "name": "Google News - CloudTalk",
+      "url": "https://news.google.com/rss/search?q=CloudTalk&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "cloudtalk",
+        "cloud phone",
+        "business phone",
+        "call center"
+      ]
+    },
+    {
+      "name": "Google News - Ringover",
+      "url": "https://news.google.com/rss/search?q=Ringover&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "ringover",
+        "cloud phone",
+        "business communications",
+        "call center"
+      ]
+    },
+    {
+      "name": "Google News - Dialer360",
+      "url": "https://news.google.com/rss/search?q=\"Dialer360\"+OR+\"Dialer+360\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "dialer360",
+        "power dialer",
+        "sales dialer",
+        "outbound calling"
+      ]
+    },
+    {
+      "name": "Google News - CallHub",
+      "url": "https://news.google.com/rss/search?q=\"CallHub\"+OR+\"CallHub.io\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "callhub",
+        "mass calling",
+        "voice broadcasting",
+        "political calling"
+      ]
+    },
+    {
+      "name": "Google News - ConnectAndSell",
+      "url": "https://news.google.com/rss/search?q=\"ConnectAndSell\"+OR+\"Connect+and+Sell\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "connectandsell",
+        "sales acceleration",
+        "conversation dialer",
+        "inside sales"
+      ]
+    },
+    {
+      "name": "Google News - Replayz",
+      "url": "https://news.google.com/rss/search?q=\"Replayz\"+OR+\"Replayz.io\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "replayz",
+        "conversation intelligence",
+        "call recording",
+        "sales analytics"
+      ]
+    },
+    {
+      "name": "Google News - People.ai",
+      "url": "https://news.google.com/rss/search?q=\"People.ai\"+OR+\"People+AI\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "people.ai",
+        "revenue intelligence",
+        "sales ai",
+        "crm analytics"
+      ]
+    },
+    {
+      "name": "Google News - Salesflare",
+      "url": "https://news.google.com/rss/search?q=Salesflare&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "salesflare",
+        "crm",
+        "sales automation",
+        "pipeline management"
+      ]
+    },
+    {
+      "name": "Google News - Acuity Sales",
+      "url": "https://news.google.com/rss/search?q=\"Acuity+Sales\"+OR+\"AcuitySales\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "acuity sales",
+        "sales intelligence",
+        "lead generation",
+        "prospecting"
+      ]
+    },
+    {
+      "name": "Google News - Oliv AI",
+      "url": "https://news.google.com/rss/search?q=\"Oliv+AI\"+OR+\"Oliv.ai\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "oliv ai",
+        "sales ai",
+        "conversation intelligence",
+        "sales assistant"
+      ]
+    },
+    {
+      "name": "Google News - LevelEleven",
+      "url": "https://news.google.com/rss/search?q=\"LevelEleven\"+OR+\"Level+Eleven\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "leveleleven",
+        "sales performance",
+        "sales coaching",
+        "activity tracking"
+      ]
+    },
+    {
+      "name": "Google News - Aircover AI",
+      "url": "https://news.google.com/rss/search?q=\"Aircover+AI\"+OR+\"Aircover.ai\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "aircover",
+        "conversation intelligence",
+        "real-time coaching",
+        "sales ai"
+      ]
+    },
+    {
+      "name": "Google News - Salesken AI",
+      "url": "https://news.google.com/rss/search?q=\"Salesken\"+OR+\"Salesken+AI\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "salesken",
+        "conversation intelligence",
+        "real-time assistance",
+        "sales ai"
+      ]
+    },
+    {
+      "name": "Google News - AI Sales Platforms",
+      "url": "https://news.google.com/rss/search?q=\"Maximus+AI\"+OR+\"Outscale.ai\"+OR+\"Cluely+AI\"+OR+\"Playbook+AI\"+OR+\"Profimatix\"+OR+\"Optimix+AI\"&hl=en-US&gl=US&ceid=US:en",
+      "type": "rss",
+      "enabled": true,
+      "keywords": [
+        "maximus ai",
+        "outscale ai", 
+        "cluely ai",
+        "playbook ai",
+        "profimatix",
+        "optimix ai",
+        "sales ai platforms"
+      ]
+    }
+  ],
+  "twitter_usernames": [
+    "aircall",
+    "dialpad",
+    "CloudTalk_io",
+    "RingoverApp",
+    "RingCentral",
+    "talkdesk",
+    "KixieCom",
+    "OpenPhone",
+    "Zoom",
+    "8x8",
+    "MicrosoftTeams",
+    "Five9",
+    "Gong_io",
+    "triplesession",
+    "chorus_ai",
+    "CrestaAI",
+    "ObserveAI",
+    "TheLevelAI",
+    "klausapp",
+    "nooxio",
+    "AttentionTech",
+    "OrumHQ",
+    "Zendesk",
+    "intercom",
+    "HubSpot",
+    "Salesloft",
+    "Nooks_ai",
+    "twilio",
+    "SlackHQ",
+    "openai",
+    "TechCrunch",
+    "VentureBeat",
+    "ForbesTech",
+    "ProductHunt",
+    "ycombinator",
+    "GongInc",
+    "ChorusAI",
+    "fathom_video",
+    "MindTickle",
+    "nooks_ai",
+    "PhoneBurner",
+    "KoncertEngage",
+    "trellus_ai",
+    "PowerDialerAI",
+    "ringover_app",
+    "Dialer360",
+    "CallHubIO",
+    "ConnectAndSell",
+    "fireflies_ai",
+    "ReplayzHQ",
+    "people_ai",
+    "salesflare",
+    "AcuitySales",
+    "OlivAI",
+    "LevelEleven",
+    "crayon_co",
+    "aircoverai",
+    "SaleskenAI",
+    "MaximusAI",
+    "OutscaleAI",
+    "CluelyAI",
+    "PlaybookAI",
+    "Profimatix",
+    "OptimixAI"
+  ],
+  "categories": [
+    {
+      "name": "Competitor Intelligence",
+      "keywords": [
+        "aircall",
+        "dialpad",
+        "cloudtalk",
+        "ringover",
+        "ringcentral",
+        "talkdesk",
+        "kixie",
+        "openphone",
+        "8x8",
+        "vonage",
+        "twilio",
+        "five9",
+        "genesys",
+        "zoom phone",
+        "microsoft teams",
+        "zendesk",
+        "intercom",
+        "hubspot",
+        "salesloft",
+        "nooks",
+        "orum",
+        "attention.tech",
+        "gong",
+        "triple session",
+        "triplesession",
+        "chorus.ai",
+        "cresta",
+        "observe.ai",
+        "level ai",
+        "klausapp",
+        "noox",
+        "cloud phone",
+        "voip",
+        "business phone",
+        "phone system",
+        "call center software",
+        "contact center",
+        "competitor",
+        "funding",
+        "acquisition",
+        "partnership",
+        "product launch",
+        "feature update",
+        "integration",
+        "api",
+        "series a",
+        "series b",
+        "seed funding",
+        "ipo"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "Conversation Intelligence & Real-Time Assistance",
+      "keywords": [
+        "conversation intelligence",
+        "real-time assistance",
+        "sales enablement",
+        "gong",
+        "attention.tech",
+        "modjo",
+        "chorus.ai",
+        "wingman",
+        "execvision",
+        "refract",
+        "avoma",
+        "balto",
+        "observe.ai",
+        "cogito",
+        "cresta",
+        "liveperson",
+        "uniphore",
+        "call coaching",
+        "sales coaching",
+        "call analytics",
+        "conversation analytics",
+        "real-time guidance",
+        "voice analytics",
+        "sentiment analysis",
+        "call scoring",
+        "performance insights",
+        "automated call scoring",
+        "ai-powered conversation analytics",
+        "custom vocabulary",
+        "entity recognition",
+        "virtual agents",
+        "handoff capabilities",
+        "crm integration",
+        "trend reporting",
+        "triple session",
+        "level ai",
+        "klausapp",
+        "noox"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "AI Voice Technology",
+      "keywords": [
+        "voice AI",
+        "conversational AI",
+        "voice assistant",
+        "speech recognition",
+        "voice automation",
+        "AI calling",
+        "voice bot",
+        "speech synthesis",
+        "real-time voice",
+        "voice analytics",
+        "call intelligence",
+        "NLP",
+        "natural language processing",
+        "voice biometrics",
+        "AI voice agents",
+        "voice technology",
+        "speech-to-text",
+        "text-to-speech",
+        "voice cloning",
+        "AI telephony",
+        "intelligent voice routing",
+        "voice authentication"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "UCaaS & Cloud Communications",
+      "keywords": [
+        "UCaaS",
+        "unified communications",
+        "cloud communications",
+        "VoIP",
+        "SIP",
+        "WebRTC",
+        "communication platform",
+        "telephony",
+        "video conferencing",
+        "messaging",
+        "collaboration tools",
+        "CPaaS",
+        "communication APIs"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Contact Center & Customer Support",
+      "keywords": [
+        "contact center",
+        "call center",
+        "CCaaS",
+        "customer support",
+        "customer service",
+        "support automation",
+        "customer experience",
+        "CX",
+        "omnichannel",
+        "workforce management",
+        "quality management",
+        "agent assistance"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Sales & CRM Technology",
+      "keywords": [
+        "sales automation",
+        "CRM",
+        "customer intelligence",
+        "sales AI",
+        "sales tools",
+        "customer success",
+        "sales enablement",
+        "revenue operations",
+        "sales engagement",
+        "lead generation",
+        "pipeline management",
+        "sales productivity",
+        "revenue intelligence",
+        "sales forecasting",
+        "deal intelligence",
+        "sales performance",
+        "customer relationship management"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Regulatory & Compliance",
+      "keywords": [
+        "FCC",
+        "ETSI",
+        "IETF",
+        "regulation",
+        "compliance",
+        "data privacy",
+        "GDPR",
+        "CCPA",
+        "telecommunications law",
+        "VoIP regulation",
+        "call recording compliance",
+        "data protection"
+      ],
+      "priority": 3
+    },
+    {
+      "name": "Feature & Product Updates",
+      "keywords": [
+        "real-time agent assistance",
+        "automated call scoring",
+        "call coaching",
+        "ai-powered conversation analytics",
+        "custom vocabulary",
+        "entity recognition",
+        "virtual agents",
+        "handoff capabilities",
+        "crm integration",
+        "sentiment analysis",
+        "trend reporting",
+        "sales enablement",
+        "coaching features",
+        "product update",
+        "new feature",
+        "beta launch",
+        "feature release",
+        "integration update",
+        "api enhancement",
+        "dashboard update",
+        "analytics improvement"
+      ],
+      "priority": 1
+    },
+    {
+      "name": "Emerging Products & Startups",
+      "keywords": [
+        "y combinator",
+        "demo day",
+        "startup launch",
+        "seed funding",
+        "pre-seed",
+        "product hunt launch",
+        "stealth startup",
+        "new entrant",
+        "disruptive technology",
+        "innovative solution",
+        "ai startup",
+        "voice tech startup",
+        "conversation ai startup",
+        "contact center startup",
+        "sales tech startup",
+        "emerging competitor",
+        "new player",
+        "market entrant",
+        "technology breakthrough"
+      ],
+      "priority": 2
+    },
+    {
+      "name": "Industry Analysis & Reports",
+      "keywords": [
+        "gartner",
+        "forrester",
+        "market research",
+        "industry report",
+        "analyst",
+        "magic quadrant",
+        "wave report",
+        "market trends",
+        "industry analysis",
+        "competitive landscape",
+        "market share"
+      ],
+      "priority": 3
+    }
+  ],
+  "max_items_per_source": 50,
+  "relevance_threshold": 0.0,
+  "summary_max_length": 300,
+  "run_interval_hours": 168,
+  "output_format": "slack",
+  "email_recipients": [],
+  "state_file": "agent_state.json"
+}

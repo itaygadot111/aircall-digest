@@ -1,0 +1,200 @@
+2025-07-19 10:30:28,267 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-19 10:31:28,053 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-19 10:31:28,053 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-19 10:31:28,053 - ai_agent - INFO - Fetching content since: 2025-07-17 20:02:59.568142
+2025-07-19 10:31:28,251 - ai_agent - INFO - Fetched 17 items from TechCrunch
+2025-07-19 10:31:28,374 - ai_agent - INFO - Fetched 5 items from VentureBeat
+2025-07-19 10:31:29,039 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-19 10:31:29,261 - ai_agent - INFO - Fetched 3 items from UC Today
+2025-07-19 10:31:29,454 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-19 10:31:29,586 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-19 10:31:29,914 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-19 10:31:30,011 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-19 10:31:30,325 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-19 10:31:30,326 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-19 10:32:00,467 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:32:00,467 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-19 10:32:30,608 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:32:30,609 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-19 10:32:30,609 - ai_agent - INFO - Total items fetched: 23
+2025-07-19 10:32:30,610 - ai_agent - INFO - Processing 23 content items...
+2025-07-19 10:32:31,016 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:32:31,018 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:32:32,020 - ai_agent - INFO - Processed 2 relevant items
+2025-07-19 10:32:32,022 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-19 10:32:32,051 - ai_agent - INFO - Digest saved to digest.html
+2025-07-19 10:32:32,064 - ai_agent - INFO - No email recipients configured
+2025-07-19 10:32:32,064 - ai_agent - INFO - Slack notification prepared:
+2025-07-19 10:32:32,064 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 2 total items
+• 1 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+
+2025-07-19 10:32:32,064 - ai_agent - INFO - Slack notification sent successfully
+2025-07-19 10:32:32,065 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-19 10:41:06,224 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-19 10:41:06,224 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-19 10:41:06,225 - ai_agent - INFO - Fetching content since: 2025-07-19 10:32:32.021022
+2025-07-19 10:41:06,310 - ai_agent - INFO - Fetched 1 items from TechCrunch
+2025-07-19 10:41:06,416 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-19 10:41:07,032 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-19 10:41:07,220 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-19 10:41:07,396 - ai_agent - INFO - Fetched 1 items from ZDNet
+2025-07-19 10:41:07,503 - ai_agent - INFO - Fetched 4 items from Hacker News
+2025-07-19 10:41:07,835 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-19 10:41:07,935 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-19 10:41:08,075 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:41:08,075 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-19 10:41:38,139 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:41:38,140 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-19 10:42:08,220 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:42:08,221 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-19 10:42:08,221 - ai_agent - INFO - Total items fetched: 1
+2025-07-19 10:42:08,221 - ai_agent - INFO - Processing 1 content items...
+2025-07-19 10:42:08,222 - ai_agent - INFO - Processed 0 relevant items
+2025-07-19 10:42:08,222 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-19 10:42:08,244 - ai_agent - INFO - Digest saved to digest.html
+2025-07-19 10:42:08,255 - ai_agent - INFO - No email recipients configured
+2025-07-19 10:42:08,255 - ai_agent - INFO - Slack notification prepared:
+2025-07-19 10:42:08,255 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-19 10:42:08,255 - ai_agent - INFO - Slack notification sent successfully
+2025-07-19 10:42:08,255 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-19 10:47:06,228 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-19 10:47:06,229 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-19 10:47:06,229 - ai_agent - INFO - Fetching content since: 2025-07-12 10:47:06.229265
+2025-07-19 10:47:06,281 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-19 10:47:06,348 - ai_agent - INFO - Fetched 23 items from VentureBeat
+2025-07-19 10:47:06,946 - ai_agent - INFO - Fetched 10 items from No Jitter
+2025-07-19 10:47:07,213 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-19 10:47:07,382 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-19 10:47:07,470 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-19 10:47:07,599 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-19 10:47:07,666 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-19 10:47:07,980 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-19 10:47:07,980 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-19 10:47:38,155 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:47:38,156 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-19 10:48:08,325 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:48:08,326 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-19 10:48:08,326 - ai_agent - INFO - Total items fetched: 33
+2025-07-19 10:48:08,327 - ai_agent - INFO - Processing 33 content items...
+2025-07-19 10:48:08,780 - ai_agent - ERROR - Error generating summary for item Vonage, AWS Unite to Humanise Voice AI—How Will This Tangibly Help IT Leaders?: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:48:08,780 - ai_agent - ERROR - Error generating summary for item Creating a 360° Digital Experience with Nectar DXP: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:48:08,782 - ai_agent - ERROR - Error generating summary for item How To Integrate Microsoft Teams Phone and the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:48:08,793 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:48:08,860 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:48:09,861 - ai_agent - INFO - Processed 5 relevant items
+2025-07-19 10:48:09,862 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-19 10:48:41,675 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-19 10:48:41,676 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-19 10:48:41,676 - ai_agent - INFO - Fetching content since: 2025-07-12 10:48:41.676301
+2025-07-19 10:48:41,733 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-19 10:48:41,831 - ai_agent - INFO - Fetched 23 items from VentureBeat
+2025-07-19 10:48:42,740 - ai_agent - INFO - Fetched 10 items from No Jitter
+2025-07-19 10:48:42,954 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-19 10:48:43,122 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-19 10:48:43,241 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-19 10:48:43,536 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-19 10:48:43,658 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-19 10:48:43,757 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:48:43,758 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-19 10:49:13,826 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:49:13,827 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-19 10:49:43,887 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:49:43,887 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-19 10:49:43,888 - ai_agent - INFO - Total items fetched: 31
+2025-07-19 10:49:43,888 - ai_agent - INFO - Processing 31 content items...
+2025-07-19 10:49:44,177 - ai_agent - ERROR - Error generating summary for item How To Integrate Microsoft Teams Phone and the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:49:44,199 - ai_agent - ERROR - Error generating summary for item Vonage, AWS Unite to Humanise Voice AI—How Will This Tangibly Help IT Leaders?: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:49:44,227 - ai_agent - ERROR - Error generating summary for item Creating a 360° Digital Experience with Nectar DXP: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:49:45,228 - ai_agent - INFO - Processed 3 relevant items
+2025-07-19 10:49:45,229 - ai_agent - INFO - Agent run completed. Generated digest with 3 items
+2025-07-19 10:49:45,254 - ai_agent - INFO - Digest saved to digest.html
+2025-07-19 10:49:45,265 - ai_agent - INFO - No email recipients configured
+2025-07-19 10:49:45,265 - ai_agent - INFO - Slack notification prepared:
+2025-07-19 10:49:45,265 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 3 total items
+• 2 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+• AI Voice Technology: 1 items
+
+2025-07-19 10:49:45,265 - ai_agent - INFO - Slack notification sent successfully
+2025-07-19 10:49:45,265 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-19 10:52:37,574 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-19 10:52:37,574 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-19 10:52:37,574 - ai_agent - INFO - Fetching content since: 2025-06-19 10:52:37.574475
+2025-07-19 10:52:37,677 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-19 10:52:37,749 - ai_agent - INFO - Fetched 26 items from VentureBeat
+2025-07-19 10:52:38,125 - ai_agent - INFO - Fetched 30 items from No Jitter
+2025-07-19 10:52:38,328 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-19 10:52:38,483 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-19 10:52:38,572 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-19 10:52:38,898 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-19 10:52:38,959 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-19 10:52:39,120 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:52:39,121 - ai_agent - INFO - Waiting 30 seconds before fetching @RingCentral to avoid rate limits...
+2025-07-19 10:53:09,185 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:53:09,186 - ai_agent - INFO - Waiting 30 seconds before fetching @dialpad to avoid rate limits...
+2025-07-19 10:53:39,252 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-19 10:53:39,252 - ai_agent - INFO - Successfully fetched from 3 Twitter accounts
+2025-07-19 10:53:39,253 - ai_agent - INFO - Total items fetched: 34
+2025-07-19 10:53:39,253 - ai_agent - INFO - Processing 34 content items...
+2025-07-19 10:53:39,550 - ai_agent - ERROR - Error generating summary for item New Five9 CX Report Highlights Multifaceted AI Uses: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:39,556 - ai_agent - ERROR - Error generating summary for item Creating a 360° Digital Experience with Nectar DXP: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:39,560 - ai_agent - ERROR - Error generating summary for item No Jitter Roll: AVOXI, Talkdesk and 8x8 Launch Products for the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:39,601 - ai_agent - ERROR - Error generating summary for item Contact Centers Confront Competing Priorities – and the AI Wolf at the Door: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:39,605 - ai_agent - ERROR - Error generating summary for item Vonage, AWS Unite to Humanise Voice AI—How Will This Tangibly Help IT Leaders?: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:39,631 - ai_agent - ERROR - Error generating summary for item How To Integrate Microsoft Teams Phone and the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-19 10:53:40,633 - ai_agent - INFO - Processed 6 relevant items
+2025-07-19 10:53:40,634 - ai_agent - INFO - Agent run completed. Generated digest with 6 items
+2025-07-19 10:53:40,660 - ai_agent - INFO - Digest saved to digest.html
+2025-07-19 10:53:40,671 - ai_agent - INFO - No email recipients configured
+2025-07-19 10:53:40,671 - ai_agent - INFO - Slack notification prepared:
+2025-07-19 10:53:40,671 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 6 total items
+• 2 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 5 items
+• AI Voice Technology: 1 items
+
+2025-07-19 10:53:40,671 - ai_agent - INFO - Slack notification sent successfully
+2025-07-19 10:53:40,671 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html

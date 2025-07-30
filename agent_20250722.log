@@ -1,0 +1,2092 @@
+2025-07-22 12:13:35,111 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:13:35,118 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:13:35,125 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:13:35,132 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:13:35,132 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 12:13:35,132 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 12:13:35,133 - ai_agent - INFO - Fetching content since: 2025-06-22 12:13:35.133245
+2025-07-22 12:13:35,236 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 12:13:35,361 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 12:13:36,062 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 12:13:36,398 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 12:13:36,595 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 12:13:36,790 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 12:13:37,163 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 12:13:37,276 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 12:13:38,010 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 12:13:38,304 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 12:13:38,628 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 12:13:38,952 - ai_agent - INFO - Fetched 18 items from OpenAI Blog
+2025-07-22 12:13:42,009 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 12:13:42,256 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 12:13:42,545 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 12:13:43,281 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 12:13:43,472 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 12:13:43,603 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 12:13:43,813 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 12:13:44,181 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 12:13:44,181 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 12:13:44,613 - ai_agent - INFO - Fetched 5 tweets from @aircall
+2025-07-22 12:13:44,613 - ai_agent - INFO - ✅ @aircall: 5 tweets
+2025-07-22 12:13:45,819 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:13:45,820 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 12:13:46,984 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:13:46,984 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 12:13:48,064 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:13:48,064 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 12:13:49,135 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:13:49,135 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 12:13:49,135 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 12:13:49,136 - ai_agent - INFO - Total items fetched: 5
+2025-07-22 12:13:49,138 - ai_agent - INFO - Processing 5 items with LangChain enhancement...
+2025-07-22 12:13:49,138 - ai_agent - INFO - Processing 5 content items...
+2025-07-22 12:13:51,052 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:51,461 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:52,152 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:53,164 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:53,180 - ai_agent - ERROR - Error generating summary for item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:54,182 - ai_agent - INFO - Processed 5 relevant items
+2025-07-22 12:13:56,528 - ai_agent - ERROR - Semantic categorization failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:13:58,184 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:00,794 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:03,589 - ai_agent - ERROR - Failed to analyze item @aircall tweet: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:04,591 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 12:14:06,184 - ai_agent - ERROR - Trend analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:06,185 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 12:14:06,185 - ai_agent - INFO - Starting multi-agent analysis with 5 items...
+2025-07-22 12:14:07,661 - ai_agent - ERROR - Product intelligence analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:07,662 - ai_agent - INFO - product_intelligence analyzed 5 items
+2025-07-22 12:14:07,662 - ai_agent - INFO - market_analysis analyzed 1 items
+2025-07-22 12:14:07,873 - ai_agent - ERROR - Technology trends analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-22 12:14:07,874 - ai_agent - INFO - technology_trends analyzed 5 items
+2025-07-22 12:14:07,874 - ai_agent - ERROR - Cross-agent synthesis failed: 'list' object has no attribute 'items'
+2025-07-22 12:14:07,876 - ai_agent - INFO - Agent run completed. Generated digest with 5 items
+2025-07-22 12:14:07,895 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 12:14:07,902 - ai_agent - INFO - No email recipients configured
+2025-07-22 12:14:07,902 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 12:14:07,902 - ai_agent - INFO - ==================================================
+2025-07-22 12:14:07,902 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *@aircall tweet*
+  _Save the date: Aircall Summit 2025
+📅 Sept 17, 2025
+
+AI is rapidly transforming customer communicatio..._
+  <https://twitter.com/aircall/status/1947657886693527676|Read more>
+
+• *@aircall tweet*
+  _Aircall Ascend 2025 in Paris brought together channel partners from across EMEA to connect, innovate..._
+  <https://twitter.com/aircall/status/1945145515542299025|Read more>
+
+• *@aircall tweet*
+  _Most businesses overlook a major performance gap: disconnected communication systems.
+
+In our new bl..._
+  <https://twitter.com/aircall/status/1944769738640609395|Read more>
+
+2025-07-22 12:14:07,902 - ai_agent - INFO - ==================================================
+2025-07-22 12:14:07,902 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 12:14:07,902 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 12:24:02,622 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:24:02,628 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:24:02,634 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:24:02,640 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:24:02,640 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 12:24:02,640 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 12:24:02,641 - ai_agent - INFO - Fetching content since: 2025-06-22 12:24:02.641139
+2025-07-22 12:24:02,726 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 12:24:02,816 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 12:24:03,303 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 12:24:03,499 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 12:24:03,760 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 12:24:03,879 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 12:24:04,197 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 12:24:04,295 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 12:24:04,817 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 12:24:04,983 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 12:24:05,125 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 12:24:05,379 - ai_agent - INFO - Fetched 18 items from OpenAI Blog
+2025-07-22 12:24:08,621 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 12:24:08,783 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 12:24:08,975 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 12:24:09,551 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 12:24:09,724 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 12:24:09,831 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 12:24:10,002 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 12:24:10,266 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 12:24:10,267 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 12:24:10,418 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:24:10,419 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 12:24:10,495 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:24:10,496 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 12:24:10,567 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:24:10,568 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 12:24:10,628 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:24:10,628 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 12:24:10,702 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:24:10,703 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 12:24:10,703 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 12:24:10,703 - ai_agent - INFO - Total items fetched: 0
+2025-07-22 12:24:10,705 - ai_agent - WARNING - No content items fetched
+2025-07-22 12:24:10,724 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 12:24:10,733 - ai_agent - INFO - No email recipients configured
+2025-07-22 12:24:10,733 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 12:24:10,733 - ai_agent - INFO - ==================================================
+2025-07-22 12:24:10,733 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+2025-07-22 12:24:10,733 - ai_agent - INFO - ==================================================
+2025-07-22 12:24:10,733 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 12:24:10,733 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 12:46:47,311 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:46:47,318 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:46:47,324 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:46:47,330 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:46:47,330 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 12:46:47,331 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 12:46:47,331 - ai_agent - INFO - Fetching content since: 2025-06-22 12:46:47.331287
+2025-07-22 12:46:47,410 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 12:46:47,496 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 12:46:48,190 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 12:46:48,386 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 12:46:48,542 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 12:46:48,686 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 12:46:49,004 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 12:46:49,078 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 12:46:49,681 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 12:46:49,833 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 12:46:49,969 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 12:46:50,255 - ai_agent - INFO - Fetched 19 items from OpenAI Blog
+2025-07-22 12:46:53,472 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 12:46:53,664 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 12:46:53,927 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 12:46:54,742 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 12:46:54,938 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 12:46:55,040 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 12:46:55,557 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 12:46:56,221 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 12:46:56,221 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 12:46:56,850 - ai_agent - INFO - Fetched 5 tweets from @aircall
+2025-07-22 12:46:56,850 - ai_agent - INFO - ✅ @aircall: 5 tweets
+2025-07-22 12:46:58,016 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:46:58,016 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 12:46:59,176 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:46:59,176 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 12:47:00,239 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:47:00,239 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 12:47:01,326 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:47:01,326 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 12:47:01,326 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 12:47:01,326 - ai_agent - INFO - Total items fetched: 5
+2025-07-22 12:47:01,328 - ai_agent - INFO - Processing 5 items with LangChain enhancement...
+2025-07-22 12:47:01,328 - ai_agent - INFO - Processing 5 content items...
+2025-07-22 12:47:04,375 - ai_agent - INFO - Processed 5 relevant items
+2025-07-22 12:47:06,860 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 12:47:13,514 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 12:47:18,328 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 12:47:18,329 - ai_agent - INFO - Starting multi-agent analysis with 5 items...
+2025-07-22 12:47:20,536 - ai_agent - INFO - product_intelligence analyzed 3 items
+2025-07-22 12:47:20,536 - ai_agent - INFO - market_analysis analyzed 1 items
+2025-07-22 12:47:20,536 - ai_agent - INFO - technology_trends analyzed 5 items
+2025-07-22 12:47:20,536 - ai_agent - ERROR - Cross-agent synthesis failed: 'list' object has no attribute 'items'
+2025-07-22 12:47:20,538 - ai_agent - INFO - Agent run completed. Generated digest with 5 items
+2025-07-22 12:47:20,562 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 12:47:20,569 - ai_agent - INFO - No email recipients configured
+2025-07-22 12:47:20,569 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 12:47:20,569 - ai_agent - INFO - ==================================================
+2025-07-22 12:47:20,569 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+🤖 *Product Intelligence:*
+• Aircall Summit 2025: A free summit focusing on how AI is transforming customer communications.
+• Aircall Ascend 2025: An event in Paris for channel partners to connect and plan the future of voice communications.
+
+🤖 *Technology Trends:*
+• AI-powered systems for communication
+• Integration of AI to enhance customer experiences
+
+📰 *Key Updates:*
+• *@aircall tweet*
+  _Aircall announces Aircall Summit 2025 on Sept 17, 2025, focusing on AI in customer communications. A..._
+  <https://twitter.com/aircall/status/1947657886693527676|Read more>
+
+• *@aircall tweet*
+  _Aircall Ascend 2025 in Paris gathered EMEA channel partners to discuss the future of voice communica..._
+  <https://twitter.com/aircall/status/1945145515542299025|Read more>
+
+• *@aircall tweet*
+  _Aircall CEO discusses benefits of integrated, AI-powered systems for improving communication and pro..._
+  <https://twitter.com/aircall/status/1944769738640609395|Read more>
+
+2025-07-22 12:47:20,569 - ai_agent - INFO - ==================================================
+2025-07-22 12:47:20,569 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 12:47:20,569 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 12:59:44,713 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:44,719 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:44,725 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:44,731 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:44,732 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-22 12:59:51,008 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:51,014 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:51,021 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:51,027 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 12:59:51,027 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 12:59:51,027 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 12:59:51,027 - ai_agent - INFO - Fetching content since: 2025-06-22 12:59:51.027954
+2025-07-22 12:59:51,105 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 12:59:51,192 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 12:59:51,806 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 12:59:52,158 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 12:59:52,317 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 12:59:52,419 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 12:59:52,726 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 12:59:52,801 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 12:59:53,363 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 12:59:53,501 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 12:59:53,665 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 12:59:53,915 - ai_agent - INFO - Fetched 19 items from OpenAI Blog
+2025-07-22 12:59:56,963 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 12:59:57,161 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 12:59:57,443 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 12:59:58,303 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 12:59:58,459 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 12:59:58,545 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 12:59:58,711 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 12:59:58,945 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 12:59:58,945 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 12:59:59,065 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:59:59,065 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 12:59:59,116 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:59:59,116 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 12:59:59,183 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:59:59,183 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 12:59:59,249 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:59:59,250 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 12:59:59,315 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 12:59:59,315 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 12:59:59,315 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 12:59:59,315 - ai_agent - INFO - Total items fetched: 0
+2025-07-22 12:59:59,317 - ai_agent - WARNING - No content items fetched
+2025-07-22 12:59:59,330 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 12:59:59,334 - ai_agent - INFO - No email recipients configured
+2025-07-22 12:59:59,334 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 12:59:59,335 - ai_agent - INFO - ==================================================
+2025-07-22 12:59:59,335 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+2025-07-22 12:59:59,335 - ai_agent - INFO - ==================================================
+2025-07-22 12:59:59,335 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 12:59:59,335 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 13:01:06,299 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:01:06,306 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:01:06,312 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:01:06,319 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:01:06,319 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:01:06,319 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:01:06,319 - ai_agent - INFO - Fetching content since: 2025-06-22 13:01:06.319855
+2025-07-22 13:01:06,387 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:01:06,436 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 13:01:07,120 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 13:01:07,291 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 13:01:07,419 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:01:07,507 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:01:07,768 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:01:07,846 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:01:08,280 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 13:01:08,399 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:01:08,494 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:01:08,744 - ai_agent - INFO - Fetched 19 items from OpenAI Blog
+2025-07-22 13:01:12,222 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 13:01:12,434 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 13:01:12,579 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 13:01:13,074 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 13:01:13,176 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 13:01:13,228 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:01:13,338 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:01:13,573 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:01:13,573 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:01:13,683 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:01:13,683 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 13:01:13,739 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:01:13,740 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:01:13,810 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:01:13,811 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:01:13,876 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:01:13,876 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:01:13,946 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:01:13,946 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:01:13,946 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 13:01:13,946 - ai_agent - INFO - Total items fetched: 58
+2025-07-22 13:01:13,948 - ai_agent - INFO - Processing 58 items with LangChain enhancement...
+2025-07-22 13:01:13,949 - ai_agent - INFO - Processing 58 content items...
+2025-07-22 13:01:30,890 - ai_agent - INFO - Processed 55 relevant items
+2025-07-22 13:01:53,950 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:01:56,397 - ai_agent - INFO - Competitive analysis completed for 1 items
+2025-07-22 13:01:59,693 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:01:59,694 - ai_agent - INFO - Agent run completed. Generated digest with 55 items
+2025-07-22 13:01:59,710 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 13:01:59,715 - ai_agent - INFO - No email recipients configured
+2025-07-22 13:01:59,715 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 13:01:59,715 - ai_agent - INFO - ==================================================
+2025-07-22 13:01:59,715 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _Five9's new CX report showcases diverse AI applications in contact centers, while highlighting key o..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *24 Use Cases for AI in Unified Comms and Collaboration*
+  _AI in unified communications and collaboration is becoming increasingly important as remote work bec..._
+  <https://www.uctoday.com/unified-communications/24-use-cases-for-ai-in-unified-comms-and-collaboration/|Read more>
+
+• *Fireflies MCP Server: Connect Your AI Tools Directly to Your Meeting Data*
+  _Fireflies MCP Server allows seamless integration of AI tools with meeting data for advanced analytic..._
+  <https://fireflies.ai/blog/fireflies-mcp-server/|Read more>
+
+2025-07-22 13:01:59,715 - ai_agent - INFO - ==================================================
+2025-07-22 13:01:59,715 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 13:01:59,715 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 13:17:54,794 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:17:54,800 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:17:54,806 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:17:54,812 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:17:54,812 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:17:54,813 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:17:54,813 - ai_agent - INFO - Fetching content since: 2025-06-22 13:17:54.813362
+2025-07-22 13:17:54,888 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:17:54,962 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 13:17:55,459 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 13:17:55,755 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 13:17:55,921 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:17:56,028 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:17:56,350 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:17:56,423 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:17:56,932 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 13:17:57,094 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:17:57,222 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:17:57,478 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 13:18:00,472 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 13:18:00,686 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 13:18:00,914 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 13:18:01,491 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 13:18:01,682 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 13:18:01,776 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:18:01,934 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:18:02,207 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:18:02,207 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:18:02,521 - ai_agent - INFO - Fetched 5 tweets from @aircall
+2025-07-22 13:18:02,522 - ai_agent - INFO - ✅ @aircall: 5 tweets
+2025-07-22 13:18:03,699 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:18:03,699 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:18:04,864 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:18:04,864 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:18:05,934 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:18:05,934 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:18:07,323 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:18:07,324 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:18:07,324 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 13:18:07,324 - ai_agent - INFO - Total items fetched: 63
+2025-07-22 13:18:07,325 - ai_agent - INFO - Processing 63 items with LangChain enhancement...
+2025-07-22 13:18:07,325 - ai_agent - INFO - Processing 63 content items...
+2025-07-22 13:18:23,295 - ai_agent - INFO - Processed 37 relevant items
+2025-07-22 13:18:36,779 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:18:45,228 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 13:18:47,780 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:18:47,782 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-22 13:19:05,886 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:19:05,892 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:19:05,898 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:19:05,905 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:19:05,905 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:19:05,905 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:19:05,905 - ai_agent - INFO - Fetching content since: 2025-06-22 13:19:05.905263
+2025-07-22 13:19:05,946 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:19:05,994 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 13:19:06,721 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 13:19:06,926 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 13:19:07,059 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:19:07,139 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:19:07,403 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:19:07,465 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:19:07,920 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 13:19:08,012 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:19:08,115 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:19:08,606 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 13:19:11,770 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 13:19:11,919 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 13:19:12,820 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 13:19:13,339 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 13:19:13,426 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 13:19:13,468 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:19:13,565 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:19:13,821 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:19:13,821 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:19:13,926 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:19:13,926 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 13:19:13,977 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:19:13,977 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:19:14,029 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:19:14,030 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:19:14,083 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:19:14,083 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:19:14,166 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:19:14,166 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:19:14,166 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 13:19:14,166 - ai_agent - INFO - Total items fetched: 58
+2025-07-22 13:19:14,168 - ai_agent - INFO - Processing 58 items with LangChain enhancement...
+2025-07-22 13:19:14,168 - ai_agent - INFO - Processing 58 content items...
+2025-07-22 13:19:22,798 - ai_agent - INFO - Processed 33 relevant items
+2025-07-22 13:19:32,768 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:19:35,595 - ai_agent - INFO - Competitive analysis completed for 1 items
+2025-07-22 13:19:39,645 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:19:39,648 - ai_agent - INFO - Agent run completed. Generated digest with 33 items
+2025-07-22 13:19:39,662 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 13:19:39,667 - ai_agent - INFO - No email recipients configured
+2025-07-22 13:19:39,667 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 13:19:39,667 - ai_agent - INFO - ==================================================
+2025-07-22 13:19:39,667 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _Five9 released a new CX report highlighting multifaceted AI uses in contact centers and identified t..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *24 Use Cases for AI in Unified Comms and Collaboration*
+  _"Companies are increasingly utilizing AI in unified communications and collaboration, with 24 identi..._
+  <https://www.uctoday.com/unified-communications/24-use-cases-for-ai-in-unified-comms-and-collaboration/|Read more>
+
+• *Fireflies MCP Server: Connect Your AI Tools Directly to Your Meeting Data*
+  _Fireflies launched a new MCP Server that allows users to connect AI tools directly to meeting data f..._
+  <https://fireflies.ai/blog/fireflies-mcp-server/|Read more>
+
+2025-07-22 13:19:39,668 - ai_agent - INFO - ==================================================
+2025-07-22 13:19:39,668 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 13:19:39,668 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 13:24:52,847 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:24:52,853 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:24:52,859 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:24:52,866 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:24:52,866 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:24:52,866 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:24:52,866 - ai_agent - INFO - Fetching content since: 2025-07-21 13:24:52.866245
+2025-07-22 13:24:52,946 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:24:53,032 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-22 13:24:53,658 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-22 13:24:53,914 - ai_agent - INFO - Fetched 6 items from UC Today
+2025-07-22 13:24:54,057 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:24:54,144 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:24:54,525 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:24:54,615 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:24:55,216 - ai_agent - INFO - Fetched 4 items from CX Today
+2025-07-22 13:24:55,435 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:24:55,549 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:24:55,782 - ai_agent - INFO - Fetched 3 items from OpenAI Blog
+2025-07-22 13:24:58,747 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 13:24:58,930 - ai_agent - INFO - Fetched 4 items from MarkTechPost
+2025-07-22 13:24:59,125 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 13:24:59,663 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 13:24:59,794 - ai_agent - INFO - Fetched 1 items from Crayon Blog
+2025-07-22 13:24:59,906 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:25:00,049 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:25:00,313 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:25:00,313 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:25:00,438 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:25:00,438 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 13:25:00,503 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:25:00,503 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:25:00,575 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:25:00,575 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:25:00,636 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:25:00,636 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:25:00,712 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:25:00,713 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:25:00,713 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 13:25:00,713 - ai_agent - INFO - Total items fetched: 34
+2025-07-22 13:25:00,720 - ai_agent - INFO - Processing 34 items with LangChain enhancement...
+2025-07-22 13:25:00,720 - ai_agent - INFO - Processing 34 content items...
+2025-07-22 13:25:04,848 - ai_agent - INFO - Processed 13 relevant items
+2025-07-22 13:25:09,322 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:25:09,324 - ai_agent - INFO - Competitive analysis completed for 0 items
+2025-07-22 13:25:10,828 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:25:10,829 - ai_agent - INFO - Agent run completed. Generated digest with 13 items
+2025-07-22 13:25:10,841 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 13:25:10,845 - ai_agent - INFO - No email recipients configured
+2025-07-22 13:25:10,845 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 13:25:10,846 - ai_agent - INFO - ==================================================
+2025-07-22 13:25:10,846 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *Instead of selling to Meta, AI chip startup FuriosaAI signed a huge customer*
+  _FuriosaAI partnered with LG AI Research to supply its AI chip, RNGD, to enterprises using the EXAONE..._
+  <https://techcrunch.com/2025/07/21/instead-of-selling-to-meta-ai-chip-startup-furiosaai-signed-a-huge-customer/|Read more>
+
+• *AI Tools For Your Go-To-Market Team [Webinar Recap]*
+  _"Crayon hosted a webinar discussing how Go-To-Market teams are utilizing AI tools in their operation..._
+  <https://www.crayon.co/blog/ai-tools-for-your-go-to-market-team|Read more>
+
+• *User privacy app Cloaked adds AI-powered caller screening*
+  _Cloaked introduces AI-powered caller screening feature allowing AI bot to interact with scammers on ..._
+  <https://techcrunch.com/2025/07/22/user-privacy-app-cloaked-adds-ai-powered-caller-screening/|Read more>
+
+2025-07-22 13:25:10,846 - ai_agent - INFO - ==================================================
+2025-07-22 13:25:10,846 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 13:25:10,846 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 13:31:35,899 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:31:35,906 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:31:35,913 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:31:35,920 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:31:35,920 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:31:35,920 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:31:35,920 - ai_agent - INFO - Fetching content since: 2025-07-21 13:31:35.920524
+2025-07-22 13:31:36,003 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:31:36,088 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-22 13:31:36,672 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-22 13:31:36,900 - ai_agent - INFO - Fetched 6 items from UC Today
+2025-07-22 13:31:37,069 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:31:37,226 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:31:37,559 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:31:37,688 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:31:38,221 - ai_agent - INFO - Fetched 4 items from CX Today
+2025-07-22 13:31:38,402 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:31:38,533 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:31:38,813 - ai_agent - INFO - Fetched 3 items from OpenAI Blog
+2025-07-22 13:31:41,917 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 13:31:42,187 - ai_agent - INFO - Fetched 4 items from MarkTechPost
+2025-07-22 13:31:42,393 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 13:31:42,988 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 13:31:43,401 - ai_agent - INFO - Fetched 1 items from Crayon Blog
+2025-07-22 13:31:43,512 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:31:43,777 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:31:44,066 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:31:44,067 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:31:44,314 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:31:44,314 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 13:31:44,381 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:31:44,381 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:31:44,451 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:31:44,451 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:31:44,525 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:31:44,526 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:31:44,580 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:31:44,581 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:31:44,581 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 13:31:44,581 - ai_agent - INFO - Total items fetched: 34
+2025-07-22 13:31:44,581 - ai_agent - INFO - Processing 34 items with LangChain enhancement...
+2025-07-22 13:31:44,582 - ai_agent - INFO - Processing 34 content items...
+2025-07-22 13:31:46,543 - ai_agent - INFO - Processed 2 relevant items
+2025-07-22 13:31:48,668 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:31:48,671 - ai_agent - INFO - Competitive analysis completed for 0 items
+2025-07-22 13:31:48,671 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:31:48,673 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-22 13:31:48,691 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 13:31:48,696 - ai_agent - INFO - No email recipients configured
+2025-07-22 13:31:48,696 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 13:31:48,696 - ai_agent - INFO - ==================================================
+2025-07-22 13:31:48,696 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *The Goldilocks Factor: Why Your Growing Business Needs a ‘Just Right’ Contact Center Solution*
+  _Many companies with 50-500 employees reach a tipping point in customer communications, needing a 'ju..._
+  <https://www.uctoday.com/ccaas/the-goldilocks-factor-why-your-growing-business-needs-a-just-right-contact-center-solution-goto/|Read more>
+
+• *When Regulators Come Calling: Why Your Current Communication Setup Won’t Stand Up to Scrutiny*
+  _"Regulators are intensifying scrutiny on enterprises' compliance posture due to gaps created by embr..._
+  <https://www.uctoday.com/unified-communications/when-regulators-come-calling-why-your-current-communication-setup-wont-stand-up-to-scrutiny-att/|Read more>
+
+2025-07-22 13:31:48,696 - ai_agent - INFO - ==================================================
+2025-07-22 13:31:48,696 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 13:31:48,696 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 13:39:47,055 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:39:47,062 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:39:47,069 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:39:47,075 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:39:47,075 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:39:47,076 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:39:47,076 - ai_agent - INFO - Fetching content since: 2025-06-22 13:39:47.076397
+2025-07-22 13:39:47,152 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:39:47,224 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 13:39:48,036 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 13:39:48,269 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 13:39:48,427 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:39:48,550 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:39:48,841 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:39:48,933 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:39:49,635 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 13:39:49,769 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:39:49,898 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:39:50,202 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 13:39:53,288 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 13:39:53,496 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 13:39:54,304 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 13:39:54,870 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 13:39:55,216 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 13:39:55,332 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:39:55,492 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:39:55,762 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:39:55,762 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:39:56,055 - ai_agent - INFO - Fetched 5 tweets from @aircall
+2025-07-22 13:39:56,055 - ai_agent - INFO - ✅ @aircall: 5 tweets
+2025-07-22 13:39:57,203 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:39:57,203 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:39:58,351 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:39:58,351 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:39:59,409 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:39:59,410 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:40:00,470 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:40:00,470 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:40:00,470 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 13:40:00,470 - ai_agent - INFO - Total items fetched: 63
+2025-07-22 13:40:00,474 - ai_agent - INFO - Processing 63 items with LangChain enhancement...
+2025-07-22 13:40:00,474 - ai_agent - INFO - Processing 63 content items...
+2025-07-22 13:40:07,932 - ai_agent - INFO - Processed 22 relevant items
+2025-07-22 13:40:15,263 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:40:22,606 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 13:40:23,849 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:40:23,850 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-22 13:42:02,994 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:42:03,001 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:42:03,007 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:42:03,013 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 13:42:03,013 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 13:42:03,013 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 13:42:03,013 - ai_agent - INFO - Fetching content since: 2025-06-22 13:42:03.013724
+2025-07-22 13:42:03,061 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 13:42:03,106 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 13:42:03,661 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 13:42:03,868 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 13:42:04,009 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 13:42:04,066 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 13:42:04,326 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 13:42:04,378 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 13:42:04,802 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 13:42:04,947 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 13:42:05,077 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 13:42:05,344 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 13:42:08,351 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 13:42:08,513 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 13:42:08,670 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 13:42:09,221 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 13:42:09,359 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 13:42:09,407 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 13:42:09,532 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 13:42:09,814 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 13:42:09,814 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 13:42:09,915 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:42:09,915 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 13:42:09,970 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:42:09,970 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 13:42:10,029 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:42:10,029 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 13:42:10,090 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:42:10,090 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 13:42:10,145 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 13:42:10,145 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 13:42:10,145 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 13:42:10,145 - ai_agent - INFO - Total items fetched: 58
+2025-07-22 13:42:10,148 - ai_agent - INFO - Processing 58 items with LangChain enhancement...
+2025-07-22 13:42:10,148 - ai_agent - INFO - Processing 58 content items...
+2025-07-22 13:42:14,186 - ai_agent - INFO - Processed 17 relevant items
+2025-07-22 13:42:22,057 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 13:42:25,060 - ai_agent - INFO - Competitive analysis completed for 1 items
+2025-07-22 13:42:26,218 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 13:42:26,220 - ai_agent - INFO - Agent run completed. Generated digest with 17 items
+2025-07-22 13:42:26,240 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 13:42:26,243 - ai_agent - INFO - No email recipients configured
+2025-07-22 13:42:26,243 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 13:42:26,243 - ai_agent - INFO - ==================================================
+2025-07-22 13:42:26,244 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _Five9 released a new CX report highlighting multifaceted AI uses in contact centers and identified k..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *Fireflies MCP Server: Connect Your AI Tools Directly to Your Meeting Data*
+  _Fireflies launched the MCP Server, allowing AI tools to directly access meeting data for tasks like ..._
+  <https://fireflies.ai/blog/fireflies-mcp-server/|Read more>
+
+• *Multilingual visibility and execution at scale: How global enterprises can cross language barriers with AI Translator*
+  _"Global enterprises can now overcome language barriers with AI Translator, enabling multilingual vis..._
+  <https://www.gong.io/blog/global-enterprises-language-barriers-ai-translator/|Read more>
+
+2025-07-22 13:42:26,244 - ai_agent - INFO - ==================================================
+2025-07-22 13:42:26,244 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 13:42:26,244 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 14:04:51,529 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:51,536 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:51,541 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:51,548 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:51,548 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-22 14:04:55,510 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:55,517 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:55,523 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:55,529 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:04:55,529 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:04:55,530 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:04:55,530 - ai_agent - INFO - Fetching content since: 2025-07-22 13:42:26.219586
+2025-07-22 14:04:55,600 - ai_agent - INFO - Fetched 9 items from TechCrunch
+2025-07-22 14:04:55,675 - ai_agent - WARNING - Failed to fetch RSS feed https://venturebeat.com/feed/: 403
+2025-07-22 14:04:56,317 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-22 14:04:56,519 - ai_agent - INFO - Fetched 1 items from UC Today
+2025-07-22 14:04:56,666 - ai_agent - INFO - Fetched 13 items from ZDNet
+2025-07-22 14:04:56,758 - ai_agent - INFO - Fetched 19 items from Hacker News
+2025-07-22 14:04:57,047 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:04:57,127 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:04:57,566 - ai_agent - INFO - Fetched 2 items from CX Today
+2025-07-22 14:04:57,701 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:04:57,819 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:04:58,068 - ai_agent - INFO - Fetched 0 items from OpenAI Blog
+2025-07-22 14:05:01,134 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 14:05:01,338 - ai_agent - INFO - Fetched 0 items from MarkTechPost
+2025-07-22 14:05:07,207 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 14:05:07,774 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 14:05:07,930 - ai_agent - INFO - Fetched 0 items from Crayon Blog
+2025-07-22 14:05:08,017 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:05:08,179 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:05:08,460 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:05:08,584 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:05:08,584 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:05:08,858 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-22 14:05:08,859 - ai_agent - INFO - ✅ @aircall: 2 tweets
+2025-07-22 14:05:10,013 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:10,013 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:05:11,196 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:11,197 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:05:12,271 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:12,272 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:05:13,344 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:13,345 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:05:13,345 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 14:05:13,345 - ai_agent - INFO - Total items fetched: 18
+2025-07-22 14:05:13,348 - ai_agent - INFO - Processing 18 items with LangChain enhancement...
+2025-07-22 14:05:13,348 - ai_agent - INFO - Processing 18 content items...
+2025-07-22 14:05:17,467 - ai_agent - INFO - Processed 3 relevant items
+2025-07-22 14:05:19,335 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 14:05:23,645 - ai_agent - INFO - Competitive analysis completed for 2 items
+2025-07-22 14:05:25,230 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 14:05:25,231 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-22 14:05:48,319 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:05:48,326 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:05:48,333 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:05:48,340 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:05:48,340 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:05:48,340 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:05:48,340 - ai_agent - INFO - Fetching content since: 2025-07-21 14:05:48.340799
+2025-07-22 14:05:48,380 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 14:05:48,413 - ai_agent - WARNING - Failed to fetch RSS feed https://venturebeat.com/feed/: 403
+2025-07-22 14:05:49,064 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-22 14:05:49,273 - ai_agent - INFO - Fetched 5 items from UC Today
+2025-07-22 14:05:49,368 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 14:05:49,443 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 14:05:49,532 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:05:49,613 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:05:50,026 - ai_agent - INFO - Fetched 5 items from CX Today
+2025-07-22 14:05:50,178 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:05:50,333 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:05:50,571 - ai_agent - INFO - Fetched 3 items from OpenAI Blog
+2025-07-22 14:05:53,732 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 14:05:53,904 - ai_agent - INFO - Fetched 4 items from MarkTechPost
+2025-07-22 14:05:54,068 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 14:05:54,600 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 14:05:54,701 - ai_agent - INFO - Fetched 1 items from Crayon Blog
+2025-07-22 14:05:54,746 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:05:54,837 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:05:55,160 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:05:55,212 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:05:55,212 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:05:55,325 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:55,325 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 14:05:55,382 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:55,382 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:05:55,444 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:55,444 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:05:55,499 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:55,499 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:05:55,563 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:05:55,563 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:05:55,563 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 14:05:55,563 - ai_agent - INFO - Total items fetched: 33
+2025-07-22 14:05:55,565 - ai_agent - INFO - Processing 33 items with LangChain enhancement...
+2025-07-22 14:05:55,565 - ai_agent - INFO - Processing 33 content items...
+2025-07-22 14:05:57,903 - ai_agent - INFO - Processed 2 relevant items
+2025-07-22 14:05:59,769 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 14:05:59,771 - ai_agent - INFO - Competitive analysis completed for 0 items
+2025-07-22 14:05:59,771 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 14:05:59,773 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-22 14:05:59,801 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 14:05:59,810 - ai_agent - INFO - No email recipients configured
+2025-07-22 14:05:59,811 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 14:05:59,811 - ai_agent - INFO - ==================================================
+2025-07-22 14:05:59,811 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *The Goldilocks Factor: Why Your Growing Business Needs a ‘Just Right’ Contact Center Solution*
+  _COMPANY: GoTo - Unified Communications and Contact Center vendor.
+SUMMARY: GoTo discusses the import..._
+  <https://www.uctoday.com/ccaas/the-goldilocks-factor-why-your-growing-business-needs-a-just-right-contact-center-solution-goto/|Read more>
+
+• *When Regulators Come Calling: Why Your Current Communication Setup Won’t Stand Up to Scrutiny*
+  _COMPANY: Not specified - Regulatory compliance solutions provider.
+SUMMARY: Regulators are increasin..._
+  <https://www.uctoday.com/unified-communications/when-regulators-come-calling-why-your-current-communication-setup-wont-stand-up-to-scrutiny-att/|Read more>
+
+2025-07-22 14:05:59,811 - ai_agent - INFO - ==================================================
+2025-07-22 14:05:59,811 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 14:05:59,811 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 14:09:45,798 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:09:45,805 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:09:45,811 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:09:45,817 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:09:45,817 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:09:45,817 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:09:45,817 - ai_agent - INFO - Fetching content since: 2025-07-22 14:05:59.771850
+2025-07-22 14:09:45,866 - ai_agent - INFO - Fetched 6 items from TechCrunch
+2025-07-22 14:09:45,902 - ai_agent - WARNING - Failed to fetch RSS feed https://venturebeat.com/feed/: 403
+2025-07-22 14:09:46,557 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-22 14:09:46,733 - ai_agent - INFO - Fetched 1 items from UC Today
+2025-07-22 14:09:46,888 - ai_agent - INFO - Fetched 13 items from ZDNet
+2025-07-22 14:09:46,956 - ai_agent - INFO - Fetched 15 items from Hacker News
+2025-07-22 14:09:47,248 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:09:47,302 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:09:47,735 - ai_agent - INFO - Fetched 2 items from CX Today
+2025-07-22 14:09:47,877 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:09:48,002 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:09:48,278 - ai_agent - INFO - Fetched 0 items from OpenAI Blog
+2025-07-22 14:09:51,172 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 14:09:51,352 - ai_agent - INFO - Fetched 0 items from MarkTechPost
+2025-07-22 14:09:51,500 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 14:09:51,998 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 14:09:52,221 - ai_agent - INFO - Fetched 0 items from Crayon Blog
+2025-07-22 14:09:52,317 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:09:52,418 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:09:52,694 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:09:52,744 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:09:53,337 - ai_agent - INFO - Fetched 0 items from Google News - RingCentral
+2025-07-22 14:09:53,838 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 14:09:54,382 - ai_agent - INFO - Fetched 0 items from Google News - 8x8
+2025-07-22 14:09:54,947 - ai_agent - INFO - Fetched 2 items from Google News - Twilio
+2025-07-22 14:09:55,456 - ai_agent - INFO - Fetched 1 items from Google News - Talkdesk
+2025-07-22 14:09:55,974 - ai_agent - INFO - Fetched 1 items from Google News - Five9
+2025-07-22 14:09:56,505 - ai_agent - INFO - Fetched 0 items from Google News - Zoom Phone
+2025-07-22 14:09:57,348 - ai_agent - INFO - Fetched 0 items from Google News - Genesys
+2025-07-22 14:09:57,666 - ai_agent - INFO - Fetched 0 items from Google News - Gong
+2025-07-22 14:09:58,153 - ai_agent - INFO - Fetched 0 items from Google News - Aircall Competitors
+2025-07-22 14:09:58,584 - ai_agent - INFO - Fetched 0 items from Google News - Conversation Intelligence
+2025-07-22 14:09:59,199 - ai_agent - INFO - Fetched 2 items from Google News - Contact Center AI
+2025-07-22 14:09:59,730 - ai_agent - INFO - Fetched 0 items from Google News - UCaaS Market
+2025-07-22 14:10:00,300 - ai_agent - INFO - Fetched 0 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 14:10:00,676 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 14:10:01,018 - ai_agent - INFO - Fetched 0 items from SEC Filings - Major Competitors
+2025-07-22 14:10:01,018 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:10:01,203 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:10:01,203 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 14:10:01,263 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:10:01,263 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:10:01,322 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:10:01,323 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:10:01,380 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:10:01,380 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:10:01,446 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:10:01,446 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:10:01,446 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 14:10:01,447 - ai_agent - INFO - Total items fetched: 18
+2025-07-22 14:10:01,449 - ai_agent - INFO - Processing 18 items with LangChain enhancement...
+2025-07-22 14:10:01,449 - ai_agent - INFO - Processing 18 content items...
+2025-07-22 14:10:04,795 - ai_agent - INFO - Processed 5 relevant items
+2025-07-22 14:10:06,832 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 14:10:10,999 - ai_agent - INFO - Competitive analysis completed for 2 items
+2025-07-22 14:10:12,647 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 14:10:12,647 - ai_agent - INFO - Agent run completed. Generated digest with 5 items
+2025-07-22 14:10:12,657 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 14:10:12,662 - ai_agent - INFO - No email recipients configured
+2025-07-22 14:10:12,662 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 14:10:12,662 - ai_agent - INFO - ==================================================
+2025-07-22 14:10:12,662 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *Y Intercept Hong Kong Ltd Increases Stock Position in Twilio Inc. (NYSE:TWLO) - MarketBeat*
+  _COMPANY: Twilio Inc. - Cloud communications platform provider.
+SUMMARY: Y Intercept Hong Kong Ltd in..._
+  <https://news.google.com/rss/articles/CBMizwFBVV95cUxQN2lQWGtQMnF0RURMQ01zN3VWMVpSYXE0X3p6aUZJWGhjSElBTUg4WC0zc08zVHNNU3BhanQtUDJpdnBGc0R4TkxMZEh3NnlaVVlzTDM3QmVBNlFyZUVKMUhfaHduS0ktVm5jaWdBYkk3QzRwQ183ZTROYVpkRVJvQXo3NTY2eXJCazNyTW9qLW5Qa0gwTVlpODhycFFvSWppSXlJV1hScS1DVVk0M3VITzhtM2ttYXBBbFJZU3kzR2MzQkhjd0RWQW1pX2pPN2s?oc=5|Read more>
+
+• *What drives Five9 Inc. stock price - Accelerated profit realization - jammulinksnews.com*
+  _COMPANY: Five9 Inc. - Cloud-based contact center software provider.
+SUMMARY: The stock price of Five..._
+  <https://news.google.com/rss/articles/CBMigwFBVV95cUxPcXlYTlJxMnBEMDNaQlNBdXh4ajhDcWVLR0lzMjdnLTBBbXFCd1Qxd3hGRElXckt4Z3p3T0Q0N2RRTTlEQWlrTkYwYVAwaWRMN1Zod0pkYU5kZE84UTd2bUtGZDB2aHBoVDJNVkdVTnNFVkRpT2RMeVVwOWlqdHhyelhUTQ?oc=5|Read more>
+
+• *Twilio Stock (TWLO) Opinions on New Platform Features Launch - Quiver Quantitative*
+  _COMPANY: Twilio - Cloud communications platform provider.
+SUMMARY: Twilio launched new platform feat..._
+  <https://news.google.com/rss/articles/CBMingFBVV95cUxNVVJuMlA0V2tQRzNnM0t6ZVhIbTZHeWJMM3V2bkpLZVRCTFZXSHhncFYzOWtxVU5KYUJlalRaV3VER0w2aUs2MHRlRFBpN1NwUHBKQTNHMUkzU2VTMUM0UlZITTJudkEzQk5MUXVabW40S0JhTVVjdEc2X1JoNjJXVkFRMzlES2JZQkxQQ3N3a3psZmhtcjdPWXJDVUltdw?oc=5|Read more>
+
+2025-07-22 14:10:12,662 - ai_agent - INFO - ==================================================
+2025-07-22 14:10:12,662 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 14:10:12,662 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 14:33:45,184 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:33:45,191 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:33:45,197 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:33:45,203 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:33:45,203 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:33:45,204 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:33:45,204 - ai_agent - INFO - Fetching content since: 2025-07-22 14:10:12.647639
+2025-07-22 14:33:45,278 - ai_agent - INFO - Fetched 6 items from TechCrunch
+2025-07-22 14:33:45,354 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-22 14:33:46,100 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-22 14:33:46,379 - ai_agent - INFO - Fetched 1 items from UC Today
+2025-07-22 14:33:46,538 - ai_agent - INFO - Fetched 14 items from ZDNet
+2025-07-22 14:33:46,683 - ai_agent - INFO - Fetched 17 items from Hacker News
+2025-07-22 14:33:47,004 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:33:47,086 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:33:47,618 - ai_agent - INFO - Fetched 2 items from CX Today
+2025-07-22 14:33:47,748 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:33:47,868 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:33:48,164 - ai_agent - INFO - Fetched 0 items from OpenAI Blog
+2025-07-22 14:33:51,125 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 14:33:51,287 - ai_agent - INFO - Fetched 0 items from MarkTechPost
+2025-07-22 14:33:51,477 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 14:33:52,144 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 14:33:52,345 - ai_agent - INFO - Fetched 0 items from Crayon Blog
+2025-07-22 14:33:52,458 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:33:52,617 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:33:52,904 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:33:53,009 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:33:53,621 - ai_agent - INFO - Fetched 0 items from Google News - RingCentral
+2025-07-22 14:33:54,114 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 14:33:54,622 - ai_agent - INFO - Fetched 0 items from Google News - 8x8
+2025-07-22 14:33:55,206 - ai_agent - INFO - Fetched 2 items from Google News - Twilio
+2025-07-22 14:33:55,705 - ai_agent - INFO - Fetched 1 items from Google News - Talkdesk
+2025-07-22 14:33:56,320 - ai_agent - INFO - Fetched 1 items from Google News - Five9
+2025-07-22 14:33:56,884 - ai_agent - INFO - Fetched 0 items from Google News - Zoom Phone
+2025-07-22 14:33:57,493 - ai_agent - INFO - Fetched 0 items from Google News - Genesys
+2025-07-22 14:33:57,830 - ai_agent - INFO - Fetched 0 items from Google News - Gong
+2025-07-22 14:33:58,295 - ai_agent - INFO - Fetched 0 items from Google News - Aircall Competitors
+2025-07-22 14:33:58,769 - ai_agent - INFO - Fetched 0 items from Google News - Conversation Intelligence
+2025-07-22 14:33:59,411 - ai_agent - INFO - Fetched 2 items from Google News - Contact Center AI
+2025-07-22 14:34:00,002 - ai_agent - INFO - Fetched 0 items from Google News - UCaaS Market
+2025-07-22 14:34:00,548 - ai_agent - INFO - Fetched 0 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 14:34:00,919 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 14:34:01,308 - ai_agent - INFO - Fetched 1 items from SEC Filings - Major Competitors
+2025-07-22 14:34:01,657 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 14:34:02,012 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 14:34:02,417 - ai_agent - INFO - Fetched 0 items from Google News - MindTickle
+2025-07-22 14:34:02,714 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 14:34:02,995 - ai_agent - INFO - Fetched 0 items from Google News - PhoneBurner
+2025-07-22 14:34:03,258 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 14:34:03,508 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 14:34:04,156 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 14:34:04,509 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 14:34:04,924 - ai_agent - INFO - Fetched 0 items from Google News - Ringover
+2025-07-22 14:34:05,208 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 14:34:05,413 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 14:34:05,813 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 14:34:06,103 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 14:34:06,852 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 14:34:07,138 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 14:34:07,373 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 14:34:07,738 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 14:34:08,317 - ai_agent - INFO - Fetched 0 items from Google News - LevelEleven
+2025-07-22 14:34:08,569 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 14:34:08,827 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 14:34:09,158 - ai_agent - INFO - Fetched 0 items from Google News - AI Sales Platforms
+2025-07-22 14:34:09,159 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:34:09,438 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-22 14:34:09,438 - ai_agent - INFO - ✅ @aircall: 2 tweets
+2025-07-22 14:34:10,573 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:10,574 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:34:11,729 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:11,730 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:34:12,794 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:12,795 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:34:13,856 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:13,856 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:34:13,856 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 14:34:13,856 - ai_agent - INFO - Total items fetched: 22
+2025-07-22 14:34:13,858 - ai_agent - INFO - Processing 22 items with LangChain enhancement...
+2025-07-22 14:34:13,858 - ai_agent - INFO - Processing 22 content items...
+2025-07-22 14:34:19,120 - ai_agent - INFO - Processed 7 relevant items
+2025-07-22 14:34:22,808 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 14:34:29,529 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 14:34:31,532 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 14:34:31,534 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-22 14:34:46,046 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:34:46,052 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:34:46,059 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:34:46,067 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:34:46,067 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:34:46,068 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:34:46,068 - ai_agent - INFO - Fetching content since: 2025-07-21 14:34:46.068123
+2025-07-22 14:34:46,425 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 14:34:46,514 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-22 14:34:47,338 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-22 14:34:47,530 - ai_agent - INFO - Fetched 5 items from UC Today
+2025-07-22 14:34:47,664 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 14:34:47,736 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 14:34:47,991 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:34:48,041 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:34:48,523 - ai_agent - INFO - Fetched 4 items from CX Today
+2025-07-22 14:34:48,636 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:34:48,744 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:34:50,764 - ai_agent - INFO - Fetched 3 items from OpenAI Blog
+2025-07-22 14:34:53,770 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 14:34:54,017 - ai_agent - INFO - Fetched 4 items from MarkTechPost
+2025-07-22 14:34:54,172 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 14:34:54,702 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 14:34:54,819 - ai_agent - INFO - Fetched 1 items from Crayon Blog
+2025-07-22 14:34:54,904 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:34:55,010 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:34:55,258 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:34:55,301 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:34:55,385 - ai_agent - INFO - Fetched 0 items from Google News - RingCentral
+2025-07-22 14:34:55,428 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 14:34:55,462 - ai_agent - INFO - Fetched 0 items from Google News - 8x8
+2025-07-22 14:34:55,496 - ai_agent - INFO - Fetched 10 items from Google News - Twilio
+2025-07-22 14:34:55,528 - ai_agent - INFO - Fetched 1 items from Google News - Talkdesk
+2025-07-22 14:34:55,560 - ai_agent - INFO - Fetched 2 items from Google News - Five9
+2025-07-22 14:34:55,593 - ai_agent - INFO - Fetched 4 items from Google News - Zoom Phone
+2025-07-22 14:34:55,624 - ai_agent - INFO - Fetched 0 items from Google News - Genesys
+2025-07-22 14:34:55,640 - ai_agent - INFO - Fetched 0 items from Google News - Gong
+2025-07-22 14:34:55,668 - ai_agent - INFO - Fetched 0 items from Google News - Aircall Competitors
+2025-07-22 14:34:55,694 - ai_agent - INFO - Fetched 0 items from Google News - Conversation Intelligence
+2025-07-22 14:34:55,729 - ai_agent - INFO - Fetched 3 items from Google News - Contact Center AI
+2025-07-22 14:34:55,765 - ai_agent - INFO - Fetched 0 items from Google News - UCaaS Market
+2025-07-22 14:34:55,798 - ai_agent - INFO - Fetched 0 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 14:34:55,856 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 14:34:55,895 - ai_agent - INFO - Fetched 3 items from SEC Filings - Major Competitors
+2025-07-22 14:34:55,913 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 14:34:55,932 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 14:34:55,956 - ai_agent - INFO - Fetched 0 items from Google News - MindTickle
+2025-07-22 14:34:55,970 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 14:34:55,985 - ai_agent - INFO - Fetched 0 items from Google News - PhoneBurner
+2025-07-22 14:34:55,995 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 14:34:56,002 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 14:34:56,012 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 14:34:56,031 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 14:34:56,059 - ai_agent - INFO - Fetched 0 items from Google News - Ringover
+2025-07-22 14:34:56,066 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 14:34:56,075 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 14:34:56,088 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 14:34:56,096 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 14:34:56,121 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 14:34:56,131 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 14:34:56,140 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 14:34:56,151 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 14:34:56,173 - ai_agent - INFO - Fetched 0 items from Google News - LevelEleven
+2025-07-22 14:34:56,181 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 14:34:56,192 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 14:34:56,213 - ai_agent - INFO - Fetched 0 items from Google News - AI Sales Platforms
+2025-07-22 14:34:56,213 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:34:56,304 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:56,304 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 14:34:56,368 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:56,368 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:34:56,436 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:56,437 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:34:56,504 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:56,504 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:34:56,570 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:34:56,570 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:34:56,570 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 14:34:56,571 - ai_agent - INFO - Total items fetched: 52
+2025-07-22 14:34:56,575 - ai_agent - INFO - Processing 52 items with LangChain enhancement...
+2025-07-22 14:34:56,576 - ai_agent - INFO - Processing 52 content items...
+2025-07-22 14:35:01,519 - ai_agent - INFO - Processed 15 relevant items
+2025-07-22 14:35:06,292 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 14:35:15,144 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 14:35:16,349 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 14:35:16,350 - ai_agent - INFO - Agent run completed. Generated digest with 15 items
+2025-07-22 14:35:16,371 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 14:35:16,380 - ai_agent - INFO - No email recipients configured
+2025-07-22 14:35:16,380 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 14:35:16,380 - ai_agent - INFO - ==================================================
+2025-07-22 14:35:16,380 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *Y Intercept Hong Kong Ltd Increases Stock Position in Twilio Inc. (NYSE:TWLO) - MarketBeat*
+  _COMPANY: Twilio Inc. - Cloud communications platform provider.
+SUMMARY: Y Intercept Hong Kong Ltd in..._
+  <https://news.google.com/rss/articles/CBMizwFBVV95cUxQN2lQWGtQMnF0RURMQ01zN3VWMVpSYXE0X3p6aUZJWGhjSElBTUg4WC0zc08zVHNNU3BhanQtUDJpdnBGc0R4TkxMZEh3NnlaVVlzTDM3QmVBNlFyZUVKMUhfaHduS0ktVm5jaWdBYkk3QzRwQ183ZTROYVpkRVJvQXo3NTY2eXJCazNyTW9qLW5Qa0gwTVlpODhycFFvSWppSXlJV1hScS1DVVk0M3VITzhtM2ttYXBBbFJZU3kzR2MzQkhjd0RWQW1pX2pPN2s?oc=5|Read more>
+
+• *What analysts say about Twilio Inc. stock - Consistent double returns - jammulinksnews.com*
+  _COMPANY: Twilio Inc. - Cloud communications platform provider.
+SUMMARY: Analysts report consistent d..._
+  <https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkNMRmJBZmZtWWJieVFUcTZ3dDdMYkppWS1UZ0FJLXA1RmgtYmFwMzY5Z29fM3oxNnR2TmlfR3dTWTJLTTdrTHI3MDhMSkExdnZaT3hQT0k3VHpOQ1FidHdWSHZ1MWRGdGFWYks5QzNBd3Ewck5mc1NzNENScVdwR2p1dTM0R3hRUlVBUw?oc=5|Read more>
+
+• *Los Angeles Capital Management LLC Sells 370,262 Shares of Twilio Inc. (NYSE:TWLO) - MarketBeat*
+  _COMPANY: Twilio Inc. - Cloud communications platform provider.
+SUMMARY: Los Angeles Capital Manageme..._
+  <https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUC0yYWRSQTZTWW9MUm9SWWc0aUJDd3lERXk4bklHdy1ERWIyYlJpZkk2Zm9FUHJVN1l3WkczdmVDamlDdUxyWl9OY29haVZ5VXdpSlg5Zmt1UE01MC1ka0FJR2ZGRFIxU0pyaFFNY2tJbTN2SzEzTnFNeVZaZTRPbnVNWE5zNGlLV3Z2cXBLeEJxak1weVk0SkQwRVFJYVc3bHFoYTQ2bWFPR0U0VDkzWjRvSnVqWl95d2dtMllJUzRVU0x4Qm5Kd0ZZNmluWWxYekgyMQ?oc=5|Read more>
+
+2025-07-22 14:35:16,380 - ai_agent - INFO - ==================================================
+2025-07-22 14:35:16,380 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 14:35:16,380 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 14:41:50,537 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:41:50,544 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:41:50,550 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:41:50,556 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 14:41:50,556 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 14:41:50,556 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 14:41:50,556 - ai_agent - INFO - Fetching content since: 2025-06-22 14:41:50.556704
+2025-07-22 14:41:50,635 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 14:41:50,719 - ai_agent - INFO - Fetched 23 items from VentureBeat
+2025-07-22 14:41:51,495 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 14:41:51,850 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 14:41:52,006 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 14:41:52,108 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 14:41:52,438 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 14:41:52,509 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 14:41:52,970 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 14:41:53,125 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 14:41:53,249 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 14:41:53,531 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 14:41:56,657 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 14:41:56,867 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 14:41:57,043 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 14:41:57,777 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 14:41:57,933 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 14:41:58,016 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 14:41:58,175 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 14:41:58,431 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 14:41:58,541 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 14:41:59,317 - ai_agent - INFO - Fetched 16 items from Google News - RingCentral
+2025-07-22 14:41:59,953 - ai_agent - INFO - Fetched 1 items from Google News - Dialpad
+2025-07-22 14:42:00,513 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 14:42:01,069 - ai_agent - INFO - Fetched 47 items from Google News - Twilio
+2025-07-22 14:42:01,581 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 14:42:02,134 - ai_agent - INFO - Fetched 19 items from Google News - Five9
+2025-07-22 14:42:02,938 - ai_agent - INFO - Fetched 25 items from Google News - Zoom Phone
+2025-07-22 14:42:03,514 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 14:42:03,792 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 14:42:04,324 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 14:42:04,739 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 14:42:05,266 - ai_agent - INFO - Fetched 12 items from Google News - Contact Center AI
+2025-07-22 14:42:05,811 - ai_agent - INFO - Fetched 3 items from Google News - UCaaS Market
+2025-07-22 14:42:06,542 - ai_agent - INFO - Fetched 12 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 14:42:07,024 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 14:42:07,441 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 14:42:07,827 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 14:42:08,097 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 14:42:08,505 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 14:42:08,801 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 14:42:09,042 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 14:42:09,303 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 14:42:09,522 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 14:42:09,733 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 14:42:09,971 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 14:42:10,399 - ai_agent - INFO - Fetched 2 items from Google News - Ringover
+2025-07-22 14:42:10,586 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 14:42:10,815 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 14:42:11,194 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 14:42:11,471 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 14:42:11,852 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 14:42:12,056 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 14:42:12,296 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 14:42:12,568 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 14:42:12,911 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 14:42:13,169 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 14:42:13,441 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 14:42:13,797 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 14:42:13,797 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 14:42:13,978 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:42:13,978 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 14:42:14,110 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:42:14,110 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 14:42:14,239 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:42:14,240 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 14:42:14,314 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:42:14,314 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 14:42:14,402 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 14:42:14,402 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 14:42:14,402 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 14:42:14,402 - ai_agent - INFO - Total items fetched: 215
+2025-07-22 14:42:14,404 - ai_agent - INFO - Processing 215 items with LangChain enhancement...
+2025-07-22 14:42:14,404 - ai_agent - INFO - Processing 215 content items...
+2025-07-22 14:42:59,499 - ai_agent - INFO - Processed 139 relevant items
+2025-07-22 14:43:43,316 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:02:50,058 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:02:50,064 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:02:50,070 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:02:50,076 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:02:50,076 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:02:50,076 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:02:50,076 - ai_agent - INFO - Fetching content since: 2025-06-22 18:02:50.076647
+2025-07-22 18:02:50,161 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:02:50,249 - ai_agent - INFO - Fetched 23 items from VentureBeat
+2025-07-22 18:02:50,975 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:02:51,193 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:02:51,345 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:02:51,458 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:02:51,768 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:02:51,870 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:02:52,324 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:02:52,464 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:02:52,594 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:02:52,915 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:02:56,125 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:02:56,319 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:02:56,552 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:02:57,112 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:02:57,294 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:02:57,382 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:02:57,547 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:02:57,826 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:02:57,951 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:02:58,555 - ai_agent - INFO - Fetched 21 items from Google News - RingCentral
+2025-07-22 18:02:59,022 - ai_agent - INFO - Fetched 1 items from Google News - Dialpad
+2025-07-22 18:02:59,507 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 18:02:59,984 - ai_agent - INFO - Fetched 46 items from Google News - Twilio
+2025-07-22 18:03:00,461 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:03:00,950 - ai_agent - INFO - Fetched 17 items from Google News - Five9
+2025-07-22 18:03:01,567 - ai_agent - INFO - Fetched 26 items from Google News - Zoom Phone
+2025-07-22 18:03:02,013 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:03:02,305 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:03:02,760 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:03:03,195 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:03:03,740 - ai_agent - INFO - Fetched 12 items from Google News - Contact Center AI
+2025-07-22 18:03:04,267 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:03:04,857 - ai_agent - INFO - Fetched 12 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:03:06,075 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:03:06,421 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:03:06,743 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:03:07,022 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:03:07,392 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:03:07,782 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:03:08,068 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:03:08,332 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:03:08,533 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:03:08,747 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:03:09,092 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:03:09,468 - ai_agent - INFO - Fetched 3 items from Google News - Ringover
+2025-07-22 18:03:09,718 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:03:10,023 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:03:10,389 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:03:10,735 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:03:11,229 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:03:11,443 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:03:11,687 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:03:11,943 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:03:12,315 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:03:12,566 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:03:12,809 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:03:13,100 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:03:13,100 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:03:13,391 - ai_agent - INFO - Fetched 5 tweets from @aircall
+2025-07-22 18:03:13,392 - ai_agent - INFO - ✅ @aircall: 5 tweets
+2025-07-22 18:03:14,543 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:03:14,544 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:03:15,697 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:03:15,697 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:03:16,755 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:03:16,756 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:03:17,815 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:03:17,815 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:03:17,815 - ai_agent - INFO - Successfully fetched from 1 Twitter accounts
+2025-07-22 18:03:17,816 - ai_agent - INFO - Total items fetched: 226
+2025-07-22 18:03:17,817 - ai_agent - INFO - Processing 226 items with LangChain enhancement...
+2025-07-22 18:03:17,818 - ai_agent - INFO - Processing 226 content items...
+2025-07-22 18:03:54,752 - ai_agent - INFO - Processed 146 relevant items
+2025-07-22 18:04:37,835 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:04:46,129 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:04:48,126 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:04:48,127 - ai_agent - ERROR - Agent failed with error: can't compare offset-naive and offset-aware datetimes
+2025-07-22 18:04:54,684 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:04:54,691 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:04:54,697 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:04:54,704 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:04:54,704 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:04:54,704 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:04:54,704 - ai_agent - INFO - Fetching content since: 2025-07-21 18:04:54.704378
+2025-07-22 18:04:54,747 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:04:54,791 - ai_agent - INFO - Fetched 6 items from VentureBeat
+2025-07-22 18:04:55,337 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-22 18:04:55,524 - ai_agent - INFO - Fetched 5 items from UC Today
+2025-07-22 18:04:55,715 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:04:55,785 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:04:56,087 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:04:56,140 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:04:56,644 - ai_agent - INFO - Fetched 4 items from CX Today
+2025-07-22 18:04:56,781 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:04:56,907 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:04:57,144 - ai_agent - INFO - Fetched 3 items from OpenAI Blog
+2025-07-22 18:05:00,172 - ai_agent - INFO - Fetched 0 items from Towards AI
+2025-07-22 18:05:00,331 - ai_agent - INFO - Fetched 6 items from MarkTechPost
+2025-07-22 18:05:00,478 - ai_agent - INFO - Fetched 0 items from Gong Blog
+2025-07-22 18:05:01,157 - ai_agent - INFO - Fetched 0 items from Fireflies AI Blog
+2025-07-22 18:05:01,303 - ai_agent - INFO - Fetched 1 items from Crayon Blog
+2025-07-22 18:05:01,355 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:05:01,471 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:05:01,690 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:05:01,735 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:05:02,296 - ai_agent - INFO - Fetched 3 items from Google News - RingCentral
+2025-07-22 18:05:02,759 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 18:05:03,343 - ai_agent - INFO - Fetched 0 items from Google News - 8x8
+2025-07-22 18:05:03,892 - ai_agent - INFO - Fetched 7 items from Google News - Twilio
+2025-07-22 18:05:04,421 - ai_agent - INFO - Fetched 1 items from Google News - Talkdesk
+2025-07-22 18:05:04,887 - ai_agent - INFO - Fetched 1 items from Google News - Five9
+2025-07-22 18:05:05,410 - ai_agent - INFO - Fetched 7 items from Google News - Zoom Phone
+2025-07-22 18:05:05,924 - ai_agent - INFO - Fetched 0 items from Google News - Genesys
+2025-07-22 18:05:06,244 - ai_agent - INFO - Fetched 0 items from Google News - Gong
+2025-07-22 18:05:06,686 - ai_agent - INFO - Fetched 0 items from Google News - Aircall Competitors
+2025-07-22 18:05:07,130 - ai_agent - INFO - Fetched 0 items from Google News - Conversation Intelligence
+2025-07-22 18:05:07,638 - ai_agent - INFO - Fetched 3 items from Google News - Contact Center AI
+2025-07-22 18:05:08,121 - ai_agent - INFO - Fetched 1 items from Google News - UCaaS Market
+2025-07-22 18:05:08,637 - ai_agent - INFO - Fetched 1 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:05:08,738 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:05:09,224 - ai_agent - INFO - Fetched 4 items from SEC Filings - Major Competitors
+2025-07-22 18:05:10,449 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:05:10,737 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:05:11,159 - ai_agent - INFO - Fetched 0 items from Google News - MindTickle
+2025-07-22 18:05:11,543 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:05:11,855 - ai_agent - INFO - Fetched 0 items from Google News - PhoneBurner
+2025-07-22 18:05:12,087 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:05:12,409 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:05:12,685 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:05:13,015 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:05:14,132 - ai_agent - INFO - Fetched 0 items from Google News - Ringover
+2025-07-22 18:05:14,440 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:05:14,655 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:05:14,916 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:05:15,208 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:05:15,622 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:05:15,827 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:05:16,034 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:05:16,327 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:05:16,650 - ai_agent - INFO - Fetched 0 items from Google News - LevelEleven
+2025-07-22 18:05:16,871 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:05:17,125 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:05:17,452 - ai_agent - INFO - Fetched 0 items from Google News - AI Sales Platforms
+2025-07-22 18:05:17,452 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:05:17,561 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:05:17,561 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:05:17,613 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:05:17,613 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:05:17,678 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:05:17,679 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:05:17,736 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:05:17,736 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:05:17,805 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:05:17,805 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:05:17,805 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:05:17,805 - ai_agent - INFO - Total items fetched: 58
+2025-07-22 18:05:17,806 - ai_agent - INFO - Processing 58 items with LangChain enhancement...
+2025-07-22 18:05:17,807 - ai_agent - INFO - Processing 58 content items...
+2025-07-22 18:05:22,334 - ai_agent - INFO - Processed 16 relevant items
+2025-07-22 18:05:28,383 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:05:35,287 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:05:36,474 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:05:36,476 - ai_agent - INFO - Agent run completed. Generated digest with 16 items
+2025-07-22 18:05:36,498 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:05:36,503 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:05:36,503 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:05:36,503 - ai_agent - INFO - ==================================================
+2025-07-22 18:05:36,503 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *RingCentral to Announce Second Quarter 2025 Financial Results On August 5, 2025 - Stock Titan*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQXpYeXlGRTBqYmxPYjdMMFZzRTRwRE91YmotWmQ1RWl2OVVHQXFBcTB0bkVLRW9KbVlzWXE2LVZRSlNEVmhBbFdqZ1ZNa01Vd2E3NHNjUHB5YmJ5TlFSdGNiYTFZOW9ZdUJILWdDbWpRUTVsNEdJT01iSHpOQnZKUkNkNHZYai1iWWZkOFRoMzFyTU9KdXhENTVQbndGZEVQWlI5VnhwbDVveGIxSF9MZWtGTGhqSEdpcV9j?oc=5|Read more>
+
+• *RingCentral to Announce Second Quarter 2025 Financial Results On August 5, 2025 | RNG Stock News - GuruFocus*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMizAFBVV95cUxNai0xdS1pUzdVS1BRVE1IXzY5OWFyQzNUZkZTWUxkUE1NTmFianI2QWI0bmVYRzFEdTBIYzdrcnV5NjdqQ3dQLTQ5Tk4tQi1zb1ZNcExyVVpfWC1zeTkwd200YzNraldEQklybmZQc09BYnJ0RTZaamxPNzJXU2ZXNkFYS2F6Ti1hNElkUlZFSm5vdjdnMTRBb3B6LTAtYlYxc3lZcC1uU0lCM3VjbmpxdHlIV3MySEV3ajZ4SThvV1lFaXdGR1dQMmJDXzI?oc=5|Read more>
+
+• *Y Intercept Hong Kong Ltd Increases Stock Position in Twilio Inc. (NYSE:TWLO) - MarketBeat*
+  _COMPANY: Twilio Inc. - Cloud communications platform provider.
+SUMMARY: Y Intercept Hong Kong Ltd in..._
+  <https://news.google.com/rss/articles/CBMizwFBVV95cUxQN2lQWGtQMnF0RURMQ01zN3VWMVpSYXE0X3p6aUZJWGhjSElBTUg4WC0zc08zVHNNU3BhanQtUDJpdnBGc0R4TkxMZEh3NnlaVVlzTDM3QmVBNlFyZUVKMUhfaHduS0ktVm5jaWdBYkk3QzRwQ183ZTROYVpkRVJvQXo3NTY2eXJCazNyTW9qLW5Qa0gwTVlpODhycFFvSWppSXlJV1hScS1DVVk0M3VITzhtM2ttYXBBbFJZU3kzR2MzQkhjd0RWQW1pX2pPN2s?oc=5|Read more>
+
+2025-07-22 18:05:36,503 - ai_agent - INFO - ==================================================
+2025-07-22 18:05:36,503 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:05:36,503 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 18:07:43,766 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:43,773 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:43,780 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:43,787 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:43,787 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-22 18:07:48,011 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:48,017 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:48,023 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:48,030 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:07:48,030 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:07:48,030 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:07:48,030 - ai_agent - INFO - Fetching content since: 2025-06-22 18:07:48.030909
+2025-07-22 18:07:48,087 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:07:48,135 - ai_agent - INFO - Fetched 23 items from VentureBeat
+2025-07-22 18:07:48,708 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:07:48,953 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:07:49,096 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:07:49,172 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:07:49,260 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:07:49,318 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:07:49,756 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:07:49,924 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:07:50,094 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:07:50,349 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:07:53,737 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:07:54,001 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:07:54,594 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:07:55,534 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:07:56,059 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:07:56,139 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:07:56,322 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:07:56,620 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:07:56,703 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:07:57,569 - ai_agent - INFO - Fetched 18 items from Google News - RingCentral
+2025-07-22 18:07:58,233 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 18:07:59,004 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 18:07:59,629 - ai_agent - INFO - Fetched 46 items from Google News - Twilio
+2025-07-22 18:08:00,147 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:08:00,727 - ai_agent - INFO - Fetched 17 items from Google News - Five9
+2025-07-22 18:08:01,252 - ai_agent - INFO - Fetched 27 items from Google News - Zoom Phone
+2025-07-22 18:08:01,856 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:08:02,351 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:08:02,874 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:08:03,538 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:08:04,085 - ai_agent - INFO - Fetched 12 items from Google News - Contact Center AI
+2025-07-22 18:08:04,612 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:08:05,110 - ai_agent - INFO - Fetched 11 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:08:05,163 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:08:05,488 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:08:05,791 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:08:06,061 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:08:06,502 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:08:06,754 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:08:06,980 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:08:07,197 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:08:07,378 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:08:07,627 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:08:07,921 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:08:08,329 - ai_agent - INFO - Fetched 3 items from Google News - Ringover
+2025-07-22 18:08:08,539 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:08:08,712 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:08:09,065 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:08:09,314 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:08:09,715 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:08:09,915 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:08:10,089 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:08:10,314 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:08:10,620 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:08:10,858 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:08:11,086 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:08:11,406 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:08:11,406 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:08:11,521 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:08:11,521 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:08:11,575 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:08:11,575 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:08:11,628 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:08:11,629 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:08:11,682 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:08:11,682 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:08:11,738 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:08:11,738 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:08:11,738 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:08:11,738 - ai_agent - INFO - Total items fetched: 219
+2025-07-22 18:08:11,740 - ai_agent - INFO - Processing 219 items with LangChain enhancement...
+2025-07-22 18:08:11,741 - ai_agent - INFO - Processing 219 content items...
+2025-07-22 18:08:48,505 - ai_agent - INFO - Processed 137 relevant items
+2025-07-22 18:09:27,467 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:09:34,166 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:09:35,599 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:09:35,603 - ai_agent - INFO - Agent run completed. Generated digest with 137 items
+2025-07-22 18:09:35,624 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:09:35,631 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:09:35,632 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:09:35,632 - ai_agent - INFO - ==================================================
+2025-07-22 18:09:35,632 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _COMPANY: Five9 - Cloud-based contact center software provider.
+SUMMARY: Five9 released a new CX repo..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *RingCentral AI Receptionist Powers Front-Office CX - CMSWire.com*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnJ2amQyM0RQTXJLQzN3eUJ2N0lhbExpc1dvVFdvV3BhT0RwR3RsLUxFN2IxR2dzVnRWR2pSd2tUZXFYajFZTVNCV0xKX2t2YXh5ZFJTeDQza21DOVZ1ZndRS2preDZ6OUw3Zk56b1AzVEJ5bXAxTzRfVGZPb3c5ZkQ2eTlqclRhWUUzclV3TGx4RWpLWGtnaXpfcHlGZ2VZdGNkcjByQQ?oc=5|Read more>
+
+• *RingCentral – Where AI Meets Trusted Communications - citybiz*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTdwcDJJOG0yTmlnZlRiZWN3VGlqcS1EdGJpaERpb1JLRzBvYzZTQ2taemJpX3BrTGEzMjFzeF9aMkw3UnZBZHRTc1RkWkxMSm05RG9DaTNfN0t3STNVQ1R1a1Y1dkdLYnliMDM5UVl4a3dXV1RTYWdxWFhETkRpLXNfbFcyWENvSUZGaDA1QWtWNUpZQktfT3VvMVhtWGNRNndFZ2VOMUQwYWExRTM0?oc=5|Read more>
+
+2025-07-22 18:09:35,632 - ai_agent - INFO - ==================================================
+2025-07-22 18:09:35,632 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:09:35,632 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 18:22:11,721 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:22:11,727 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:22:11,733 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:22:11,740 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:22:11,740 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:22:11,740 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:22:11,740 - ai_agent - INFO - Fetching content since: 2025-06-22 18:22:11.740924
+2025-07-22 18:22:11,806 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:22:11,887 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 18:22:12,379 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:22:12,639 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:22:12,784 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:22:12,890 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:22:13,208 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:22:13,287 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:22:13,835 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:22:13,973 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:22:14,114 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:22:14,344 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:22:17,589 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:22:17,899 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:22:18,073 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:22:18,571 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:22:18,725 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:22:18,812 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:22:18,974 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:22:19,216 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:22:19,316 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:22:19,901 - ai_agent - INFO - Fetched 18 items from Google News - RingCentral
+2025-07-22 18:22:20,376 - ai_agent - INFO - Fetched 1 items from Google News - Dialpad
+2025-07-22 18:22:20,825 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 18:22:21,336 - ai_agent - INFO - Fetched 46 items from Google News - Twilio
+2025-07-22 18:22:21,856 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:22:22,477 - ai_agent - INFO - Fetched 17 items from Google News - Five9
+2025-07-22 18:22:23,063 - ai_agent - INFO - Fetched 27 items from Google News - Zoom Phone
+2025-07-22 18:22:23,645 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:22:23,911 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:22:24,381 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:22:24,842 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:22:25,966 - ai_agent - INFO - Fetched 0 items from Google News - Contact Center AI
+2025-07-22 18:22:26,518 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:22:26,963 - ai_agent - INFO - Fetched 12 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:22:27,266 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:22:27,680 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:22:27,942 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:22:28,203 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:22:28,653 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:22:28,936 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:22:29,157 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:22:29,388 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:22:29,701 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:22:29,908 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:22:30,215 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:22:30,565 - ai_agent - INFO - Fetched 2 items from Google News - Ringover
+2025-07-22 18:22:30,774 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:22:30,965 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:22:31,199 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:22:31,463 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:22:31,849 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:22:32,076 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:22:32,317 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:22:32,694 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:22:33,170 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:22:33,429 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:22:33,680 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:22:34,053 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:22:34,053 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:22:34,276 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:22:34,277 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:22:34,331 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:22:34,331 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:22:34,386 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:22:34,387 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:22:34,438 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:22:34,439 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:22:34,494 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:22:34,495 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:22:34,495 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:22:34,495 - ai_agent - INFO - Total items fetched: 213
+2025-07-22 18:22:34,497 - ai_agent - INFO - Processing 213 items with LangChain enhancement...
+2025-07-22 18:22:34,497 - ai_agent - INFO - Processing 213 content items...
+2025-07-22 18:23:05,909 - ai_agent - INFO - Processed 115 relevant items
+2025-07-22 18:23:36,973 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:23:43,208 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:23:45,126 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:23:45,128 - ai_agent - INFO - Agent run completed. Generated digest with 115 items
+2025-07-22 18:23:45,140 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:23:45,145 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:23:45,145 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:23:45,145 - ai_agent - INFO - ==================================================
+2025-07-22 18:23:45,145 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _COMPANY: Five9 - Cloud-based contact center software provider.
+SUMMARY: Five9 released a new CX repo..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *RingCentral AI Receptionist Powers Front-Office CX - CMSWire.com*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnJ2amQyM0RQTXJLQzN3eUJ2N0lhbExpc1dvVFdvV3BhT0RwR3RsLUxFN2IxR2dzVnRWR2pSd2tUZXFYajFZTVNCV0xKX2t2YXh5ZFJTeDQza21DOVZ1ZndRS2preDZ6OUw3Zk56b1AzVEJ5bXAxTzRfVGZPb3c5ZkQ2eTlqclRhWUUzclV3TGx4RWpLWGtnaXpfcHlGZ2VZdGNkcjByQQ?oc=5|Read more>
+
+• *RingCentral – Where AI Meets Trusted Communications - citybiz*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTdwcDJJOG0yTmlnZlRiZWN3VGlqcS1EdGJpaERpb1JLRzBvYzZTQ2taemJpX3BrTGEzMjFzeF9aMkw3UnZBZHRTc1RkWkxMSm05RG9DaTNfN0t3STNVQ1R1a1Y1dkdLYnliMDM5UVl4a3dXV1RTYWdxWFhETkRpLXNfbFcyWENvSUZGaDA1QWtWNUpZQktfT3VvMVhtWGNRNndFZ2VOMUQwYWExRTM0?oc=5|Read more>
+
+2025-07-22 18:23:45,145 - ai_agent - INFO - ==================================================
+2025-07-22 18:23:45,145 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:23:45,145 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 18:24:08,888 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:24:08,894 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:24:08,900 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:24:08,907 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:24:08,907 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:24:08,907 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:24:08,907 - ai_agent - INFO - Fetching content since: 2025-06-22 18:24:08.907519
+2025-07-22 18:24:08,948 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:24:08,993 - ai_agent - INFO - Fetched 24 items from VentureBeat
+2025-07-22 18:24:09,569 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:24:09,723 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:24:09,863 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:24:09,930 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:24:10,182 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:24:10,232 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:24:10,702 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:24:10,831 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:24:10,942 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:24:11,329 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:24:14,375 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:24:17,256 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:24:17,406 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:24:17,946 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:24:18,038 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:24:18,084 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:24:18,195 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:24:18,419 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:24:18,475 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:24:18,544 - ai_agent - INFO - Fetched 18 items from Google News - RingCentral
+2025-07-22 18:24:18,580 - ai_agent - INFO - Fetched 1 items from Google News - Dialpad
+2025-07-22 18:24:18,614 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 18:24:18,647 - ai_agent - INFO - Fetched 46 items from Google News - Twilio
+2025-07-22 18:24:18,681 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:24:18,710 - ai_agent - INFO - Fetched 17 items from Google News - Five9
+2025-07-22 18:24:18,743 - ai_agent - INFO - Fetched 27 items from Google News - Zoom Phone
+2025-07-22 18:24:18,775 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:24:18,791 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:24:18,817 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:24:18,843 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:24:18,850 - ai_agent - INFO - Fetched 0 items from Google News - Contact Center AI
+2025-07-22 18:24:18,880 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:24:18,913 - ai_agent - INFO - Fetched 12 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:24:18,960 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:24:18,981 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:24:18,999 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:24:19,011 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:24:19,037 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:24:19,047 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:24:19,060 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:24:19,068 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:24:19,075 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:24:19,082 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:24:19,100 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:24:19,126 - ai_agent - INFO - Fetched 2 items from Google News - Ringover
+2025-07-22 18:24:19,133 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:24:19,140 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:24:19,152 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:24:19,165 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:24:19,190 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:24:19,199 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:24:19,207 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:24:19,213 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:24:19,231 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:24:19,240 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:24:19,252 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:24:19,270 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:24:19,270 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:24:19,364 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:24:19,364 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:24:19,420 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:24:19,420 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:24:19,474 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:24:19,474 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:24:19,521 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:24:19,521 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:24:19,570 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:24:19,570 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:24:19,571 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:24:19,571 - ai_agent - INFO - Total items fetched: 213
+2025-07-22 18:24:19,571 - ai_agent - INFO - Processing 213 items with LangChain enhancement...
+2025-07-22 18:24:19,571 - ai_agent - INFO - Processing 213 content items...
+2025-07-22 18:24:40,326 - ai_agent - INFO - Processed 83 relevant items
+2025-07-22 18:25:03,736 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:25:10,234 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:25:12,069 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:25:12,070 - ai_agent - INFO - Agent run completed. Generated digest with 83 items
+2025-07-22 18:25:12,077 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:25:12,081 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:25:12,081 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:25:12,081 - ai_agent - INFO - ==================================================
+2025-07-22 18:25:12,081 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _COMPANY: Five9 - Cloud-based contact center software provider.
+SUMMARY: Five9 released a new CX repo..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *RingCentral AI Receptionist Powers Front-Office CX - CMSWire.com*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnJ2amQyM0RQTXJLQzN3eUJ2N0lhbExpc1dvVFdvV3BhT0RwR3RsLUxFN2IxR2dzVnRWR2pSd2tUZXFYajFZTVNCV0xKX2t2YXh5ZFJTeDQza21DOVZ1ZndRS2preDZ6OUw3Zk56b1AzVEJ5bXAxTzRfVGZPb3c5ZkQ2eTlqclRhWUUzclV3TGx4RWpLWGtnaXpfcHlGZ2VZdGNkcjByQQ?oc=5|Read more>
+
+• *RingCentral – Where AI Meets Trusted Communications - citybiz*
+  _COMPANY: RingCentral - Cloud-based communications and collaboration solutions provider.
+SUMMARY: Rin..._
+  <https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTdwcDJJOG0yTmlnZlRiZWN3VGlqcS1EdGJpaERpb1JLRzBvYzZTQ2taemJpX3BrTGEzMjFzeF9aMkw3UnZBZHRTc1RkWkxMSm05RG9DaTNfN0t3STNVQ1R1a1Y1dkdLYnliMDM5UVl4a3dXV1RTYWdxWFhETkRpLXNfbFcyWENvSUZGaDA1QWtWNUpZQktfT3VvMVhtWGNRNndFZ2VOMUQwYWExRTM0?oc=5|Read more>
+
+2025-07-22 18:25:12,081 - ai_agent - INFO - ==================================================
+2025-07-22 18:25:12,081 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:25:12,081 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 18:28:10,176 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:28:10,183 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:28:10,190 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:28:10,196 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:28:10,196 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:28:10,196 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:28:10,196 - ai_agent - INFO - Fetching content since: 2025-06-22 18:28:10.196698
+2025-07-22 18:28:10,235 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:28:10,293 - ai_agent - WARNING - Failed to fetch RSS feed https://venturebeat.com/feed/: 403
+2025-07-22 18:28:10,763 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:28:10,968 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:28:11,117 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:28:11,207 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:28:11,449 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:28:11,514 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:28:11,943 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:28:12,072 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:28:12,188 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:28:12,434 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:28:15,413 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:28:17,340 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:28:17,470 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:28:18,027 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:28:18,212 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:28:18,280 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:28:18,401 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:28:18,617 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:28:18,672 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:28:19,277 - ai_agent - INFO - Fetched 18 items from Google News - RingCentral
+2025-07-22 18:28:19,787 - ai_agent - INFO - Fetched 1 items from Google News - Dialpad
+2025-07-22 18:28:20,217 - ai_agent - INFO - Fetched 5 items from Google News - 8x8
+2025-07-22 18:28:20,903 - ai_agent - INFO - Fetched 45 items from Google News - Twilio
+2025-07-22 18:28:21,393 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:28:22,346 - ai_agent - INFO - Fetched 17 items from Google News - Five9
+2025-07-22 18:28:22,825 - ai_agent - INFO - Fetched 27 items from Google News - Zoom Phone
+2025-07-22 18:28:23,470 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:28:23,844 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:28:24,381 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:28:24,896 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:28:25,455 - ai_agent - INFO - Fetched 12 items from Google News - Contact Center AI
+2025-07-22 18:28:25,921 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:28:26,522 - ai_agent - INFO - Fetched 11 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:28:27,321 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:28:27,716 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:28:27,983 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:28:28,243 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:28:28,590 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:28:28,838 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:28:29,105 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:28:29,358 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:28:29,591 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:28:29,802 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:28:30,096 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:28:30,453 - ai_agent - INFO - Fetched 2 items from Google News - Ringover
+2025-07-22 18:28:30,670 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:28:30,880 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:28:31,107 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:28:31,405 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:28:31,911 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:28:32,129 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:28:32,329 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:28:32,635 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:28:32,973 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:28:33,176 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:28:33,410 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:28:33,783 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:28:33,784 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:28:33,905 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:28:33,905 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:28:33,977 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:28:33,977 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:28:34,050 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:28:34,051 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:28:34,121 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:28:34,121 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:28:34,192 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:28:34,192 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:28:34,192 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:28:34,192 - ai_agent - INFO - Total items fetched: 215
+2025-07-22 18:28:34,194 - ai_agent - INFO - Processing 215 items with LangChain enhancement...
+2025-07-22 18:28:34,194 - ai_agent - INFO - Processing 215 content items...
+2025-07-22 18:28:34,280 - ai_agent - INFO - Deduplicated: 64 -> 59 items
+2025-07-22 18:28:47,527 - ai_agent - INFO - Processed 59 relevant items
+2025-07-22 18:29:04,491 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:29:10,448 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:29:11,607 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:29:11,609 - ai_agent - INFO - Agent run completed. Generated digest with 59 items
+2025-07-22 18:29:11,644 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:29:11,651 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:29:11,652 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:29:11,652 - ai_agent - INFO - ==================================================
+2025-07-22 18:29:11,652 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _COMPANY: Five9 - Cloud-based contact center software provider.
+SUMMARY: Five9 released a new CX repo..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *RingCentral AI Receptionist Powers Front-Office CX - CMSWire.com*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnJ2amQyM0RQTXJLQzN3eUJ2N0lhbExpc1dvVFdvV3BhT0RwR3RsLUxFN2IxR2dzVnRWR2pSd2tUZXFYajFZTVNCV0xKX2t2YXh5ZFJTeDQza21DOVZ1ZndRS2preDZ6OUw3Zk56b1AzVEJ5bXAxTzRfVGZPb3c5ZkQ2eTlqclRhWUUzclV3TGx4RWpLWGtnaXpfcHlGZ2VZdGNkcjByQQ?oc=5|Read more>
+
+• *RingCentral – Where AI Meets Trusted Communications - citybiz*
+  _COMPANY: RingCentral - Cloud-based communications provider.
+SUMMARY: RingCentral announced a new AI ..._
+  <https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTdwcDJJOG0yTmlnZlRiZWN3VGlqcS1EdGJpaERpb1JLRzBvYzZTQ2taemJpX3BrTGEzMjFzeF9aMkw3UnZBZHRTc1RkWkxMSm05RG9DaTNfN0t3STNVQ1R1a1Y1dkdLYnliMDM5UVl4a3dXV1RTYWdxWFhETkRpLXNfbFcyWENvSUZGaDA1QWtWNUpZQktfT3VvMVhtWGNRNndFZ2VOMUQwYWExRTM0?oc=5|Read more>
+
+2025-07-22 18:29:11,652 - ai_agent - INFO - ==================================================
+2025-07-22 18:29:11,652 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:29:11,652 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-22 18:38:49,324 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:38:49,331 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:38:49,337 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:38:49,343 - ai_agent - INFO - LangChain components initialized successfully
+2025-07-22 18:38:49,344 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-22 18:38:49,344 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-22 18:38:49,344 - ai_agent - INFO - Fetching content since: 2025-06-22 18:38:49.344569
+2025-07-22 18:38:49,426 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-22 18:38:49,494 - ai_agent - WARNING - Failed to fetch RSS feed https://venturebeat.com/feed/: 403
+2025-07-22 18:38:50,293 - ai_agent - INFO - Fetched 29 items from No Jitter
+2025-07-22 18:38:50,470 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-22 18:38:50,608 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-22 18:38:50,708 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-22 18:38:51,006 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-22 18:38:51,085 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-22 18:38:51,543 - ai_agent - INFO - Fetched 10 items from CX Today
+2025-07-22 18:38:51,683 - ai_agent - WARNING - Failed to fetch RSS feed https://www.observe.ai/blog/rss.xml: 404
+2025-07-22 18:38:51,817 - ai_agent - WARNING - Failed to fetch RSS feed https://www.retellai.com/blog/rss.xml: 404
+2025-07-22 18:38:52,090 - ai_agent - INFO - Fetched 20 items from OpenAI Blog
+2025-07-22 18:38:55,138 - ai_agent - INFO - Fetched 10 items from Towards AI
+2025-07-22 18:38:55,333 - ai_agent - INFO - Fetched 10 items from MarkTechPost
+2025-07-22 18:38:55,535 - ai_agent - INFO - Fetched 4 items from Gong Blog
+2025-07-22 18:38:56,057 - ai_agent - INFO - Fetched 2 items from Fireflies AI Blog
+2025-07-22 18:38:56,249 - ai_agent - INFO - Fetched 3 items from Crayon Blog
+2025-07-22 18:38:56,333 - ai_agent - WARNING - Failed to fetch RSS feed https://www.voipreview.org/feed: 403
+2025-07-22 18:38:56,478 - ai_agent - WARNING - Failed to fetch RSS feed https://www.callcentertimes.com/feed: 404
+2025-07-22 18:38:56,787 - ai_agent - INFO - Fetched 0 items from Enterprise Communications
+2025-07-22 18:38:56,964 - ai_agent - WARNING - Failed to fetch RSS feed https://www.ringcentral.com/us/en/blog/feed/: 403
+2025-07-22 18:38:57,496 - ai_agent - INFO - Fetched 18 items from Google News - RingCentral
+2025-07-22 18:38:57,964 - ai_agent - INFO - Fetched 0 items from Google News - Dialpad
+2025-07-22 18:38:58,494 - ai_agent - INFO - Fetched 6 items from Google News - 8x8
+2025-07-22 18:38:59,014 - ai_agent - INFO - Fetched 46 items from Google News - Twilio
+2025-07-22 18:38:59,456 - ai_agent - INFO - Fetched 5 items from Google News - Talkdesk
+2025-07-22 18:39:00,050 - ai_agent - INFO - Fetched 26 items from Google News - Five9
+2025-07-22 18:39:00,549 - ai_agent - INFO - Fetched 27 items from Google News - Zoom Phone
+2025-07-22 18:39:01,081 - ai_agent - INFO - Fetched 7 items from Google News - Genesys
+2025-07-22 18:39:01,396 - ai_agent - INFO - Fetched 1 items from Google News - Gong
+2025-07-22 18:39:01,810 - ai_agent - INFO - Fetched 10 items from Google News - Aircall Competitors
+2025-07-22 18:39:02,244 - ai_agent - INFO - Fetched 4 items from Google News - Conversation Intelligence
+2025-07-22 18:39:02,731 - ai_agent - INFO - Fetched 12 items from Google News - Contact Center AI
+2025-07-22 18:39:03,177 - ai_agent - INFO - Fetched 4 items from Google News - UCaaS Market
+2025-07-22 18:39:03,672 - ai_agent - INFO - Fetched 11 items from Google News - OpenPhone & Smaller Competitors
+2025-07-22 18:39:03,967 - ai_agent - WARNING - Failed to fetch RSS feed https://www.prnewswire.com/rss/telecommunications-networking-and-enterprise-communications.rss: 404
+2025-07-22 18:39:04,276 - ai_agent - INFO - Fetched 12 items from SEC Filings - Major Competitors
+2025-07-22 18:39:04,675 - ai_agent - INFO - Fetched 0 items from Google News - Chorus AI
+2025-07-22 18:39:04,947 - ai_agent - INFO - Fetched 0 items from Google News - Fathom
+2025-07-22 18:39:05,380 - ai_agent - INFO - Fetched 1 items from Google News - MindTickle
+2025-07-22 18:39:05,656 - ai_agent - INFO - Fetched 0 items from Google News - Nooks AI
+2025-07-22 18:39:05,915 - ai_agent - INFO - Fetched 3 items from Google News - PhoneBurner
+2025-07-22 18:39:06,160 - ai_agent - INFO - Fetched 0 items from Google News - Koncert
+2025-07-22 18:39:06,376 - ai_agent - INFO - Fetched 0 items from Google News - Trellus AI
+2025-07-22 18:39:06,565 - ai_agent - INFO - Fetched 0 items from Google News - PowerDialer AI
+2025-07-22 18:39:06,836 - ai_agent - INFO - Fetched 0 items from Google News - CloudTalk
+2025-07-22 18:39:07,145 - ai_agent - INFO - Fetched 3 items from Google News - Ringover
+2025-07-22 18:39:07,418 - ai_agent - INFO - Fetched 0 items from Google News - Dialer360
+2025-07-22 18:39:07,615 - ai_agent - INFO - Fetched 0 items from Google News - CallHub
+2025-07-22 18:39:07,945 - ai_agent - INFO - Fetched 0 items from Google News - ConnectAndSell
+2025-07-22 18:39:08,202 - ai_agent - INFO - Fetched 0 items from Google News - Replayz
+2025-07-22 18:39:08,683 - ai_agent - INFO - Fetched 3 items from Google News - People.ai
+2025-07-22 18:39:08,886 - ai_agent - INFO - Fetched 0 items from Google News - Salesflare
+2025-07-22 18:39:09,102 - ai_agent - INFO - Fetched 0 items from Google News - Acuity Sales
+2025-07-22 18:39:09,337 - ai_agent - INFO - Fetched 0 items from Google News - Oliv AI
+2025-07-22 18:39:09,643 - ai_agent - INFO - Fetched 1 items from Google News - LevelEleven
+2025-07-22 18:39:09,845 - ai_agent - INFO - Fetched 0 items from Google News - Aircover AI
+2025-07-22 18:39:10,060 - ai_agent - INFO - Fetched 0 items from Google News - Salesken AI
+2025-07-22 18:39:10,365 - ai_agent - INFO - Fetched 3 items from Google News - AI Sales Platforms
+2025-07-22 18:39:10,366 - ai_agent - INFO - 🐦 Attempting to fetch from 6 priority Twitter accounts...
+2025-07-22 18:39:10,501 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:39:10,502 - ai_agent - INFO - 📭 @aircall: No recent tweets
+2025-07-22 18:39:10,580 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:39:10,580 - ai_agent - INFO - 📭 @RingCentral: No recent tweets
+2025-07-22 18:39:10,632 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:39:10,632 - ai_agent - INFO - 📭 @dialpad: No recent tweets
+2025-07-22 18:39:10,683 - ai_agent - ERROR - Error fetching tweets from @8x8: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:39:10,684 - ai_agent - INFO - 📭 @8x8: No recent tweets
+2025-07-22 18:39:10,767 - ai_agent - ERROR - Error fetching tweets from @GongInc: 429 Too Many Requests
+Too Many Requests
+2025-07-22 18:39:10,767 - ai_agent - INFO - 📭 @GongInc: No recent tweets
+2025-07-22 18:39:10,768 - ai_agent - WARNING - No Twitter accounts successfully fetched (likely rate limited)
+2025-07-22 18:39:10,768 - ai_agent - INFO - Total items fetched: 226
+2025-07-22 18:39:10,773 - ai_agent - INFO - Processing 226 items with LangChain enhancement...
+2025-07-22 18:39:10,773 - ai_agent - INFO - Processing 226 content items...
+2025-07-22 18:39:10,866 - ai_agent - INFO - Deduplicated: 69 -> 64 items
+2025-07-22 18:39:26,914 - ai_agent - INFO - Processed 64 relevant items
+2025-07-22 18:39:44,402 - ai_agent - INFO - Semantic categorization completed
+2025-07-22 18:39:52,254 - ai_agent - INFO - Competitive analysis completed for 3 items
+2025-07-22 18:39:53,529 - ai_agent - INFO - LangChain enhancement completed successfully
+2025-07-22 18:39:53,531 - ai_agent - INFO - Agent run completed. Generated digest with 64 items
+2025-07-22 18:39:53,554 - ai_agent - INFO - Digest saved to digest.html
+2025-07-22 18:39:53,565 - ai_agent - INFO - No email recipients configured
+2025-07-22 18:39:53,565 - ai_agent - INFO - Slack notification prepared:
+2025-07-22 18:39:53,565 - ai_agent - INFO - ==================================================
+2025-07-22 18:39:53,565 - ai_agent - INFO - 🎯 *Competitive Intelligence Update*
+_2025-07-22_
+
+📰 *Key Updates:*
+• *New Five9 CX Report Highlights Multifaceted AI Uses*
+  _COMPANY: Five9 - Cloud-based contact center software provider.
+SUMMARY: Five9 released a new CX repo..._
+  <https://www.nojitter.com/contact-centers/new-five9-cx-report-highlights-multifaceted-ai-uses|Read more>
+
+• *RingCentral AI Receptionist Powers Front-Office CX - CMSWire.com*
+  _COMPANY: RingCentral - Cloud-based communication and collaboration solutions provider.
+SUMMARY: Ring..._
+  <https://news.google.com/rss/articles/CBMipwFBVV95cUxNbnJ2amQyM0RQTXJLQzN3eUJ2N0lhbExpc1dvVFdvV3BhT0RwR3RsLUxFN2IxR2dzVnRWR2pSd2tUZXFYajFZTVNCV0xKX2t2YXh5ZFJTeDQza21DOVZ1ZndRS2preDZ6OUw3Zk56b1AzVEJ5bXAxTzRfVGZPb3c5ZkQ2eTlqclRhWUUzclV3TGx4RWpLWGtnaXpfcHlGZ2VZdGNkcjByQQ?oc=5|Read more>
+
+• *RingCentral – Where AI Meets Trusted Communications - citybiz*
+  _COMPANY: RingCentral - Cloud-based communications provider.
+SUMMARY: RingCentral announced a new AI-..._
+  <https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTdwcDJJOG0yTmlnZlRiZWN3VGlqcS1EdGJpaERpb1JLRzBvYzZTQ2taemJpX3BrTGEzMjFzeF9aMkw3UnZBZHRTc1RkWkxMSm05RG9DaTNfN0t3STNVQ1R1a1Y1dkdLYnliMDM5UVl4a3dXV1RTYWdxWFhETkRpLXNfbFcyWENvSUZGaDA1QWtWNUpZQktfT3VvMVhtWGNRNndFZ2VOMUQwYWExRTM0?oc=5|Read more>
+
+2025-07-22 18:39:53,565 - ai_agent - INFO - ==================================================
+2025-07-22 18:39:53,565 - ai_agent - INFO - Slack notification sent successfully
+2025-07-22 18:39:53,565 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html

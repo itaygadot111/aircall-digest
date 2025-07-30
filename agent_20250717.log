@@ -1,0 +1,930 @@
+2025-07-17 16:48:05,602 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:48:05,602 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:48:05,602 - ai_agent - INFO - Fetching content since: 2025-07-16 16:48:05.602518
+2025-07-17 16:48:05,670 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 16:48:05,756 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 16:48:06,016 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:48:06,110 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:06,188 - ai_agent - INFO - Total items fetched: 26
+2025-07-17 16:48:06,189 - ai_agent - INFO - Processing 26 content items...
+2025-07-17 16:48:06,190 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:48:06,190 - ai_agent - INFO - Processed 1 relevant items
+2025-07-17 16:48:06,190 - ai_agent - INFO - Agent run completed. Generated digest with 1 items
+2025-07-17 16:48:06,196 - ai_agent - ERROR - Agent failed with error: 'builtin_function_or_method' object is not iterable
+2025-07-17 16:48:33,370 - ai_agent - INFO - Agent was recently executed. Use --force to override.
+2025-07-17 16:48:37,180 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:48:37,181 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:48:37,181 - ai_agent - INFO - Fetching content since: 2025-07-17 16:48:06.190596
+2025-07-17 16:48:37,861 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:48:37,934 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:48:38,237 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:48:38,307 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,353 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:38,354 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:48:38,355 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:48:38,355 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:48:38,355 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 16:48:38,356 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 16:48:38,363 - ai_agent - ERROR - Agent failed with error: 'dict object' has no attribute 'avg_relevance'
+2025-07-17 16:48:53,700 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:48:53,700 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:48:53,700 - ai_agent - INFO - Fetching content since: 2025-07-17 16:48:38.355922
+2025-07-17 16:48:54,101 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:48:54,177 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:48:54,418 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:48:54,475 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:48:54,530 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:48:54,531 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:48:54,532 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:48:54,533 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:48:54,533 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 16:48:54,533 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 16:48:54,545 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 16:48:54,550 - ai_agent - INFO - No email recipients configured
+2025-07-17 16:48:54,550 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 16:48:54,551 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 16:48:54,551 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 16:48:54,551 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 16:49:03,800 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:49:03,800 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:49:03,801 - ai_agent - INFO - Fetching content since: 2025-07-17 16:48:54.533193
+2025-07-17 16:49:03,839 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:49:03,885 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:49:04,090 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:49:04,165 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:04,212 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:49:04,213 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:49:04,213 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:49:04,213 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 16:49:04,213 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 16:49:04,220 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 16:49:04,225 - ai_agent - INFO - No email recipients configured
+2025-07-17 16:49:04,225 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 16:49:04,225 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 16:49:04,225 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 16:49:04,225 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 16:49:11,455 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:49:11,455 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:49:11,455 - ai_agent - INFO - Fetching content since: 2025-07-17 16:49:04.213544
+2025-07-17 16:49:11,493 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:49:11,537 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:49:11,773 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:49:11,830 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:49:11,871 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:49:11,871 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:11,872 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:49:11,873 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:49:11,873 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:49:11,873 - ai_agent - INFO - Processed 11 relevant items
+2025-07-17 16:49:11,874 - ai_agent - INFO - Agent run completed. Generated digest with 11 items
+2025-07-17 16:49:11,885 - ai_agent - ERROR - Agent failed with error: 'builtin_function_or_method' object is not iterable
+2025-07-17 16:49:30,508 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:49:30,508 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:49:30,508 - ai_agent - INFO - Fetching content since: 2025-07-17 16:49:11.873909
+2025-07-17 16:49:30,548 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:49:30,591 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:49:30,827 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:49:30,881 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:49:30,927 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:49:30,927 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:30,928 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:49:30,928 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:49:30,929 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:49:30,929 - ai_agent - INFO - Processed 11 relevant items
+2025-07-17 16:49:30,930 - ai_agent - INFO - Agent run completed. Generated digest with 11 items
+2025-07-17 16:49:30,940 - ai_agent - ERROR - Agent failed with error: 'builtin_function_or_method' object is not iterable
+2025-07-17 16:49:43,017 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:49:43,017 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:49:43,017 - ai_agent - INFO - Fetching content since: 2025-07-17 16:49:30.929679
+2025-07-17 16:49:43,053 - ai_agent - INFO - Fetched 5 items from TechCrunch
+2025-07-17 16:49:43,095 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 16:49:43,308 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:49:43,359 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 16:49:43,412 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:49:43,412 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:49:43,413 - ai_agent - INFO - Total items fetched: 11
+2025-07-17 16:49:43,413 - ai_agent - INFO - Processing 11 content items...
+2025-07-17 16:49:43,414 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:49:43,414 - ai_agent - INFO - Processed 11 relevant items
+2025-07-17 16:49:43,414 - ai_agent - INFO - Agent run completed. Generated digest with 11 items
+2025-07-17 16:49:43,423 - ai_agent - ERROR - Agent failed with error: 'builtin_function_or_method' object is not iterable
+2025-07-17 16:51:51,456 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 16:51:51,456 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 16:51:51,456 - ai_agent - INFO - Fetching content since: 2025-07-16 16:51:51.456431
+2025-07-17 16:51:51,495 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 16:51:51,539 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 16:51:51,802 - ai_agent - INFO - Fetched 10 items from The Verge
+2025-07-17 16:51:51,857 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 16:51:51,915 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,916 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 16:51:51,917 - ai_agent - INFO - Total items fetched: 25
+2025-07-17 16:51:51,918 - ai_agent - INFO - Processing 25 content items...
+2025-07-17 16:51:51,919 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 16:51:51,920 - ai_agent - INFO - Processed 25 relevant items
+2025-07-17 16:51:51,921 - ai_agent - INFO - Agent run completed. Generated digest with 25 items
+2025-07-17 16:51:51,932 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 16:51:51,938 - ai_agent - INFO - No email recipients configured
+2025-07-17 16:51:51,938 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 16:51:51,938 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 25 total items
+• 3 categories
+• 15% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 1 items
+• Communication Platforms: 1 items
+• General: 23 items
+
+2025-07-17 16:51:51,938 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 16:51:51,939 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 17:37:56,755 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 17:37:56,755 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 17:37:56,756 - ai_agent - INFO - Fetching content since: 2025-07-17 16:51:51.920168
+2025-07-17 17:37:56,833 - ai_agent - INFO - Fetched 6 items from TechCrunch
+2025-07-17 17:37:56,921 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 17:37:57,554 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-17 17:37:57,730 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 17:37:57,999 - ai_agent - INFO - Fetched 10 items from ZDNet
+2025-07-17 17:37:58,096 - ai_agent - INFO - Fetched 12 items from Hacker News
+2025-07-17 17:37:58,421 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 17:37:58,499 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,500 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,501 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,501 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,501 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,501 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,501 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,502 - ai_agent - WARNING - Twitter client not initialized
+2025-07-17 17:37:58,503 - ai_agent - INFO - Total items fetched: 13
+2025-07-17 17:37:58,503 - ai_agent - INFO - Processing 13 content items...
+2025-07-17 17:37:58,504 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 17:37:58,505 - ai_agent - INFO - Processed 2 relevant items
+2025-07-17 17:37:58,506 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-17 17:37:58,520 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 17:37:58,526 - ai_agent - INFO - No email recipients configured
+2025-07-17 17:37:58,526 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 17:37:58,526 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 2 total items
+• 1 categories
+• 70% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+
+2025-07-17 17:37:58,526 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 17:37:58,526 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 17:55:39,379 - ai_agent - ERROR - Agent failed with error: __init__() got an unexpected keyword argument 'proxies'
+2025-07-17 17:56:29,308 - ai_agent - ERROR - Agent failed with error: __init__() got an unexpected keyword argument 'proxies'
+2025-07-17 17:56:35,648 - ai_agent - ERROR - Agent failed with error: __init__() got an unexpected keyword argument 'proxies'
+2025-07-17 17:56:52,234 - ai_agent - WARNING - Failed to initialize OpenAI client: __init__() got an unexpected keyword argument 'proxies'
+2025-07-17 17:56:52,234 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 17:56:52,234 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 17:56:52,235 - ai_agent - INFO - Fetching content since: 2025-07-17 17:37:58.505158
+2025-07-17 17:56:52,301 - ai_agent - INFO - Fetched 4 items from TechCrunch
+2025-07-17 17:56:52,390 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-17 17:56:53,019 - ai_agent - INFO - Fetched 2 items from No Jitter
+2025-07-17 17:56:53,189 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 17:56:53,344 - ai_agent - INFO - Fetched 8 items from ZDNet
+2025-07-17 17:56:53,442 - ai_agent - INFO - Fetched 8 items from Hacker News
+2025-07-17 17:56:53,759 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 17:56:53,830 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 17:56:54,051 - ai_agent - ERROR - Error fetching tweets from @aircall: 400 Bad Request
+The `start_time` query parameter value [2025-07-17T17:37:58.505158] is not a valid RFC3339 date-time.
+2025-07-17 17:56:54,219 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,282 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,352 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,416 - ai_agent - ERROR - Error fetching tweets from @vonage: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,487 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,553 - ai_agent - ERROR - Error fetching tweets from @five9: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,624 - ai_agent - ERROR - Error fetching tweets from @genesys: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,698 - ai_agent - ERROR - Error fetching tweets from @zoom: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,763 - ai_agent - ERROR - Error fetching tweets from @MicrosoftTeams: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,823 - ai_agent - ERROR - Error fetching tweets from @SlackHQ: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,892 - ai_agent - ERROR - Error fetching tweets from @gong_io: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:54,955 - ai_agent - ERROR - Error fetching tweets from @modjo_ai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,025 - ai_agent - ERROR - Error fetching tweets from @chorus_ai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,169 - ai_agent - ERROR - Error fetching tweets from @salesloft: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,239 - ai_agent - ERROR - Error fetching tweets from @liveperson: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,307 - ai_agent - ERROR - Error fetching tweets from @uniphore: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,373 - ai_agent - ERROR - Error fetching tweets from @openai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,443 - ai_agent - ERROR - Error fetching tweets from @AnthropicAI: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,514 - ai_agent - ERROR - Error fetching tweets from @GoogleAI: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,581 - ai_agent - ERROR - Error fetching tweets from @Microsoft: 429 Too Many Requests
+Too Many Requests
+2025-07-17 17:56:55,582 - ai_agent - INFO - Total items fetched: 9
+2025-07-17 17:56:55,583 - ai_agent - INFO - Processing 9 content items...
+2025-07-17 17:56:55,584 - ai_agent - WARNING - OpenAI client not available, skipping summary generation
+2025-07-17 17:56:55,584 - ai_agent - INFO - Processed 2 relevant items
+2025-07-17 17:56:55,586 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-17 17:56:55,604 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 17:56:55,610 - ai_agent - INFO - No email recipients configured
+2025-07-17 17:56:55,610 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 17:56:55,610 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 2 total items
+• 1 categories
+• 70% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+
+2025-07-17 17:56:55,611 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 17:56:55,611 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 18:00:04,253 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 18:00:04,254 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 18:00:04,254 - ai_agent - INFO - Fetching content since: 2025-07-17 17:56:55.584637
+2025-07-17 18:00:04,294 - ai_agent - INFO - Fetched 4 items from TechCrunch
+2025-07-17 18:00:04,338 - ai_agent - INFO - Fetched 0 items from VentureBeat
+2025-07-17 18:00:04,856 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-17 18:00:04,985 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 18:00:05,249 - ai_agent - INFO - Fetched 8 items from ZDNet
+2025-07-17 18:00:05,368 - ai_agent - INFO - Fetched 8 items from Hacker News
+2025-07-17 18:00:05,616 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 18:00:05,666 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 18:00:05,790 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:05,851 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:05,906 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:05,957 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,036 - ai_agent - ERROR - Error fetching tweets from @vonage: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,092 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,147 - ai_agent - ERROR - Error fetching tweets from @five9: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,211 - ai_agent - ERROR - Error fetching tweets from @genesys: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,264 - ai_agent - ERROR - Error fetching tweets from @zoom: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,319 - ai_agent - ERROR - Error fetching tweets from @MicrosoftTeams: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,411 - ai_agent - ERROR - Error fetching tweets from @SlackHQ: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,474 - ai_agent - ERROR - Error fetching tweets from @gong_io: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,528 - ai_agent - ERROR - Error fetching tweets from @modjo_ai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,591 - ai_agent - ERROR - Error fetching tweets from @chorus_ai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,661 - ai_agent - ERROR - Error fetching tweets from @salesloft: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,724 - ai_agent - ERROR - Error fetching tweets from @liveperson: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,799 - ai_agent - ERROR - Error fetching tweets from @uniphore: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,854 - ai_agent - ERROR - Error fetching tweets from @openai: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,913 - ai_agent - ERROR - Error fetching tweets from @AnthropicAI: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:06,967 - ai_agent - ERROR - Error fetching tweets from @GoogleAI: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:07,019 - ai_agent - ERROR - Error fetching tweets from @Microsoft: 429 Too Many Requests
+Too Many Requests
+2025-07-17 18:00:07,019 - ai_agent - INFO - Total items fetched: 9
+2025-07-17 18:00:07,020 - ai_agent - INFO - Processing 9 content items...
+2025-07-17 18:00:07,538 - ai_agent - ERROR - Error generating summary for item Slack will generate thread summaries and AI notes from your huddles now: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 18:00:07,597 - ai_agent - ERROR - Error generating summary for item ChatGPT isn't just for chatting anymore - now it will do your work for you: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 18:00:08,599 - ai_agent - INFO - Processed 2 relevant items
+2025-07-17 18:00:08,601 - ai_agent - INFO - Agent run completed. Generated digest with 2 items
+2025-07-17 18:00:08,615 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 18:00:08,622 - ai_agent - INFO - No email recipients configured
+2025-07-17 18:00:08,622 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 18:00:08,622 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 2 total items
+• 1 categories
+• 70% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 2 items
+
+2025-07-17 18:00:08,622 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 18:00:08,622 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:44:30,862 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:44:30,863 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:44:30,863 - ai_agent - INFO - Fetching content since: 2025-07-17 18:00:08.599645
+2025-07-17 19:44:30,958 - ai_agent - INFO - Fetched 4 items from TechCrunch
+2025-07-17 19:44:31,119 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 19:44:31,729 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-17 19:44:31,964 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 19:44:32,141 - ai_agent - INFO - Fetched 7 items from ZDNet
+2025-07-17 19:44:32,255 - ai_agent - INFO - Fetched 11 items from Hacker News
+2025-07-17 19:44:32,589 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:44:32,736 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:44:35,154 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:44:37,251 - ai_agent - WARNING - User @8x8Inc not found
+2025-07-17 19:44:39,448 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:44:41,516 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:44:41,517 - ai_agent - INFO - Total items fetched: 8
+2025-07-17 19:44:41,518 - ai_agent - INFO - Processing 8 content items...
+2025-07-17 19:44:41,871 - ai_agent - ERROR - Error generating summary for item Slack will generate thread summaries and AI notes from your huddles now: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:44:42,873 - ai_agent - INFO - Processed 1 relevant items
+2025-07-17 19:44:42,875 - ai_agent - INFO - Agent run completed. Generated digest with 1 items
+2025-07-17 19:44:42,892 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:44:42,898 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:44:42,898 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:44:42,898 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 1 total items
+• 1 categories
+• 60% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 1 items
+
+2025-07-17 19:44:42,898 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:44:42,898 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:47:51,858 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:47:51,858 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:47:51,858 - ai_agent - INFO - Fetching content since: 2025-07-16 19:47:51.858442
+2025-07-17 19:47:51,918 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 19:47:51,981 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 19:47:52,449 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-17 19:47:52,677 - ai_agent - INFO - Fetched 4 items from UC Today
+2025-07-17 19:47:52,978 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 19:47:53,072 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 19:47:53,360 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:47:53,415 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:47:53,613 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:47:58,700 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:48:03,780 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:48:08,863 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:48:13,927 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:48:13,927 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:48:13,928 - ai_agent - INFO - Total items fetched: 30
+2025-07-17 19:48:13,929 - ai_agent - INFO - Processing 30 content items...
+2025-07-17 19:48:14,294 - ai_agent - ERROR - Error generating summary for item Hackers are trying to steal passwords and sensitive data from users of Signal clone: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:48:14,298 - ai_agent - ERROR - Error generating summary for item Slack will generate thread summaries and AI notes from your huddles now: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:48:14,379 - ai_agent - ERROR - Error generating summary for item ChatGPT isn't just for chatting anymore - now it will do your work for you: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:48:14,511 - ai_agent - ERROR - Error generating summary for item Can Consumer Messaging Apps Like WhatsApp and Signal Be Adapted for Enterprise Use?: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:48:14,731 - ai_agent - ERROR - Error generating summary for item Substack raises $100M from Chernin Group, Andreessen Horowitz, Skims CEO, and more: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 19:48:15,734 - ai_agent - INFO - Processed 5 relevant items
+2025-07-17 19:48:15,735 - ai_agent - INFO - Agent run completed. Generated digest with 5 items
+2025-07-17 19:48:15,749 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:48:15,754 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:48:15,754 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:48:15,754 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 5 total items
+• 2 categories
+• 58% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 3 items
+• UCaaS & Cloud Communications: 2 items
+
+2025-07-17 19:48:15,755 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:48:15,755 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:53:28,173 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:53:28,173 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:53:28,174 - ai_agent - INFO - Fetching content since: 2025-07-17 19:48:15.734671
+2025-07-17 19:53:28,268 - ai_agent - INFO - Fetched 2 items from TechCrunch
+2025-07-17 19:53:28,375 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 19:53:29,039 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-17 19:53:29,228 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 19:53:29,450 - ai_agent - INFO - Fetched 3 items from ZDNet
+2025-07-17 19:53:29,582 - ai_agent - INFO - Fetched 7 items from Hacker News
+2025-07-17 19:53:29,898 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:53:29,997 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:53:30,155 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:53:35,211 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:53:40,275 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:53:45,355 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:53:50,410 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:53:50,410 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:53:50,410 - ai_agent - INFO - Total items fetched: 3
+2025-07-17 19:53:50,411 - ai_agent - INFO - Processing 3 content items...
+2025-07-17 19:53:50,411 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 19:53:50,412 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 19:53:50,428 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:53:50,436 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:53:50,436 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:53:50,436 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 19:53:50,436 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:53:50,436 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:54:23,927 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:54:23,928 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:54:23,928 - ai_agent - INFO - Fetching content since: 2025-07-16 19:54:23.928072
+2025-07-17 19:54:23,983 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 19:54:24,044 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 19:54:24,542 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-17 19:54:24,686 - ai_agent - INFO - Fetched 4 items from UC Today
+2025-07-17 19:54:24,845 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 19:54:24,922 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 19:54:25,231 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:54:25,300 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:54:25,435 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:54:30,500 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:54:35,566 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:54:40,636 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:54:45,698 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:54:45,698 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:54:45,698 - ai_agent - INFO - Total items fetched: 31
+2025-07-17 19:54:45,699 - ai_agent - INFO - Processing 31 content items...
+2025-07-17 19:54:45,701 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 19:54:45,702 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 19:54:45,717 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:54:45,724 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:54:45,724 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:54:45,724 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 19:54:45,724 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:54:45,724 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:55:41,595 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:55:41,595 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:55:41,596 - ai_agent - INFO - Fetching content since: 2025-07-17 19:54:45.702096
+2025-07-17 19:55:41,650 - ai_agent - INFO - Fetched 2 items from TechCrunch
+2025-07-17 19:55:41,714 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 19:55:42,231 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-17 19:55:42,364 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 19:55:42,611 - ai_agent - INFO - Fetched 3 items from ZDNet
+2025-07-17 19:55:42,695 - ai_agent - INFO - Fetched 7 items from Hacker News
+2025-07-17 19:55:42,994 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:55:43,052 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:55:43,185 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:55:48,247 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:55:53,311 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:55:58,370 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:56:03,437 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:56:03,438 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:56:03,438 - ai_agent - INFO - Total items fetched: 3
+2025-07-17 19:56:03,439 - ai_agent - INFO - Processing 3 content items...
+2025-07-17 19:56:03,440 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 19:56:03,441 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 19:56:03,457 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:56:03,464 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:56:03,464 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:56:03,464 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 19:56:03,464 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:56:03,464 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:57:32,286 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:57:32,286 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:57:32,287 - ai_agent - INFO - Fetching content since: 2025-07-16 19:57:32.286992
+2025-07-17 19:57:32,342 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 19:57:32,415 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 19:57:33,028 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-17 19:57:33,182 - ai_agent - INFO - Fetched 4 items from UC Today
+2025-07-17 19:57:33,406 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 19:57:33,494 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 19:57:33,750 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:57:33,812 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:57:33,909 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:57:38,974 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:57:44,036 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:57:49,113 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:57:54,168 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:57:54,169 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:57:54,169 - ai_agent - INFO - Total items fetched: 31
+2025-07-17 19:57:54,170 - ai_agent - INFO - Processing 31 content items...
+2025-07-17 19:57:54,172 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 19:57:54,173 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 19:57:54,189 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:57:54,195 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:57:54,195 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:57:54,195 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 19:57:54,195 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:57:54,195 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:58:07,783 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 19:58:07,783 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 19:58:07,783 - ai_agent - INFO - Fetching content since: 2025-07-16 19:58:07.783708
+2025-07-17 19:58:07,838 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 19:58:07,909 - ai_agent - INFO - Fetched 4 items from VentureBeat
+2025-07-17 19:58:08,281 - ai_agent - INFO - Fetched 3 items from No Jitter
+2025-07-17 19:58:08,443 - ai_agent - INFO - Fetched 4 items from UC Today
+2025-07-17 19:58:08,589 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 19:58:08,674 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 19:58:08,962 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:58:09,028 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:58:09,157 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:14,230 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:19,374 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:24,439 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:29,513 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:29,514 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:58:29,514 - ai_agent - INFO - Total items fetched: 31
+2025-07-17 19:58:29,516 - ai_agent - INFO - Processing 31 content items...
+2025-07-17 19:58:29,519 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 19:58:29,520 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 19:58:29,541 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 19:58:29,548 - ai_agent - INFO - No email recipients configured
+2025-07-17 19:58:29,548 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 19:58:29,548 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 19:58:29,548 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 19:58:29,548 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 19:58:47,212 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 19:58:47,275 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-17 19:58:47,893 - ai_agent - INFO - Fetched 9 items from No Jitter
+2025-07-17 19:58:48,111 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-17 19:58:48,260 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 19:58:48,347 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 19:58:48,470 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 19:58:48,532 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 19:58:48,652 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:53,727 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:58:58,794 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:59:03,853 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:59:08,937 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 19:59:08,938 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 19:59:08,938 - ai_agent - INFO - Total items fetched: 39
+2025-07-17 20:00:26,432 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 20:00:26,567 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-17 20:00:27,376 - ai_agent - INFO - Fetched 9 items from No Jitter
+2025-07-17 20:00:27,638 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-17 20:00:27,947 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 20:00:28,082 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 20:00:28,236 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 20:00:28,329 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 20:00:28,602 - ai_agent - INFO - Fetched 2 tweets from @aircall
+2025-07-17 20:00:33,757 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:00:38,909 - ai_agent - WARNING - User @8x8Inc not found
+2025-07-17 20:00:43,979 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:00:49,041 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:00:49,042 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 20:00:49,042 - ai_agent - INFO - Total items fetched: 41
+2025-07-17 20:00:58,769 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 20:00:58,834 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-17 20:00:59,234 - ai_agent - INFO - Fetched 9 items from No Jitter
+2025-07-17 20:00:59,384 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-17 20:00:59,538 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 20:00:59,622 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 20:00:59,939 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 20:01:00,011 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 20:01:00,130 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:05,196 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:10,260 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:15,328 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:20,396 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:20,397 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 20:01:20,397 - ai_agent - INFO - Total items fetched: 39
+2025-07-17 20:01:26,135 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 20:01:26,135 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 20:01:26,135 - ai_agent - INFO - Fetching content since: 2025-07-17 19:58:29.519927
+2025-07-17 20:01:26,213 - ai_agent - INFO - Fetched 2 items from TechCrunch
+2025-07-17 20:01:26,287 - ai_agent - INFO - Fetched 1 items from VentureBeat
+2025-07-17 20:01:26,853 - ai_agent - INFO - Fetched 1 items from No Jitter
+2025-07-17 20:01:27,010 - ai_agent - INFO - Fetched 0 items from UC Today
+2025-07-17 20:01:27,279 - ai_agent - INFO - Fetched 3 items from ZDNet
+2025-07-17 20:01:27,368 - ai_agent - INFO - Fetched 7 items from Hacker News
+2025-07-17 20:01:27,641 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 20:01:27,718 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 20:01:27,826 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:32,885 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:37,942 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:43,007 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:48,074 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:01:48,075 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 20:01:48,075 - ai_agent - INFO - Total items fetched: 3
+2025-07-17 20:01:48,076 - ai_agent - INFO - Processing 3 content items...
+2025-07-17 20:01:48,076 - ai_agent - INFO - Processed 0 relevant items
+2025-07-17 20:01:48,077 - ai_agent - INFO - Agent run completed. Generated digest with 0 items
+2025-07-17 20:01:48,093 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 20:01:48,100 - ai_agent - INFO - No email recipients configured
+2025-07-17 20:01:48,100 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 20:01:48,100 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 0 total items
+• 0 categories
+• 0% avg relevance
+
+🔍 *Top Categories:*
+
+2025-07-17 20:01:48,100 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 20:01:48,100 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
+2025-07-17 20:02:36,420 - ai_agent - INFO - Starting competitive intelligence agent...
+2025-07-17 20:02:36,421 - ai_agent - INFO - Starting competitive intelligence agent run...
+2025-07-17 20:02:36,421 - ai_agent - INFO - Fetching content since: 2025-07-10 20:01:48.076979
+2025-07-17 20:02:36,479 - ai_agent - INFO - Fetched 20 items from TechCrunch
+2025-07-17 20:02:36,551 - ai_agent - INFO - Fetched 25 items from VentureBeat
+2025-07-17 20:02:37,063 - ai_agent - INFO - Fetched 9 items from No Jitter
+2025-07-17 20:02:37,208 - ai_agent - INFO - Fetched 16 items from UC Today
+2025-07-17 20:02:37,364 - ai_agent - INFO - Fetched 20 items from ZDNet
+2025-07-17 20:02:37,438 - ai_agent - INFO - Fetched 20 items from Hacker News
+2025-07-17 20:02:37,728 - ai_agent - WARNING - Failed to fetch RSS feed https://news.crunchbase.com/feed/: 403
+2025-07-17 20:02:37,784 - ai_agent - WARNING - Failed to fetch RSS feed https://www.producthunt.com/feed: 403
+2025-07-17 20:02:37,925 - ai_agent - ERROR - Error fetching tweets from @aircall: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:02:42,993 - ai_agent - ERROR - Error fetching tweets from @RingCentral: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:02:48,060 - ai_agent - ERROR - Error fetching tweets from @8x8Inc: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:02:53,132 - ai_agent - ERROR - Error fetching tweets from @dialpad: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:02:58,195 - ai_agent - ERROR - Error fetching tweets from @twilio: 429 Too Many Requests
+Too Many Requests
+2025-07-17 20:02:58,197 - ai_agent - INFO - Successfully fetched from 5 Twitter accounts
+2025-07-17 20:02:58,197 - ai_agent - INFO - Total items fetched: 39
+2025-07-17 20:02:58,198 - ai_agent - INFO - Processing 39 content items...
+2025-07-17 20:02:58,495 - ai_agent - ERROR - Error generating summary for item Creating a 360° Digital Experience with Nectar DXP: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 20:02:58,512 - ai_agent - ERROR - Error generating summary for item How To Integrate Microsoft Teams Phone and the Contact Center: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 20:02:58,515 - ai_agent - ERROR - Error generating summary for item Breaking Down Barriers to Managing Agent Lifecycles in Contact Centers: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 20:02:58,565 - ai_agent - ERROR - Error generating summary for item Vonage, AWS Unite to Humanise Voice AI—How Will This Tangibly Help IT Leaders?: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-************************************************************cdef. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-17 20:02:59,567 - ai_agent - INFO - Processed 4 relevant items
+2025-07-17 20:02:59,569 - ai_agent - INFO - Agent run completed. Generated digest with 4 items
+2025-07-17 20:02:59,587 - ai_agent - INFO - Digest saved to digest.html
+2025-07-17 20:02:59,594 - ai_agent - INFO - No email recipients configured
+2025-07-17 20:02:59,594 - ai_agent - INFO - Slack notification prepared:
+2025-07-17 20:02:59,594 - ai_agent - INFO - 
+🎯 *Competitive Intelligence Digest*
+
+📊 *Stats:*
+• 4 total items
+• 2 categories
+• 100% avg relevance
+
+🔍 *Top Categories:*
+• Competitor Intelligence: 3 items
+• AI Voice Technology: 1 items
+
+2025-07-17 20:02:59,594 - ai_agent - INFO - Slack notification sent successfully
+2025-07-17 20:02:59,594 - ai_agent - INFO - Agent completed successfully. Digest saved to digest.html
