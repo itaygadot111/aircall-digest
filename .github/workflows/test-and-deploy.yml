@@ -1,0 +1,100 @@
+name: Test and Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Test API imports
+      run: |
+        python -c "from api import app; print('✅ API imports successfully')"
+        
+    - name: Test agent imports
+      run: |
+        python -c "from src.agent import CompetitiveIntelligenceAgent; print('✅ Agent imports successfully')"
+        
+    - name: Validate configuration
+      run: |
+        python -c "
+        import json
+        with open('config.json') as f:
+            config = json.load(f)
+        print('✅ Configuration file is valid JSON')
+        print(f'✅ Found {len(config.get(\"sources\", []))} sources configured')
+        "
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Determine deployment target
+      id: deploy-target
+      run: |
+        if [ "${{ secrets.RENDER_API_KEY }}" != "" ]; then
+          echo "target=render" >> $GITHUB_OUTPUT
+        elif [ "${{ secrets.FLY_API_TOKEN }}" != "" ]; then
+          echo "target=fly" >> $GITHUB_OUTPUT
+        elif [ "${{ secrets.RAILWAY_TOKEN }}" != "" ]; then
+          echo "target=railway" >> $GITHUB_OUTPUT
+        else
+          echo "target=none" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Deploy to Render
+      if: steps.deploy-target.outputs.target == 'render'
+      uses: johnbeynon/render-deploy-action@v0.0.8
+      with:
+        service-id: ${{ secrets.RENDER_SERVICE_ID }}
+        api-key: ${{ secrets.RENDER_API_KEY }}
+        
+    - name: Deploy to Fly.io
+      if: steps.deploy-target.outputs.target == 'fly'
+      uses: superfly/flyctl-actions/setup-flyctl@master
+      
+    - name: Fly.io Deploy
+      if: steps.deploy-target.outputs.target == 'fly'
+      run: flyctl deploy --remote-only
+      env:
+        FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        
+    - name: Deploy to Railway
+      if: steps.deploy-target.outputs.target == 'railway'
+      run: |
+        npm install -g @railway/cli
+        railway up --service ${{ secrets.RAILWAY_SERVICE_ID }}
+      env:
+        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        
+    - name: No deployment configured
+      if: steps.deploy-target.outputs.target == 'none'
+      run: |
+        echo "⚠️ No deployment secrets configured."
+        echo "Add one of the following to your repository secrets:"
+        echo "- RENDER_API_KEY + RENDER_SERVICE_ID"
+        echo "- FLY_API_TOKEN"
+        echo "- RAILWAY_TOKEN + RAILWAY_SERVICE_ID"

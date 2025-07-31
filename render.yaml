@@ -1,0 +1,20 @@
+# Render.com deployment configuration
+services:
+  - type: web
+    name: aircall-agent-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: "0.0.0.0"
+      - key: PORT
+        value: "8000"
+      - key: API_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false  # Set manually in Render dashboard
+      - key: TWITTER_BEARER_TOKEN
+        sync: false  # Optional - set manually if needed
