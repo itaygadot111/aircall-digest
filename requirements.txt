@@ -1,5 +1,2 @@
-# Minimal dependencies for Vercel deployment
-fastapi==0.104.1
-pydantic==2.5.0
-python-multipart==0.0.6
-httpx==0.25.2
+# No external dependencies required
+# This API uses only Python standard library
