@@ -1,0 +1,17 @@
+# Core API dependencies for Vercel
+fastapi==0.104.1
+pydantic==2.5.0
+python-multipart==0.0.6
+httpx==0.25.2
+
+# Agent dependencies (lighter versions for serverless)
+openai>=1.97.0
+python-dotenv==1.0.0
+requests==2.31.0
+jinja2==3.1.2
+
+# Optional - only load if needed
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+feedparser==6.0.10
+tweepy==4.14.0
