@@ -47,7 +47,7 @@ module.exports = async (req, res) => {
     if (path === '/' || path === '/health') {
       const response = {
         name: "🤖 Aircall Intelligence Agent API",
-        version: "1.0.0",
+        version: "1.0.1",
         status: "running",
         platform: "Vercel Serverless (Node.js)",
         timestamp: getTimestamp(),
